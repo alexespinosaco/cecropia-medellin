@@ -1,18 +1,62 @@
 project:
   type: website
 
+lang: es
+date-format: iso
+
+toc: true
+csl: apa.csl
+
+execute:
+    freeze: auto
+
 website:
-  title: "Los Yarumos de Medellín"
-  navbar:
-    left:
-      - text: Inicio
+  title: "Mapeando los Yarumos de Medellín"
+  description: "Website del proyecto #CecropiaMedellín2024"
+  site-url: https://alexespinosaco.github.io/cecropia-medellin/
+  repo-url: https://github.com/alexespinosaco/cecropia-medellin
+  # favicon: images/logo/favicon.png
+  # image: images/logo/geobota_logo.png
+
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+
+  google-analytics: 
+    tracking-id: "G-NQLZ30BD62"
+    anonymize-ip: true
+
+  open-graph:
+    locale: es_ES
+
+  twitter-card: 
+    card-style: summary_large_image
+
+  sidebar:
+    search: true
+    contents:
+      - text: "Presentación"
         href: index.qmd
+      - text: "Los Yarumos"
+        href: yarumos/index.qmd
+      - text: "Método"
+        href: metodo/index.qmd
+      - text: "Colaborar"
+        href: colaborar/index.qmd
+      - text: "Contacto"
+        href: contacto/index.qmd
+    tools:
+      - icon: github
+        href: https://github.com/alexespinosaco/cecropia-medellin
+
+  page-footer:
+    left: |
+      This work is licensed under [CC BY 4.0 {{< fa brands creative-commons >}}{{< fa brands creative-commons-by >}}](https://creativecommons.org/licenses/by/4.0/)
+    right: |
+      Made by [@alexespinocaco](https://alexespinosaco.github.io) with {{< fa brands r-project >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+
 
 format:
   html:
     theme: minty
     css: styles.css
-    toc: false
-
-
-

@@ -2,7 +2,7 @@
 title: "Los yarumos"
 bibliography: references.bib
 nocite: |
-  @alzate-guarin2012; @catálogo2016v2; @florade2011v2; @guíajardínbotánicodebogotá2016; @powo2024; @wfo2024; @wfoplantlist2024
+  @alcaldíademedellín2011; @alcaldíademedellín2019; @alzate-guarin2012; @catálogo2016v2; @dassori2021; @florade2011v2; @fontquer2001; @guíajardínbotánicodebogotá2016; @molaressoto2006; @openstreetmapwiki2024; @ortiz-gentry2024; @otayaburbano2006; @powo2024; @secretaríademedioambientedemedellín2015; @toro-murillo2012; @torres-kremers2022; @wfo2024; @wfoplantlist2024; @wikidata; @wikipedia2023; @wikipedia2024; @wikipedia2024a
 ---
 
 > Suelo descubierto que haya, suelo donde un Yarumo crece. [@torres-kremers2022]
@@ -11,12 +11,46 @@ nocite: |
 
 Los yarumos son árboles emblemáticos de la zona intertropical de América, abarcando desde México, toda Centroamérica, Las Antillas y Suramérica hasta el norte de Argentina. Aunque son comunes en climas cálidos, pueden crecer a altitudes de más de 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género *Cecropia* (familia Urticaceae) y comprenden más de 63 especies.
 
-Los yarumos se caracterizan por tener raíces fulcrantes y poco ramificadas, y tallos generalmente huecos, a menudo habitados por hormigas. Sus hojas son peltadas, con lóbulos palmatilobados de forma ligera a profunda, y poseen pecíolos teretes y acostillados, con un pulvínulo grande en la base.
+Los yarumos se caracterizan por tener raíces fulcrantes y poco ramificadas, y tallos generalmente huecos, a menudo habitados por hormigas. Sus hojas son peltadas, con lóbulos palmatilobados de forma ligera a profunda, y poseen pecíolos teretes y acostillados, con un pulvínulo grande en la base. Son plantas dioicas, es decir, hay individuos «machos» que solo tienen flores masculinas e individuos «hembras» que solo presentan flores femeninas.
 
 ## ¿Cuáles yarumos podemos encontrar en Medellín?
 
-En todo el departamento de Antioquia se ha reportado la ocurrencia de 15 especies de *Cecropia*, mientras que para Medellín hay registros de sólo tres: *Cecropia angustifolia* Trécul (Yarumo negro), *Cecropia peltata* L., y *Cecropia telenitida* Cuatrec. (Yarumo blanco).
+En todo el departamento de Antioquia se ha reportado la ocurrencia de 15 especies de Cecropia, mientras que para Medellín hay registros de solo tres: *Cecropia angustifolia* Trécul (yarumo negro), *Cecropia peltata* L. (yarumo), y *Cecropia telenitida* Cuatrec. (yarumo blanco). Entre las tres especies, la más fácil de distinguir es el yarumo blanco (*C. telenitida*), el cual destaca por el peculiar color blanco-plateado de la cara superior (haz) de sus hojas, lo cual lo hace observable a largas distancias, así como por el color blancuzco del tallo. Suele estar presente en las laderas de las montañas y a gran altitud.
+
+Para diferenciar entre el yarumo (*C. peltata*) y el yarumo negro (*C. angustifolia*) debemos fijarnos en el tallo y en las hojas. El tallo de *C. peltata* suele ser de color gris claro, la cara superior (haz) de las hojas suele ser verde y áspera al tacto (presenta tricomas), mientras que la cara inferior (envés) suele ser blanco-tomentosa con la nervadura sobresaliente. Por otra parte, el tallo de *C. angustifolia* suele ser negruzco, mientras que las hojas suelen ser verdes, con el haz glabro (sin tricomas) y el envés verde claro con presencia de tricomas. En la zona urbana de Medellín, *C. peltata* suele ser más frecuente.
+
+## ¿Por qué mapear los árboles urbanos?
+
+Los árboles urbanos constituyen uno de los recursos más importantes de nuestras ciudades, ya que proporcionan múltiples beneficios tanto para las urbes como para sus ciudadanos, especialmente en un escenario de crisis climática. Entre estos beneficios se incluyen:
+
+-   Aumento de la biodiversidad urbana: Proporcionan hábitat para animales y otras plantas.
+-   Mejora de la calidad del aire: Actúan como filtros absorbiendo contaminantes atmosféricos.
+-   Disminución de la temperatura ambiental: Proporcionan sombra y enfrían el aire entre 2 y 8 grados Celsius.
+-   Mejora en la salud física y mental: Ofrecen espacios verdes que promueven el bienestar.
+-   Regulación del flujo de agua: Desempeñan un papel clave en la prevención de inundaciones y la reducción del riesgo de desastres naturales.
+-   Aumento en el valor comercial de las propiedades: Los espacios verdes mejoran el atractivo de las áreas urbanas.
+
+Teniendo en cuenta todos estos (y muchos otros) beneficios, es de vital importancia cuidar y proteger los árboles urbanos, para lo cual es necesario saber cuáles son y dónde están.
+
+Un inventario del arbolado urbano no tiene que ser complejo ni registrar una gran cantidad de variables para ser útil, pero sí debe proveer información mínima que permita tomar decisiones acertadas y bien informadas. Esta información mínima incluye: la georreferenciación de cada uno de los individuos, su entorno, la especie ([nombre científico](https://es.wikipedia.org/wiki/Nomenclatura_binominal)), la altura, el diámetro del tronco a 1.3 m de altura ([Diámetro a la Altura del Pecho: DAP](https://es.wikipedia.org/wiki/Diámetro_a_la_altura_del_pecho)), estado sanitario y nivel de riesgo.
+
+Aunque Medellín y el Área Metropolitana del Valle de Aburrá cuentan con el [Sistema de Árbol Urbano (SAU)](https://www.medellin.gov.co/sau/), un aplicativo oficial que registra más de 400000 individuos de 829 especies de árboles y palmas y se presenta como «el único sistema de información en la región que integra a todos los actores que intervienen el arbolado urbano», existen algunas limitaciones:
+
+-   Exclusión de la participación ciudadana: Solo pueden ingresar información quienes tengan contratos que realicen intervenciones sobre el árbol urbano en espacio público, y programas o proyectos que intervengan el arbolado en área pública o privada.
+-   Enfoque limitado: Los datos ingresados se refieren únicamente a intervenciones como siembras, mantenimientos, trasplantes, podas y talas, excluyendo a los árboles que no cumplan con estos criterios.
+-   Plataformas privativas: Aunque los datos del SAU [son públicos y abiertos](https://www.medellin.gov.co/geomedellin/datosAbiertos/398), están alojados en plataformas privativas (ArcGIS de ESRI) y su actualización y disponibilidad no es instantánea.
+
+Ante estas limitaciones, es necesario encontrar y utilizar plataformas públicas, libres, colaborativas y editables por la ciudadanía. [OpenStreetMap](https://www.openstreetmap.org/#map=6/4.632/-74.299) es la opción perfecta, ya que es un proyecto colaborativo para crear mapas editables y libres que permiten el mapeo de los árboles y el registro de las variables citadas, generando [datos abiertos](https://es.wikipedia.org/wiki/Datos_abiertos) e interoperables, y proporcionando la visualización inmediata de los mismos en un mapa callejero estándar y siempre disponible.
+
+Los datos generados del arbolado urbano proporcionan información valiosa para varios sectores sociales, tanto públicos como privados. Una ciudad con una infraestructura verde bien planificada y administrada se vuelve más sostenible, mejora la calidad de vida, se adapta mejor a la crisis climática, reduce el riesgo de desastres y conserva mejor los ecosistemas.
 
 ## ¿Por qué mapear los yarumos?
 
+Las especies de *Cecropia* que se encuentran en Medellín se caracterizan por ser pioneras, de rápido crecimiento y vida relativamente corta. Además, presentan grandes ventajas y características atractivas, como el color y la forma de sus tallos y hojas, por lo que se han utilizado como ornamentales, medicinales, maderables y para la recuperación de áreas degradadas. A pesar de estas cualidades y de ser especies relativamente comunes en nuestro entorno, no han recibido mucha atención y, por lo tanto, hay un subregistro de estas especies en el Sistema de Árbol Urbano (SAU).
+
+Sumado a lo anterior, en tiempos recientes, los yarumos han cobrado un especial interés debido a estudios [aerobiológicos](https://es.wikipedia.org/wiki/Aerobiolog%C3%ADa) realizados en Medellín entre 2019 y 2022, que encontraron que el polen de estas especies es el más abundante. Esto representa una preocupación de salud pública, ya que las especies de *Cecropia* tienen un potencial de producir alérgias. Por lo tanto, conocer la cantidad y ubicación de los individuos de estas especies es una tarea necesaria.
+
 ## Refencias
+
+::: {#refs}
+:::

@@ -11,7 +11,7 @@ execute:
     freeze: auto
 
 website:
-  title: "Mapeando los Yarumos de Medellín"
+  title: "Mapeando los yarumos de Medellín"
   description: "Website del proyecto #CecropiaMedellín2024"
   site-url: https://alexespinosaco.github.io/cecropia-medellin/
   repo-url: https://github.com/alexespinosaco/cecropia-medellin
@@ -53,7 +53,7 @@ website:
     left: |
       This work is licensed under [CC BY 4.0 {{< fa brands creative-commons >}}{{< fa brands creative-commons-by >}}](https://creativecommons.org/licenses/by/4.0/)
     right: |
-      Made by [@alexespinocaco](https://alexespinosaco.github.io) with {{< fa brands r-project >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+      Made by [\@alexespinocaco](https://alexespinosaco.github.io) with {{< fa brands r-project >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
 
 
 format:

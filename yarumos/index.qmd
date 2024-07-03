@@ -1,3 +1,22 @@
 ---
-title: "Yarumos"
+title: "Los yarumos"
+bibliography: references.bib
+nocite: |
+  @alzate-guarin2012; @catálogo2016v2; @florade2011v2; @guíajardínbotánicodebogotá2016; @powo2024; @wfo2024; @wfoplantlist2024
 ---
+
+> Suelo descubierto que haya, suelo donde un Yarumo crece. [@torres-kremers2022]
+
+## ¿Qué son los yarumos?
+
+Los yarumos son árboles emblemáticos de la zona intertropical de América, abarcando desde México, toda Centroamérica, Las Antillas y Suramérica hasta el norte de Argentina. Aunque son comunes en climas cálidos, pueden crecer a altitudes de más de 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género *Cecropia* (familia Urticaceae) y comprenden más de 63 especies.
+
+Los yarumos se caracterizan por tener raíces fulcrantes y poco ramificadas, y tallos generalmente huecos, a menudo habitados por hormigas. Sus hojas son peltadas, con lóbulos palmatilobados de forma ligera a profunda, y poseen pecíolos teretes y acostillados, con un pulvínulo grande en la base.
+
+## ¿Cuáles yarumos podemos encontrar en Medellín?
+
+En todo el departamento de Antioquia se ha reportado la ocurrencia de 15 especies de *Cecropia*, mientras que para Medellín hay registros de sólo tres: *Cecropia angustifolia* Trécul (Yarumo negro), *Cecropia peltata* L., y *Cecropia telenitida* Cuatrec. (Yarumo blanco).
+
+## ¿Por qué mapear los yarumos?
+
+## Refencias

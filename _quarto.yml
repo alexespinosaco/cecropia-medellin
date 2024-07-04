@@ -15,7 +15,7 @@ website:
   description: "Website del proyecto #CecropiaMedellín2024"
   site-url: https://alexespinosaco.github.io/cecropia-medellin/
   repo-url: https://github.com/alexespinosaco/cecropia-medellin
-  favicon: imagenes/icono_cecropia-medellin.svg
+  favicon: imagenes/icono_cecropia-medellin.png
   image: imagenes/imagen_cecropia-medellin.svg
   repo-actions: [edit, issue]
 

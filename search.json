@@ -24,17 +24,47 @@
     "href": "metodo/index.html#antes-de-mapear",
     "title": "Método",
     "section": "Antes de mapear",
-    "text": "Antes de mapear\nEn OpenStreetMap se pueden mapear una infinidad de objetos del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la guía colombiana para mapear y la guía latinoamericana para el mapeo de árboles. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.\nPara comenzar a mapear en OpenStreetMap, es indispensable tener una cuenta1. El mapeo en OSM se puede realizar de dos maneras: mapeo de sillón o mapeo al aire libre. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.\nDada las características de los yarumos, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.\n\n\n\n\n\n\nPrecaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.",
+    "text": "Antes de mapear\nEn OpenStreetMap se pueden mapear una infinidad de objetos del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la guía colombiana para mapear y la guía latinoamericana para el mapeo de árboles. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.\nPara comenzar a mapear en OpenStreetMap, es indispensable tener una cuenta1. El mapeo en OSM se puede realizar de dos maneras: mapeo de sillón o mapeo al aire libre. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.\nDada las características de los yarumos, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.",
     "crumbs": [
       "Método"
     ]
   },
   {
-    "objectID": "metodo/index.html#mapeando-los-yarumos-de-medellín",
-    "href": "metodo/index.html#mapeando-los-yarumos-de-medellín",
+    "objectID": "metodo/index.html#área-de-trabajo",
+    "href": "metodo/index.html#área-de-trabajo",
     "title": "Método",
-    "section": "Mapeando los yarumos de Medellín",
-    "text": "Mapeando los yarumos de Medellín\n\nEtiquetas a utilizar\n\n\nEditor iD\n\n\nPaso a paso",
+    "section": "Área de trabajo",
+    "text": "Área de trabajo\nNuestro interés inicial en mapear los yarumos de Medellín está relacionado con los recientes estudios aerobiológicos llevados a cabo en la ciudad, los cuales tenían su muestreador ubicado en la Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia. Por esta razón, nuestros esfuerzos iniciales se concentrarán en las zonas aledañas a esta sede.\nDada la importancia de estos árboles y el hecho de que su polen aerovagante puede recorrer largas distancias, nos interesa saber dónde se encuentran todos los individuos de Cecropia en la ciudad de Medellín y en los municipios cercanos. Por ello, estamos interesados en colaborar con cualquier persona que desee unirse a este proyecto y los invitamos a mapear todos los yarumos allí donde se encuentren.",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#etiquetas-a-usar",
+    "href": "metodo/index.html#etiquetas-a-usar",
+    "title": "Método",
+    "section": "Etiquetas a usar",
+    "text": "Etiquetas a usar\nEn OpenStreetMap, las etiquetas describen características específicas de los elementos del mapa. Estas etiquetas se componen de dos elementos: key y value, generalmente presentados como key=value. Ambos elementos son campos de texto de formato libre y pueden ser de dos tipos: cualitativas y cuantitativas.\n\nkey: Describe un tema, categoría o tipo de característica (por ejemplo: leaf_type, species).\nvalue: Proporciona detalles de la característica especificada por key (por ejemplo: broadleaved, Cecropia peltata).\n\nPor lo tanto, una etiqueta se vería como: leaf_type=broadleaved y species=Cecropia peltata.\nLas etiquetas a usar son las que aparecen en la guía latinoamericana para el mapeo de árboles. A continuación, se presentan las etiquetas específicas para los yarumos de Medellín. Para más información, visite la guía o las páginas correspondientes en OpenStreetMap Wiki.\n\nAtributos del árbol\nEtiquetas relacionadas a las características propias del árbol a mapear.\n\nnatural=tree: Hábito de crecimiento que define al nodo como elemento árbol. Aplica a todos los yarumos.\nleaf_cycle=evergreen: Árbol que siempre tiene hojas. Aplica a todos los yarumos.\nleaf_type=broadleaved: Árbol de hoja ancha. Aplica a todos los yarumos.\ncircumference=*: Circunferencia del tronco, medido a una altura de 1.30 metros desde el suelo, expresado en metros (m).\ndiameter=*: Diámetro del tronco, medido a una altura de 1.30 metros desde el del suelo (Diámetro a la Altura del Pecho: DAP), expresado en milímetros (mm).\n\n\n\nIdentificación\nEtiquetas relacionadas a la identificación del árbol a mapear.\n\ngenus=Cecropia: Nombre científico del género. Aplica a todos los yarumos.\nspecies=*: Nombre científico del árbol.\n\nspecies=Cecropia: Nombre científico del yarumo. Aplica cuando no es posible identificar la especie.\nspecies=Cecropia angustifolia: Nombre científico del yarumo negro.\nspecies=Cecropia peltata: Nombre científico del yarumo.\nspecies=Cecropia telenitida: Nombre científico del yarumo blanco.\n\nspecies:es=*: Nombre común de la especie, en español (:es).\n\nspecies:es=Yarumo: Nombre común de Cecropia peltata. También aplica cuando no es posible identificar la especie.\nspecies:es=Yarumo blanco: Nombre común de Cecropia telenitida.\nspecies:es=Yarumo negro: Nombre común de Cecropia angustifolia.\n\n\n\n\nUbicación\nEtiquetas relacionadas a la ubicación del árbol a mapear.\n\nobject:city=Medellín: Nombre del la ciudad donde se encuentra el árbol.\n\n\n\ndenotation=*: Define el contexto de la ubicación del árbol. Los más usados son (avenue, garden, park, street).\n\ndenotation=avenue: El árbol se ubica en el separador de una calle.\ndenotation=garden: El árbol ubica en jardines o jardineras.\ndenotation=street: El árbol se ubica en las aceras o en un paseo peatonal.\ndenotation=park: El árbol se ubica al interior de cementerios, parques, plazas, etc. Forma parte de la infraestructura verde de esas áreas.\n\n\n\n\nWikidata y Wikipedia\nEtiquetas relacionadas a la información existente en Wikidata y Wikipedia del árbol a mapear.\n\nwikidata=*: ID del ítem en Wikidata.\n\nwikidata=Q414264: ID de Cecropia en Wikidata. Aplica cuando no es posible identificar la especie.\nwikidata=Q15610261: ID de Cecropia angustifolia en Wikidata.\nwikidata=Q2998776: ID de Cecropia peltata en Wikidata.\nwikidata=Q15609914: ID de Cecropia telenitida en Wikidata.\n\nwikipedia=*: Nombre del artículo de la especie en Wikipedia.\n\nwikipedia=es:Cecropia: artículo de Cecropia en Wikipedia. Aplica cuando no es posible identificar la especie.\nwikipedia=es:Cecropia angustifolia: artículo de Cecropia angustifolia en Wikipedia.\nwikipedia=es:Cecropia peltata: artículo de Cecropia peltata en Wikipedia.\nwikipedia=es:Cecropia telenitida: artículo de Cecropia telenitida en Wikipedia. Aún no redactado.\n\n\n\n\nHashtags\nEl hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de Medellín es:\n#CecropiaMedellín2024",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#editor-id",
+    "href": "metodo/index.html#editor-id",
+    "title": "Método",
+    "section": "Editor iD",
+    "text": "Editor iD\niD es un editor que se encuentra en la misma página de OpenStreetMap y permite incorporar los datos al proyecto de manera rápida, sencilla y amigable. Es una de las opciones preferidas por quienes comienzan a mapear. Existen varias guías y tutoriales2 para aprender a usarlo, e incluso, cuando se ingresa por primera vez al apartado de Editar en OSM, aparece la opción de realizar un tutorial (siempre se puede encontrar en la opción de Ayuda). En este editor se pueden agregar capas extras para facilitar el mapeo, una de ellas puede ser una ortofoto.\n\nOrtofoto de Medellín\nLa ciudad de Medellín cuenta con una ortofoto con una resolución espacial de 8 cm. Esta ortofoto permite mapear los objetos de forma más precisa si se compara con las imágenes satelitales disponibles. Se puede agregar a iD utilizando la siguiente información3:\nhttps://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Medellin_2021_MAGNA_Medellin/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Ortofoto_Medellin_2021_MAGNA_Medellin:Ortofoto_Medellin_2021_EPSG6257&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}\n}\n\n\n\n\n\n\nPrecaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#sec-tutorial-id",
+    "href": "metodo/index.html#sec-tutorial-id",
+    "title": "Método",
+    "section": "Paso a paso",
+    "text": "Paso a paso",
     "crumbs": [
       "Método"
     ]
@@ -54,7 +84,7 @@
     "href": "metodo/index.html#footnotes",
     "title": "Método",
     "section": "Notas",
-    "text": "Notas\n\n\nMira un vídeo de cómo registrar en OpenStreetMap.\n\n↩︎",
+    "text": "Notas\n\n\nVídeo de cómo registrar en OpenStreetMap.\n\n↩︎\nVídeo de cómo usar iD.\n\n↩︎\nVídeo de como agregar una ortofoto a iD\n\n↩︎",
     "crumbs": [
       "Método"
     ]
@@ -100,8 +130,8 @@
     ]
   },
   {
-    "objectID": "yarumos/index.html#por-qué-mapear-los-yarumos",
-    "href": "yarumos/index.html#por-qué-mapear-los-yarumos",
+    "objectID": "yarumos/index.html#sec-yarumos-porque",
+    "href": "yarumos/index.html#sec-yarumos-porque",
     "title": "Los yarumos",
     "section": "¿Por qué mapear los yarumos?",
     "text": "¿Por qué mapear los yarumos?\nLas especies de Cecropia que se encuentran en Medellín se caracterizan por ser pioneras, de rápido crecimiento y vida relativamente corta. Además, presentan grandes ventajas y características atractivas, como el color y la forma de sus tallos y hojas, por lo que se han utilizado como ornamentales, medicinales, maderables y para la recuperación de áreas degradadas. A pesar de estas cualidades y de ser especies relativamente comunes en nuestro entorno, no han recibido mucha atención y, por lo tanto, hay un subregistro de estas especies en el Sistema de Árbol Urbano (SAU).\nSumado a lo anterior, en tiempos recientes, los yarumos han cobrado un especial interés debido a estudios aerobiológicos realizados en Medellín entre 2019 y 2022, que encontraron que el polen de estas especies es el más abundante. Esto representa una preocupación de salud pública, ya que las especies de Cecropia tienen un potencial de producir alérgias. Por lo tanto, conocer la cantidad y ubicación de los individuos de estas especies es una tarea necesaria.",

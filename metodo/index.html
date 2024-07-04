@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -99,6 +133,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 </script>
+<link href="../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="../site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="../site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="../site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="../site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="../site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -192,12 +236,20 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
   <ul>
   <li><a href="#openstreetmap-osm" id="toc-openstreetmap-osm" class="nav-link active" data-scroll-target="#openstreetmap-osm">OpenStreetMap (OSM)</a></li>
   <li><a href="#antes-de-mapear" id="toc-antes-de-mapear" class="nav-link" data-scroll-target="#antes-de-mapear">Antes de mapear</a></li>
-  <li><a href="#mapeando-los-yarumos-de-medellín" id="toc-mapeando-los-yarumos-de-medellín" class="nav-link" data-scroll-target="#mapeando-los-yarumos-de-medellín">Mapeando los yarumos de Medellín</a>
-  <ul class="collapse">
-  <li><a href="#etiquetas-a-utilizar" id="toc-etiquetas-a-utilizar" class="nav-link" data-scroll-target="#etiquetas-a-utilizar">Etiquetas a utilizar</a></li>
-  <li><a href="#editor-id" id="toc-editor-id" class="nav-link" data-scroll-target="#editor-id">Editor iD</a></li>
-  <li><a href="#paso-a-paso" id="toc-paso-a-paso" class="nav-link" data-scroll-target="#paso-a-paso">Paso a paso</a></li>
+  <li><a href="#área-de-trabajo" id="toc-área-de-trabajo" class="nav-link" data-scroll-target="#área-de-trabajo">Área de trabajo</a></li>
+  <li><a href="#etiquetas-a-usar" id="toc-etiquetas-a-usar" class="nav-link" data-scroll-target="#etiquetas-a-usar">Etiquetas a usar</a>
+  <ul>
+  <li><a href="#atributos-del-árbol" id="toc-atributos-del-árbol" class="nav-link" data-scroll-target="#atributos-del-árbol">Atributos del árbol</a></li>
+  <li><a href="#identificación" id="toc-identificación" class="nav-link" data-scroll-target="#identificación">Identificación</a></li>
+  <li><a href="#ubicación" id="toc-ubicación" class="nav-link" data-scroll-target="#ubicación">Ubicación</a></li>
+  <li><a href="#wikidata-y-wikipedia" id="toc-wikidata-y-wikipedia" class="nav-link" data-scroll-target="#wikidata-y-wikipedia">Wikidata y Wikipedia</a></li>
+  <li><a href="#hashtags" id="toc-hashtags" class="nav-link" data-scroll-target="#hashtags">Hashtags</a></li>
   </ul></li>
+  <li><a href="#editor-id" id="toc-editor-id" class="nav-link" data-scroll-target="#editor-id">Editor iD</a>
+  <ul>
+  <li><a href="#sec-ortofoto-medellin" id="toc-sec-ortofoto-medellin" class="nav-link" data-scroll-target="#sec-ortofoto-medellin">Ortofoto de Medellín</a></li>
+  </ul></li>
+  <li><a href="#sec-tutorial-id" id="toc-sec-tutorial-id" class="nav-link" data-scroll-target="#sec-tutorial-id">Paso a paso</a></li>
   <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/alexespinosaco/cecropia-medellin/edit/main/metodo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/alexespinosaco/cecropia-medellin/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
@@ -232,9 +284,112 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 </section>
 <section id="antes-de-mapear" class="level2">
 <h2 class="anchored" data-anchor-id="antes-de-mapear">Antes de mapear</h2>
-<p>En OpenStreetMap se pueden mapear una <a href="https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa">infinidad de objetos</a> del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la <a href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear">guía colombiana para mapear</a> y la g<a href="https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles">uía latinoamericana para el mapeo de árboles</a>. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.</p>
+<p>En OpenStreetMap se pueden mapear una <a href="https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa">infinidad de objetos</a> del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la <a href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear">guía colombiana para mapear</a> y la <a href="https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles">guía latinoamericana para el mapeo de árboles</a>. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.</p>
 <p>Para comenzar a mapear en OpenStreetMap, es indispensable <a href="https://www.openstreetmap.org/user/new">tener una cuenta</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. El mapeo en OSM se puede realizar de dos maneras: <a href="https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_de_sill%C3%B3n">mapeo de sillón</a> o <a href="https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_al_aire_libre">mapeo al aire libre</a>. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.</p>
 <p>Dada las <a href="../yarumos/index.html#sec-yarumos-medellin">características de los yarumos</a>, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.</p>
+</section>
+<section id="área-de-trabajo" class="level2">
+<h2 class="anchored" data-anchor-id="área-de-trabajo">Área de trabajo</h2>
+<p>Nuestro <a href="#sec-yarumos-porque">interés inicial</a> en mapear los yarumos de Medellín está relacionado con los recientes estudios aerobiológicos llevados a cabo en la ciudad, los cuales tenían su muestreador ubicado en la <a href="https://portal.udea.edu.co/wps/portal/udea/web/inicio/investigacion/sede-investigacion-universitaria">Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia</a>. Por esta razón, nuestros esfuerzos iniciales se concentrarán en las zonas aledañas a esta sede.</p>
+<p>Dada la importancia de estos árboles y el hecho de que su polen aerovagante puede recorrer largas distancias, nos interesa saber dónde se encuentran todos los individuos de <em>Cecropia</em> en la ciudad de Medellín y en los municipios cercanos. Por ello, estamos interesados en colaborar con cualquier persona que desee unirse a este proyecto y los invitamos a mapear todos los yarumos allí donde se encuentren.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-d4f96e8db8199ca2cb0a" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-d4f96e8db8199ca2cb0a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.26043,-75.56765,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.26043,6.26043],"lng":[-75.56765,-75.56765]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="etiquetas-a-usar" class="level2">
+<h2 class="anchored" data-anchor-id="etiquetas-a-usar">Etiquetas a usar</h2>
+<p>En OpenStreetMap, las <a href="https://wiki.openstreetmap.org/wiki/ES:Etiquetas">etiquetas</a> describen características específicas de los elementos del mapa. Estas etiquetas se componen de dos elementos: <code>key</code> y <code>value</code>, generalmente presentados como <code>key=value</code>. Ambos elementos son campos de texto de formato libre y pueden ser de dos tipos: cualitativas y cuantitativas.</p>
+<ul>
+<li><code>key</code>: Describe un tema, categoría o tipo de característica (por ejemplo: <code>leaf_type</code>, <code>species</code>).</li>
+<li><code>value</code>: Proporciona detalles de la característica especificada por key (por ejemplo: <code>broadleaved</code>, <code>Cecropia peltata</code>).</li>
+</ul>
+<p>Por lo tanto, una etiqueta se vería como: <code>leaf_type=broadleaved</code> y <code>species=Cecropia peltata</code>.</p>
+<p>Las etiquetas a usar son las que aparecen en la <a href="https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles#Etiquetas_y_su_clasificaci%C3%B3n">guía latinoamericana para el mapeo de árboles</a>. A continuación, se presentan las etiquetas específicas para los yarumos de Medellín. Para más información, visite la <a href="https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles">guía</a> o las páginas correspondientes en <a href="https://wiki.openstreetmap.org/wiki/ES:P%C3%A1gina_principal">OpenStreetMap Wiki</a>.</p>
+<section id="atributos-del-árbol" class="level3">
+<h3 class="anchored" data-anchor-id="atributos-del-árbol">Atributos del árbol</h3>
+<p>Etiquetas relacionadas a las características propias del árbol a mapear.</p>
+<ul>
+<li><code>natural=tree</code>: Hábito de crecimiento que define al nodo como elemento árbol. Aplica a todos los yarumos.</li>
+<li><code>leaf_cycle=evergreen</code>: Árbol que siempre tiene hojas. Aplica a todos los yarumos.</li>
+<li><code>leaf_type=broadleaved</code>: Árbol de hoja ancha. Aplica a todos los yarumos.</li>
+<li><code>circumference=*</code>: Circunferencia del tronco, medido a una altura de 1.30 metros desde el suelo, expresado en metros (m).</li>
+<li><code>diameter=*</code>: Diámetro del tronco, medido a una altura de 1.30 metros desde el del suelo (Diámetro a la Altura del Pecho: DAP), expresado en milímetros (mm).</li>
+</ul>
+</section>
+<section id="identificación" class="level3">
+<h3 class="anchored" data-anchor-id="identificación">Identificación</h3>
+<p>Etiquetas relacionadas a la identificación del árbol a mapear.</p>
+<ul>
+<li><p><code>genus=Cecropia</code>: <a href="https://es.wikipedia.org/wiki/Nomenclatura_binominal">Nombre científico</a> del género. Aplica a todos los yarumos.</p></li>
+<li><p><code>species=*</code>: Nombre científico del árbol.</p>
+<ul>
+<li><code>species=Cecropia</code>: Nombre científico del yarumo. Aplica cuando no es posible identificar la especie.</li>
+<li><code>species=Cecropia angustifolia</code>: Nombre científico del yarumo negro.</li>
+<li><code>species=Cecropia peltata</code>: Nombre científico del yarumo.</li>
+<li><code>species=Cecropia telenitida</code>: Nombre científico del yarumo blanco.</li>
+</ul></li>
+<li><p><code>species:es=*</code>: Nombre común de la especie, en español (:es).</p>
+<ul>
+<li><code>species:es=Yarumo</code>: Nombre común de <em>Cecropia peltata</em>. También aplica cuando no es posible identificar la especie.</li>
+<li><code>species:es=Yarumo blanco</code>: Nombre común de <em>Cecropia telenitida</em>.</li>
+<li><code>species:es=Yarumo negro</code>: Nombre común de <em>Cecropia angustifolia</em>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ubicación" class="level3">
+<h3 class="anchored" data-anchor-id="ubicación">Ubicación</h3>
+<p>Etiquetas relacionadas a la ubicación del árbol a mapear.</p>
+<ul>
+<li><code>object:city=Medellín</code>: Nombre del la ciudad donde se encuentra el árbol.</li>
+</ul>
+<!-- -   `object:street=*`: Dirección de la calle más cercana a la ubicación del árbol. -->
+<ul>
+<li><code>denotation=*</code>: Define el contexto de la ubicación del árbol. Los más usados son (<code>avenue</code>, <code>garden</code>, <code>park</code>, <code>street</code>).
+<ul>
+<li><code>denotation=avenue</code>: El árbol se ubica en el separador de una calle.</li>
+<li><code>denotation=garden</code>: El árbol ubica en jardines o jardineras.</li>
+<li><code>denotation=street</code>: El árbol se ubica en las aceras o en un paseo peatonal.</li>
+<li><code>denotation=park</code>: El árbol se ubica al interior de cementerios, parques, plazas, etc. Forma parte de la infraestructura verde de esas áreas.</li>
+</ul></li>
+</ul>
+</section>
+<section id="wikidata-y-wikipedia" class="level3">
+<h3 class="anchored" data-anchor-id="wikidata-y-wikipedia">Wikidata y Wikipedia</h3>
+<p>Etiquetas relacionadas a la información existente en <a href="https://www.wikidata.org">Wikidata</a> y <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Wikipedia</a> del árbol a mapear.</p>
+<ul>
+<li><code>wikidata=*</code>: ID del ítem en Wikidata.
+<ul>
+<li><code>wikidata=Q414264</code>: ID de <a href="https://www.wikidata.org/wiki/Q414264"><em>Cecropia</em></a> en Wikidata. Aplica cuando no es posible identificar la especie.</li>
+<li><code>wikidata=Q15610261</code>: ID de <a href="https://www.wikidata.org/wiki/Q15610261"><em>Cecropia angustifolia</em></a> en Wikidata.</li>
+<li><code>wikidata=Q2998776</code>: ID de <a href="https://www.wikidata.org/wiki/Q2998776"><em>Cecropia peltata</em></a> en Wikidata.</li>
+<li><code>wikidata=Q15609914</code>: ID de <a href="https://www.wikidata.org/wiki/Q15609914"><em>Cecropia telenitida</em></a> en Wikidata.</li>
+</ul></li>
+<li><code>wikipedia=*</code>: Nombre del artículo de la especie en Wikipedia.
+<ul>
+<li><code>wikipedia=es:Cecropia</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia"><em>Cecropia</em></a> en Wikipedia. Aplica cuando no es posible identificar la especie.</li>
+<li><code>wikipedia=es:Cecropia angustifolia</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia_angustifolia"><em>Cecropia angustifolia</em></a> en Wikipedia.</li>
+<li><code>wikipedia=es:Cecropia peltata</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia_peltata"><em>Cecropia peltata</em></a> en Wikipedia.</li>
+<li><code>wikipedia=es:Cecropia telenitida</code>: artículo de <em>Cecropia telenitida</em> en Wikipedia. Aún no redactado.</li>
+</ul></li>
+</ul>
+</section>
+<section id="hashtags" class="level3">
+<h3 class="anchored" data-anchor-id="hashtags">Hashtags</h3>
+<p>El hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de Medellín es:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>#CecropiaMedellín2024</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="editor-id" class="level2">
+<h2 class="anchored" data-anchor-id="editor-id">Editor iD</h2>
+<p><a href="https://wiki.openstreetmap.org/wiki/ES:ID">iD</a> es un editor que se encuentra en la misma página de <a href="https://www.openstreetmap.org">OpenStreetMap</a> y permite incorporar los datos al proyecto de manera rápida, sencilla y amigable. Es una de las opciones preferidas por quienes comienzan a mapear. Existen varias <a href="https://learnosm.org/es/beginner/id-editor/">guías</a> y tutoriales<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> para aprender a usarlo, e incluso, cuando se ingresa por primera vez al apartado de Editar en OSM, aparece la opción de realizar un tutorial (siempre se puede encontrar en la opción de <code>Ayuda</code>). En este editor se pueden agregar capas extras para facilitar el mapeo, una de ellas puede ser una ortofoto.</p>
+<section id="sec-ortofoto-medellin" class="level3">
+<h3 class="anchored" data-anchor-id="sec-ortofoto-medellin">Ortofoto de Medellín</h3>
+<p>La ciudad de Medellín cuenta con una <a href="https://www.medellin.gov.co/giscatalogacion/srv/api/records/96aafbdd-3540-4d43-81a5-aad822ae9285">ortofoto</a> con una resolución espacial de 8 cm. Esta ortofoto permite mapear los objetos de forma más precisa si se compara con las imágenes satelitales disponibles. Se puede agregar a iD utilizando la siguiente información<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>https://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Medellin_2021_MAGNA_Medellin/ImageServer/WMSServer?FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=Ortofoto_Medellin_2021_MAGNA_Medellin:Ortofoto_Medellin_2021_EPSG6257&amp;STYLES=&amp;CRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -249,17 +404,9 @@ Precaución
 </div>
 </div>
 </section>
-<section id="mapeando-los-yarumos-de-medellín" class="level2">
-<h2 class="anchored" data-anchor-id="mapeando-los-yarumos-de-medellín">Mapeando los yarumos de Medellín</h2>
-<section id="etiquetas-a-utilizar" class="level3">
-<h3 class="anchored" data-anchor-id="etiquetas-a-utilizar">Etiquetas a utilizar</h3>
 </section>
-<section id="editor-id" class="level3">
-<h3 class="anchored" data-anchor-id="editor-id">Editor iD</h3>
-</section>
-<section id="paso-a-paso" class="level3">
-<h3 class="anchored" data-anchor-id="paso-a-paso">Paso a paso</h3>
-</section>
+<section id="sec-tutorial-id" class="level2">
+<h2 class="anchored" data-anchor-id="sec-tutorial-id">Paso a paso</h2>
 </section>
 <section id="referencias" class="level2">
 <h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
@@ -274,9 +421,15 @@ Precaución
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
 
 <ol>
-<li id="fn1"><p>Mira un <a href="https://youtu.be/2_4ep7GMs3U">vídeo</a> de cómo registrar en OpenStreetMap.</p>
+<li id="fn1"><p><a href="https://youtu.be/2_4ep7GMs3U">Vídeo</a> de cómo registrar en OpenStreetMap.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2_4ep7GMs3U?si" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn2"><p><a href="https://youtu.be/5I1fGjzZkoU">Vídeo</a> de cómo usar iD.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/5I1fGjzZkoU?si" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></li>
+<li id="fn3"><p><a href="https://youtu.be/i7K9kKLdeHw">Vídeo</a> de como agregar una ortofoto a iD</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/i7K9kKLdeHw?si" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

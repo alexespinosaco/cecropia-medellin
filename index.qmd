@@ -15,3 +15,6 @@ Vive sentado.\
 [*Las Hojas de mi selva*](https://babel.banrepcultural.org/digital/collection/p17054coll10/id/1799)\
 Epifanio Mejía (1838-1913)
 
+::: {.callout-caution}
+Estamos mapeando al aire libre. Pronto subiremos la información.
+:::

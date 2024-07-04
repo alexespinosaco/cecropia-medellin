@@ -4,7 +4,57 @@
     "href": "metodo/index.html",
     "title": "Método",
     "section": "",
-    "text": "Volver arriba",
+    "text": "OpenStreetMap (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto libre es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a Wikipedia. Además, sus datos son abiertos y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.\nCon más de 20 años de historia, OSM ha acumulado una gran cantidad de información y cuenta con una base sólida de colaboradores, lo que puede resultar abrumador para los principiantes. Para facilitar su uso, existen numerosos recursos de apoyo, como la sección de ayuda en el propio sitio web, la Wiki de OSM, y diversas guías. Entre las guías para principiantes, destacan la de OpenStreetMap Wiki y la de LearnOSM.\nEs importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen algunas reglas y buenas prácticas adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#openstreetmap-osm",
+    "href": "metodo/index.html#openstreetmap-osm",
+    "title": "Método",
+    "section": "",
+    "text": "OpenStreetMap (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto libre es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a Wikipedia. Además, sus datos son abiertos y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.\nCon más de 20 años de historia, OSM ha acumulado una gran cantidad de información y cuenta con una base sólida de colaboradores, lo que puede resultar abrumador para los principiantes. Para facilitar su uso, existen numerosos recursos de apoyo, como la sección de ayuda en el propio sitio web, la Wiki de OSM, y diversas guías. Entre las guías para principiantes, destacan la de OpenStreetMap Wiki y la de LearnOSM.\nEs importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen algunas reglas y buenas prácticas adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#antes-de-mapear",
+    "href": "metodo/index.html#antes-de-mapear",
+    "title": "Método",
+    "section": "Antes de mapear",
+    "text": "Antes de mapear\nEn OpenStreetMap se pueden mapear una infinidad de objetos del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la guía colombiana para mapear y la guía latinoamericana para el mapeo de árboles. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.\nPara comenzar a mapear en OpenStreetMap, es indispensable tener una cuenta1. El mapeo en OSM se puede realizar de dos maneras: mapeo de sillón o mapeo al aire libre. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.\nDada las características de los yarumos, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.\n\n\n\n\n\n\nPrecaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#mapeando-los-yarumos-de-medellín",
+    "href": "metodo/index.html#mapeando-los-yarumos-de-medellín",
+    "title": "Método",
+    "section": "Mapeando los yarumos de Medellín",
+    "text": "Mapeando los yarumos de Medellín\n\nEtiquetas a utilizar\n\n\nEditor iD\n\n\nPaso a paso",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#referencias",
+    "href": "metodo/index.html#referencias",
+    "title": "Método",
+    "section": "Referencias",
+    "text": "Referencias",
+    "crumbs": [
+      "Método"
+    ]
+  },
+  {
+    "objectID": "metodo/index.html#footnotes",
+    "href": "metodo/index.html#footnotes",
+    "title": "Método",
+    "section": "Notas",
+    "text": "Notas\n\n\nMira un vídeo de cómo registrar en OpenStreetMap.\n\n↩︎",
     "crumbs": [
       "Método"
     ]
@@ -30,8 +80,8 @@
     ]
   },
   {
-    "objectID": "yarumos/index.html#cuáles-yarumos-podemos-encontrar-en-medellín",
-    "href": "yarumos/index.html#cuáles-yarumos-podemos-encontrar-en-medellín",
+    "objectID": "yarumos/index.html#sec-yarumos-medellin",
+    "href": "yarumos/index.html#sec-yarumos-medellin",
     "title": "Los yarumos",
     "section": "¿Cuáles yarumos podemos encontrar en Medellín?",
     "text": "¿Cuáles yarumos podemos encontrar en Medellín?\nEn todo el departamento de Antioquia se ha reportado la ocurrencia de 15 especies de Cecropia, mientras que para Medellín hay registros de solo tres: Cecropia angustifolia Trécul (yarumo negro), Cecropia peltata L. (yarumo), y Cecropia telenitida Cuatrec. (yarumo blanco). Entre las tres especies, la más fácil de distinguir es el yarumo blanco (C. telenitida), el cual destaca por el peculiar color blanco-plateado de la cara superior (haz) de sus hojas, lo cual lo hace observable a largas distancias, así como por el color blancuzco del tallo. Suele estar presente en las laderas de las montañas y a gran altitud.\nPara diferenciar entre el yarumo (C. peltata) y el yarumo negro (C. angustifolia) debemos fijarnos en el tallo y en las hojas. El tallo de C. peltata suele ser de color gris claro, la cara superior (haz) de las hojas suele ser verde y áspera al tacto (presenta tricomas), mientras que la cara inferior (envés) suele ser blanco-tomentosa con la nervadura sobresaliente. Por otra parte, el tallo de C. angustifolia suele ser negruzco, mientras que las hojas suelen ser verdes, con el haz glabro (sin tricomas) y el envés verde claro con presencia de tricomas. En la zona urbana de Medellín, C. peltata suele ser más frecuente.",
@@ -74,7 +124,7 @@
     "href": "colaborar/index.html",
     "title": "Colaborar",
     "section": "",
-    "text": "Volver arriba",
+    "text": "Precaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.\n\n\n\n\n\n Volver arriba",
     "crumbs": [
       "Colaborar"
     ]
@@ -84,7 +134,7 @@
     "href": "contacto/index.html",
     "title": "Contacto",
     "section": "",
-    "text": "Volver arriba",
+    "text": "Precaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.\n\n\n\n\n\n Volver arriba",
     "crumbs": [
       "Contacto"
     ]
@@ -94,7 +144,7 @@
     "href": "index.html",
     "title": "Mapeando los yarumos de Medellín",
     "section": "",
-    "text": "Presentación\n\nEntre cedros y robles\nDe verdes copas\nEl yarumo levanta\nLas blancas hojas;\nPatriarca anciano\nQue en trono de esmeraldas\nVive sentado.\n\nLas Hojas de mi selva\nEpifanio Mejía (1838-1913)\n\n\n\n\n\n Volver arriba",
+    "text": "Presentación\n\nEntre cedros y robles\nDe verdes copas\nEl yarumo levanta\nLas blancas hojas;\nPatriarca anciano\nQue en trono de esmeraldas\nVive sentado.\n\nLas Hojas de mi selva\nEpifanio Mejía (1838-1913)\n\n\n\n\n\n\n\nPrecaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.\n\n\n\n\n\n\n Volver arriba",
     "crumbs": [
       "Presentación"
     ]

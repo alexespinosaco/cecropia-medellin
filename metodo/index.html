@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -84,10 +103,12 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Método – Mapeando los yarumos de Medellín">
+<meta property="og:description" content="Website del proyecto #CecropiaMedellín2024">
 <meta property="og:image" content="https://alexespinosaco.github.io/cecropia-medellin/metodo/imagenes/imagen_cecropia-medellin.png">
 <meta property="og:site_name" content="Mapeando los yarumos de Medellín">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:title" content="Método – Mapeando los yarumos de Medellín">
+<meta name="twitter:description" content="Website del proyecto #CecropiaMedellín2024">
 <meta name="twitter:image" content="https://alexespinosaco.github.io/cecropia-medellin/metodo/imagenes/imagen_cecropia-medellin.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -164,8 +185,22 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#openstreetmap-osm" id="toc-openstreetmap-osm" class="nav-link active" data-scroll-target="#openstreetmap-osm">OpenStreetMap (OSM)</a></li>
+  <li><a href="#antes-de-mapear" id="toc-antes-de-mapear" class="nav-link" data-scroll-target="#antes-de-mapear">Antes de mapear</a></li>
+  <li><a href="#mapeando-los-yarumos-de-medellín" id="toc-mapeando-los-yarumos-de-medellín" class="nav-link" data-scroll-target="#mapeando-los-yarumos-de-medellín">Mapeando los yarumos de Medellín</a>
+  <ul class="collapse">
+  <li><a href="#etiquetas-a-utilizar" id="toc-etiquetas-a-utilizar" class="nav-link" data-scroll-target="#etiquetas-a-utilizar">Etiquetas a utilizar</a></li>
+  <li><a href="#editor-id" id="toc-editor-id" class="nav-link" data-scroll-target="#editor-id">Editor iD</a></li>
+  <li><a href="#paso-a-paso" id="toc-paso-a-paso" class="nav-link" data-scroll-target="#paso-a-paso">Paso a paso</a></li>
+  </ul></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/alexespinosaco/cecropia-medellin/edit/main/metodo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/alexespinosaco/cecropia-medellin/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -189,10 +224,61 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 </header>
 
 
+<section id="openstreetmap-osm" class="level2">
+<h2 class="anchored" data-anchor-id="openstreetmap-osm">OpenStreetMap (OSM)</h2>
+<p><a href="https://www.openstreetmap.org">OpenStreetMap</a> (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto <a href="https://es.wikipedia.org/wiki/Contenido_libre">libre</a> es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Wikipedia</a>. Además, sus <a href="https://es.wikipedia.org/wiki/Datos_abiertos">datos son abiertos</a> y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.</p>
+<p>Con más de 20 años de historia, OSM ha acumulado una gran cantidad de información y cuenta con una base sólida de colaboradores, lo que puede resultar abrumador para los principiantes. Para facilitar su uso, existen numerosos recursos de apoyo, como la <a href="https://www.openstreetmap.org/help">sección de ayuda</a> en el propio sitio web, la <a href="https://wiki.openstreetmap.org/wiki/Main_Page">Wiki de OSM</a>, y diversas guías. Entre las guías para principiantes, destacan la de <a href="https://wiki.openstreetmap.org/wiki/ES:Gu%C3%ADa_de_principiantes">OpenStreetMap Wiki</a> y la de <a href="https://learnosm.org/es/beginner/">LearnOSM</a>.</p>
+<p>Es importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen <a href="https://wiki.openstreetmap.org/wiki/ES:Cómo_mapeamos">algunas reglas</a> y <a href="https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas">buenas prácticas</a> adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.</p>
+</section>
+<section id="antes-de-mapear" class="level2">
+<h2 class="anchored" data-anchor-id="antes-de-mapear">Antes de mapear</h2>
+<p>En OpenStreetMap se pueden mapear una <a href="https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa">infinidad de objetos</a> del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la <a href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear">guía colombiana para mapear</a> y la g<a href="https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles">uía latinoamericana para el mapeo de árboles</a>. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.</p>
+<p>Para comenzar a mapear en OpenStreetMap, es indispensable <a href="https://www.openstreetmap.org/user/new">tener una cuenta</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. El mapeo en OSM se puede realizar de dos maneras: <a href="https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_de_sill%C3%B3n">mapeo de sillón</a> o <a href="https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_al_aire_libre">mapeo al aire libre</a>. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.</p>
+<p>Dada las <a href="../yarumos/index.html#sec-yarumos-medellin">características de los yarumos</a>, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Precaución
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Estamos mapeando al aire libre. Pronto subiremos la información.</p>
+</div>
+</div>
+</section>
+<section id="mapeando-los-yarumos-de-medellín" class="level2">
+<h2 class="anchored" data-anchor-id="mapeando-los-yarumos-de-medellín">Mapeando los yarumos de Medellín</h2>
+<section id="etiquetas-a-utilizar" class="level3">
+<h3 class="anchored" data-anchor-id="etiquetas-a-utilizar">Etiquetas a utilizar</h3>
+</section>
+<section id="editor-id" class="level3">
+<h3 class="anchored" data-anchor-id="editor-id">Editor iD</h3>
+</section>
+<section id="paso-a-paso" class="level3">
+<h3 class="anchored" data-anchor-id="paso-a-paso">Paso a paso</h3>
+</section>
+</section>
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
+<div id="refs" role="list">
+
+</div>
 
 
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
+
+<ol>
+<li id="fn1"><p>Mira un <a href="https://youtu.be/2_4ep7GMs3U">vídeo</a> de cómo registrar en OpenStreetMap.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/2_4ep7GMs3U?si" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -633,7 +719,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/alexespinosaco/cecropia-medellin/edit/main/metodo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/alexespinosaco/cecropia-medellin/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/alexespinosaco/cecropia-medellin/edit/main/metodo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/alexespinosaco/cecropia-medellin/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made by <a href="https://alexespinosaco.github.io">@alexespinocaco</a> with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>

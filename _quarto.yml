@@ -15,8 +15,9 @@ website:
   description: "Website del proyecto #CecropiaMedellín2024"
   site-url: https://alexespinosaco.github.io/cecropia-medellin/
   repo-url: https://github.com/alexespinosaco/cecropia-medellin
-  # favicon: images/logo/favicon.png
-  # image: images/logo/geobota_logo.png
+  favicon: imagenes/icono_cecropia-medellin.svg
+  image: imagenes/imagen_cecropia-medellin.svg
+  repo-actions: [edit, issue]
 
   page-navigation: true
   back-to-top-navigation: true
@@ -33,11 +34,12 @@ website:
     card-style: summary_large_image
 
   sidebar:
+    logo: imagenes/logo_cecropia-medellin.svg
     search: true
     contents:
       - text: "Presentación"
         href: index.qmd
-      - text: "Los Yarumos"
+      - text: "Los yarumos"
         href: yarumos/index.qmd
       - text: "Método"
         href: metodo/index.qmd

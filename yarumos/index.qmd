@@ -44,7 +44,7 @@ Ante estas limitaciones, es necesario encontrar y utilizar plataformas públicas
 
 Los datos generados del arbolado urbano proporcionan información valiosa para varios sectores sociales, tanto públicos como privados. Una ciudad con una infraestructura verde bien planificada y administrada se vuelve más sostenible, mejora la calidad de vida, se adapta mejor a la crisis climática, reduce el riesgo de desastres y conserva mejor los ecosistemas.
 
-## ¿Por qué mapear los yarumos?
+## ¿Por qué mapear los yarumos? {#sec-yarumos-porque}
 
 Las especies de *Cecropia* que se encuentran en Medellín se caracterizan por ser pioneras, de rápido crecimiento y vida relativamente corta. Además, presentan grandes ventajas y características atractivas, como el color y la forma de sus tallos y hojas, por lo que se han utilizado como ornamentales, medicinales, maderables y para la recuperación de áreas degradadas. A pesar de estas cualidades y de ser especies relativamente comunes en nuestro entorno, no han recibido mucha atención y, por lo tanto, hay un subregistro de estas especies en el Sistema de Árbol Urbano (SAU).
 

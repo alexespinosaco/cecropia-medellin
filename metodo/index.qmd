@@ -1,3 +1,40 @@
 ---
 title: "Método"
 ---
+
+## OpenStreetMap (OSM)
+
+[OpenStreetMap](https://www.openstreetmap.org) (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto [libre](https://es.wikipedia.org/wiki/Contenido_libre) es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Además, sus [datos son abiertos](https://es.wikipedia.org/wiki/Datos_abiertos) y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.
+
+Con más de 20 años de historia, OSM ha acumulado una gran cantidad de información y cuenta con una base sólida de colaboradores, lo que puede resultar abrumador para los principiantes. Para facilitar su uso, existen numerosos recursos de apoyo, como la [sección de ayuda](https://www.openstreetmap.org/help) en el propio sitio web, la [Wiki de OSM](https://wiki.openstreetmap.org/wiki/Main_Page), y diversas guías. Entre las guías para principiantes, destacan la de [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/ES:Gu%C3%ADa_de_principiantes) y la de [LearnOSM](https://learnosm.org/es/beginner/).
+
+Es importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen [algunas reglas](https://wiki.openstreetmap.org/wiki/ES:Cómo_mapeamos) y [buenas prácticas](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas) adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.
+
+## Antes de mapear
+
+En OpenStreetMap se pueden mapear una [infinidad de objetos](https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa) del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la [guía colombiana para mapear](https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear) y la g[uía latinoamericana para el mapeo de árboles](https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles). Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.
+
+Para comenzar a mapear en OpenStreetMap, es indispensable [tener una cuenta](https://www.openstreetmap.org/user/new)[^1]. El mapeo en OSM se puede realizar de dos maneras: [mapeo de sillón](https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_de_sill%C3%B3n) o [mapeo al aire libre](https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_al_aire_libre). El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.
+
+[^1]: Mira un [vídeo](https://youtu.be/2_4ep7GMs3U) de cómo registrar en OpenStreetMap.
+
+    {{< video https://www.youtube.com/embed/2_4ep7GMs3U?si >}}
+
+Dada las [características de los yarumos](/yarumos/index.qmd#sec-yarumos-medellin), es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.
+
+::: {.callout-caution}
+Estamos mapeando al aire libre. Pronto subiremos la información.
+:::
+
+## Mapeando los yarumos de Medellín
+
+### Etiquetas a utilizar
+
+### Editor iD
+
+### Paso a paso
+
+## Referencias
+
+::: {#refs}
+:::

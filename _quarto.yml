@@ -16,7 +16,7 @@ website:
   site-url: https://alexespinosaco.github.io/cecropia-medellin/
   repo-url: https://github.com/alexespinosaco/cecropia-medellin
   favicon: imagenes/icono_cecropia-medellin.png
-  image: imagenes/imagen_cecropia-medellin.svg
+  image: imagenes/imagen_cecropia-medellin.png
   repo-actions: [edit, issue]
 
   page-navigation: true

@@ -1,5 +1,5 @@
 ---
-title: "Mapeando los Yarumos de Medellín"
+title: "Mapeando los yarumos de Medellín"
 ---
 
 # Presentación

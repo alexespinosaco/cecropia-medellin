@@ -1,7 +1,60 @@
 ---
-title: "Mapeando yarumos con iD"
+title: "Mapeando los yarumos con iD"
 ---
 
 ::: {.callout-caution}
 Estamos mapeando al aire libre. Pronto subiremos la información.
 :::
+
+Hemos identificado un yarumo y queremos agregarlo a OpenStreetMap, esto lo podemos hacer mediante el editor iD, integrado dentro de la misma página de OSM. Recuerde que para poder colaborar en OSM es necesario tener una cuenta.
+
+Lo primero que tenemos que hacer es ingresar a openstreetmap.org. Cuando ingrese vera una imagen similar a esta, la ubicación puede variar.
+
+![](images/jpg/00_osm-home.jpg){fig-align="center"}
+
+![](images/jpg/01_id-home.jpg){fig-align="center"}
+
+![](images/jpg/02_fondo-configuracion.jpg){fig-align="center"}
+
+![](images/jpg/03_fondo-personalizado.jpg){fig-align="center"}
+
+![](images/jpg/04_fondo-ortofoto.jpg){fig-align="center"}
+
+![](images/jpg/05_fondo-cerrar.jpg){fig-align="center"}
+
+![](images/jpg/06_agregar-punto.jpg){fig-align="center"}
+
+![](images/jpg/07_seleccionar-elemento.jpg){fig-align="center"}
+
+![](images/jpg/08_buscar-arbol.jpg){fig-align="center"}
+
+![](images/jpg/09_editar-elemento.jpg){fig-align="center"}
+
+![](images/jpg/10_etiquetas-ver.jpg){fig-align="center"}
+
+![](images/jpg/11_agregar-denotacion.jpg){fig-align="center"}
+
+![](images/jpg/12_agregar-campo.jpg){fig-align="center"}
+
+![](images/jpg/13_agregar-especie.jpg){fig-align="center"}
+
+![](images/jpg/14_agregar-wikidata.jpg){fig-align="center"}
+
+![](images/jpg/15_agregar-etiqueta.jpg){fig-align="center"}
+
+![](images/jpg/16_agregar-etiqueta.jpg){fig-align="center"}
+
+![](images/jpg/17_agregar-specieses.jpg){fig-align="center"}
+
+![](images/jpg/18_agregar-ciudad.jpg){fig-align="center"}
+
+![](images/jpg/19_revisar-subir.jpg){fig-align="center"}
+
+![](images/jpg/20_subir_osm.jpg){fig-align="center"}
+
+![](images/jpg/21_agregar-informacion.jpg){fig-align="center"}
+
+![](images/jpg/22_edicion-completa.jpg){fig-align="center"}
+
+![](images/jpg/23_ver-cambios.jpg){fig-align="center"}
+

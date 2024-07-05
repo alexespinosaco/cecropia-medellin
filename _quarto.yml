@@ -43,6 +43,10 @@ website:
         href: yarumos/index.qmd
       - text: "Método"
         href: metodo/index.qmd
+      - section: "Tutoriales"
+        contents:
+          - text: "Mapeando con iD"
+            href: tutoriales/id-arbol/index.qmd
       - text: "Colaborar"
         href: colaborar/index.qmd
       - text: "Contacto"

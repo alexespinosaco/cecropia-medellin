@@ -1,0 +1,7 @@
+---
+title: "Mapeando yarumos con iD"
+---
+
+::: {.callout-caution}
+Estamos mapeando al aire libre. Pronto subiremos la información.
+:::

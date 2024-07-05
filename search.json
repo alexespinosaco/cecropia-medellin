@@ -10,8 +10,8 @@
     ]
   },
   {
-    "objectID": "metodo/index.html#openstreetmap-osm",
-    "href": "metodo/index.html#openstreetmap-osm",
+    "objectID": "metodo/index.html#sec-metodo-osm",
+    "href": "metodo/index.html#sec-metodo-osm",
     "title": "Método",
     "section": "",
     "text": "OpenStreetMap (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto libre es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a Wikipedia. Además, sus datos son abiertos y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.\nCon más de 20 años de historia, OSM ha acumulado una gran cantidad de información y cuenta con una base sólida de colaboradores, lo que puede resultar abrumador para los principiantes. Para facilitar su uso, existen numerosos recursos de apoyo, como la sección de ayuda en el propio sitio web, la Wiki de OSM, y diversas guías. Entre las guías para principiantes, destacan la de OpenStreetMap Wiki y la de LearnOSM.\nEs importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen algunas reglas y buenas prácticas adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.",
@@ -20,8 +20,8 @@
     ]
   },
   {
-    "objectID": "metodo/index.html#antes-de-mapear",
-    "href": "metodo/index.html#antes-de-mapear",
+    "objectID": "metodo/index.html#sec-metodos-antes-mapear",
+    "href": "metodo/index.html#sec-metodos-antes-mapear",
     "title": "Método",
     "section": "Antes de mapear",
     "text": "Antes de mapear\nEn OpenStreetMap se pueden mapear una infinidad de objetos del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la guía colombiana para mapear y la guía latinoamericana para el mapeo de árboles. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.\nPara comenzar a mapear en OpenStreetMap, es indispensable tener una cuenta1. El mapeo en OSM se puede realizar de dos maneras: mapeo de sillón o mapeo al aire libre. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.\nDada las características de los yarumos, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.",
@@ -30,8 +30,8 @@
     ]
   },
   {
-    "objectID": "metodo/index.html#área-de-trabajo",
-    "href": "metodo/index.html#área-de-trabajo",
+    "objectID": "metodo/index.html#sec-metodo-area",
+    "href": "metodo/index.html#sec-metodo-area",
     "title": "Método",
     "section": "Área de trabajo",
     "text": "Área de trabajo\nNuestro interés inicial en mapear los yarumos de Medellín está relacionado con los recientes estudios aerobiológicos llevados a cabo en la ciudad, los cuales tenían su muestreador ubicado en la Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia. Por esta razón, nuestros esfuerzos iniciales se concentrarán en las zonas aledañas a esta sede.\nDada la importancia de estos árboles y el hecho de que su polen aerovagante puede recorrer largas distancias, nos interesa saber dónde se encuentran todos los individuos de Cecropia en la ciudad de Medellín y en los municipios cercanos. Por ello, estamos interesados en colaborar con cualquier persona que desee unirse a este proyecto y los invitamos a mapear todos los yarumos allí donde se encuentren.",
@@ -40,8 +40,8 @@
     ]
   },
   {
-    "objectID": "metodo/index.html#etiquetas-a-usar",
-    "href": "metodo/index.html#etiquetas-a-usar",
+    "objectID": "metodo/index.html#sec-metodo-etiquetas",
+    "href": "metodo/index.html#sec-metodo-etiquetas",
     "title": "Método",
     "section": "Etiquetas a usar",
     "text": "Etiquetas a usar\nEn OpenStreetMap, las etiquetas describen características específicas de los elementos del mapa. Estas etiquetas se componen de dos elementos: key y value, generalmente presentados como key=value. Ambos elementos son campos de texto de formato libre y pueden ser de dos tipos: cualitativas y cuantitativas.\n\nkey: Describe un tema, categoría o tipo de característica (por ejemplo: leaf_type, species).\nvalue: Proporciona detalles de la característica especificada por key (por ejemplo: broadleaved, Cecropia peltata).\n\nPor lo tanto, una etiqueta se vería como: leaf_type=broadleaved y species=Cecropia peltata.\nLas etiquetas a usar son las que aparecen en la guía latinoamericana para el mapeo de árboles. A continuación, se presentan las etiquetas específicas para los yarumos de Medellín. Para más información, visite la guía o las páginas correspondientes en OpenStreetMap Wiki.\n\nAtributos del árbol\nEtiquetas relacionadas a las características propias del árbol a mapear.\n\nnatural=tree: Hábito de crecimiento que define al nodo como elemento árbol. Aplica a todos los yarumos.\nleaf_cycle=evergreen: Árbol que siempre tiene hojas. Aplica a todos los yarumos.\nleaf_type=broadleaved: Árbol de hoja ancha. Aplica a todos los yarumos.\ncircumference=*: Circunferencia del tronco, medido a una altura de 1.30 metros desde el suelo, expresado en metros (m).\ndiameter=*: Diámetro del tronco, medido a una altura de 1.30 metros desde el del suelo (Diámetro a la Altura del Pecho: DAP), expresado en milímetros (mm).\n\n\n\nIdentificación\nEtiquetas relacionadas a la identificación del árbol a mapear.\n\ngenus=Cecropia: Nombre científico del género. Aplica a todos los yarumos.\nspecies=*: Nombre científico del árbol.\n\nspecies=Cecropia: Nombre científico del yarumo. Aplica cuando no es posible identificar la especie.\nspecies=Cecropia angustifolia: Nombre científico del yarumo negro.\nspecies=Cecropia peltata: Nombre científico del yarumo.\nspecies=Cecropia telenitida: Nombre científico del yarumo blanco.\n\nspecies:es=*: Nombre común de la especie, en español (:es).\n\nspecies:es=Yarumo: Nombre común de Cecropia peltata. También aplica cuando no es posible identificar la especie.\nspecies:es=Yarumo blanco: Nombre común de Cecropia telenitida.\nspecies:es=Yarumo negro: Nombre común de Cecropia angustifolia.\n\n\n\n\nUbicación\nEtiquetas relacionadas a la ubicación del árbol a mapear.\n\nobject:city=Medellín: Nombre del la ciudad donde se encuentra el árbol.\n\n\n\ndenotation=*: Define el contexto de la ubicación del árbol. Los más usados son (avenue, garden, park, street).\n\ndenotation=avenue: El árbol se ubica en el separador de una calle.\ndenotation=garden: El árbol ubica en jardines o jardineras.\ndenotation=street: El árbol se ubica en las aceras o en un paseo peatonal.\ndenotation=park: El árbol se ubica al interior de cementerios, parques, plazas, etc. Forma parte de la infraestructura verde de esas áreas.\n\n\n\n\nWikidata y Wikipedia\nEtiquetas relacionadas a la información existente en Wikidata y Wikipedia del árbol a mapear.\n\nwikidata=*: ID del ítem en Wikidata.\n\nwikidata=Q414264: ID de Cecropia en Wikidata. Aplica cuando no es posible identificar la especie.\nwikidata=Q15610261: ID de Cecropia angustifolia en Wikidata.\nwikidata=Q2998776: ID de Cecropia peltata en Wikidata.\nwikidata=Q15609914: ID de Cecropia telenitida en Wikidata.\n\nwikipedia=*: Nombre del artículo de la especie en Wikipedia.\n\nwikipedia=es:Cecropia: artículo de Cecropia en Wikipedia. Aplica cuando no es posible identificar la especie.\nwikipedia=es:Cecropia angustifolia: artículo de Cecropia angustifolia en Wikipedia.\nwikipedia=es:Cecropia peltata: artículo de Cecropia peltata en Wikipedia.\nwikipedia=es:Cecropia telenitida: artículo de Cecropia telenitida en Wikipedia. Aún no redactado.\n\n\n\n\nHashtags\nEl hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de Medellín es:\n#CecropiaMedellín2024",
@@ -50,21 +50,11 @@
     ]
   },
   {
-    "objectID": "metodo/index.html#editor-id",
-    "href": "metodo/index.html#editor-id",
+    "objectID": "metodo/index.html#sec-metodo-editores",
+    "href": "metodo/index.html#sec-metodo-editores",
     "title": "Método",
     "section": "Editor iD",
-    "text": "Editor iD\niD es un editor que se encuentra en la misma página de OpenStreetMap y permite incorporar los datos al proyecto de manera rápida, sencilla y amigable. Es una de las opciones preferidas por quienes comienzan a mapear. Existen varias guías y tutoriales2 para aprender a usarlo, e incluso, cuando se ingresa por primera vez al apartado de Editar en OSM, aparece la opción de realizar un tutorial (siempre se puede encontrar en la opción de Ayuda). En este editor se pueden agregar capas extras para facilitar el mapeo, una de ellas puede ser una ortofoto.\n\nOrtofoto de Medellín\nLa ciudad de Medellín cuenta con una ortofoto con una resolución espacial de 8 cm. Esta ortofoto permite mapear los objetos de forma más precisa si se compara con las imágenes satelitales disponibles. Se puede agregar a iD utilizando la siguiente información3:\nhttps://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Medellin_2021_MAGNA_Medellin/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Ortofoto_Medellin_2021_MAGNA_Medellin:Ortofoto_Medellin_2021_EPSG6257&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}\n}\n\n\n\n\n\n\nPrecaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.",
-    "crumbs": [
-      "Método"
-    ]
-  },
-  {
-    "objectID": "metodo/index.html#sec-tutorial-id",
-    "href": "metodo/index.html#sec-tutorial-id",
-    "title": "Método",
-    "section": "Paso a paso",
-    "text": "Paso a paso",
+    "text": "Editor iD\niD es un editor que se encuentra en la misma página de OpenStreetMap y permite incorporar los datos al proyecto de manera rápida, sencilla y amigable. Es una de las opciones preferidas por quienes comienzan a mapear. Existen varias guías y tutoriales2 para aprender a usarlo, e incluso, cuando se ingresa por primera vez al apartado de Editar en OSM, aparece la opción de realizar un tutorial (siempre se puede encontrar en la opción de Ayuda). En este editor se pueden agregar capas extras para facilitar el mapeo, una de ellas puede ser una ortofoto.\nEs importante mencionar que iD no es el único editor disponible; hay una variedad de ellos, y su elección depende de la experiencia del mapeador, el propósito que tenga y los recursos disponibles. Además de iD, los más utilizados son Go Map!! (iOS, iPadOS y macOS), JOSM (Linux, macOS y Windows), StreetComplete (Android), y Vespucci (Android).\n\nOrtofoto de Medellín\nLa ciudad de Medellín cuenta con una ortofoto con una resolución espacial de 8 cm. Esta ortofoto permite mapear los objetos de forma más precisa si se compara con las imágenes satelitales disponibles. Se puede agregar a iD utilizando la siguiente información3:\nhttps://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Medellin_2021_MAGNA_Medellin/ImageServer/WMSServer?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=Ortofoto_Medellin_2021_MAGNA_Medellin:Ortofoto_Medellin_2021_EPSG6257&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}\n}",
     "crumbs": [
       "Método"
     ]
@@ -74,7 +64,7 @@
     "href": "metodo/index.html#referencias",
     "title": "Método",
     "section": "Referencias",
-    "text": "Referencias",
+    "text": "Referencias\n\n\nBennett, J. (2010). OpenStreetMap: be your own cartographer. Packt Publ.\n\n\nJokar Arsanjani, J., Zipf, A., Mooney, P., & Helbich, M. (Eds.). (2015). Openstreetmap in GIScience: experiences, research, and applications. Springer International Publishing. https://doi.org/10.1007/978-3-319-14280-7\n\n\nOpenStreetMap Wiki. (2022). ES:Objetos del mapa. https://wiki.openstreetmap.org/w/index.php?title=ES:Objetos_del_mapa&oldid=2366757\n\n\nOpenStreetMap Wiki. (2023). ES:Escoge tu técnica de mapeo. https://wiki.openstreetmap.org/w/index.php?title=ES:Escoge_tu_t%C3%A9cnica_de_mapeo&oldid=2499922\n\n\nOpenStreetMap Wiki. (2024a). ES:Colombia/Eventos/Levantando Construcciones Aranjuez. https://wiki.openstreetmap.org/w/index.php?title=ES:Colombia/Eventos/Levantando_Construcciones_Aranjuez&oldid=2715087\n\n\nOpenStreetMap Wiki. (2024b). ES:Colombia/Guía para mapear. https://wiki.openstreetmap.org/w/index.php?title=ES:Colombia/Gu%C3%ADa_para_mapear&oldid=2709856\n\n\nOpenStreetMap Wiki. (2024c). ES:Colombia/SAGEMA/Proyectos/ArboretumPalmetum. https://wiki.openstreetmap.org/w/index.php?title=ES:Colombia/SAGEMA/Proyectos/ArboretumPalmetum&oldid=2666485\n\n\nOpenStreetMap Wiki. (2024d). ES:Editores. https://wiki.openstreetmap.org/w/index.php?title=ES:Editores&oldid=2718848\n\n\nOpenStreetMap Wiki. (2024e). ES:Etiquetas. https://wiki.openstreetmap.org/w/index.php?title=ES:Etiquetas&oldid=2670076\n\n\nOpenStreetMap Wiki. (2024f). ES:iD. https://wiki.openstreetmap.org/w/index.php?title=ES:ID&oldid=2699600\n\n\nOpenStreetMap Wiki. (2024g). ES:Latam/Mapeo de árboles. https://wiki.openstreetmap.org/w/index.php?title=ES:Latam/Mapeo_de_%C3%A1rboles&oldid=2714900\n\n\nWikipedia. (2024a). Contenido libre. https://es.wikipedia.org/w/index.php?title=Contenido_libre&oldid=160956592\n\n\nWikipedia. (2024b). Datos abiertos. https://es.wikipedia.org/w/index.php?title=Datos_abiertos&oldid=160321857\n\n\nWikipedia. (2024c). OpenStreetMap. https://es.wikipedia.org/w/index.php?title=OpenStreetMap&oldid=160317430",
     "crumbs": [
       "Método"
     ]
@@ -84,7 +74,7 @@
     "href": "metodo/index.html#footnotes",
     "title": "Método",
     "section": "Notas",
-    "text": "Notas\n\n\nVídeo de cómo registrar en OpenStreetMap.\n\n↩︎\nVídeo de cómo usar iD.\n\n↩︎\nVídeo de como agregar una ortofoto a iD\n\n↩︎",
+    "text": "Notas\n\n\nVídeo de cómo registrarse en OpenStreetMap.\n\n↩︎\nVídeo de cómo usar iD.\n\n↩︎\nVídeo de como agregar una ortofoto a iD\n\n↩︎",
     "crumbs": [
       "Método"
     ]
@@ -147,6 +137,17 @@
     "text": "Refencias\n\n\nAlcaldía de Medellín. (2011). Árboles nativos y ciudad: aportes a la silvicultura urbana de Medellín (1.ª ed.). Fondo Editorial Jardín Botánico de Medellín.\n\n\nAlcaldía de Medellín, & AMVA - Área Metropolitana del Valle de Aburrá. (2019). SAU Sistema Árbol Urbano. https://www.medellin.gov.co/sau/\n\n\nAlzate-Guarin, F. A., Idárraga-Piedrahíta, Á., Díaz-Vasco, O., & Rodríguez-Duque, W. (2012). Flora de los bosques montanos de Medellín. Universidad de Antioquia. https://www.udea.edu.co/wps/wcm/connect/udea/7e2366b5-36c0-48cb-b86c-c9a389964a12/Flora+de+los+bosques+montanos+de+Medellin_compressed_reduce-comprimido.pdf?MOD=AJPERES&CVID=mMKuMTF\n\n\nBernal-González, R., Gradstein, S. R., & Celis-Pacheco, M. (Eds.). (2016). Catálogo de plantas y líquenes de Colombia (Vol. 2). Universidad Nacional de Colombia, Sede Bogotá, Facultad de Ciencias, Instituto de Ciencias Naturales.\n\n\nDassori, P. (2021). Arbolado Urbano y datos abiertos para la gestión Municipal. El Pensador. https://elpensador.io/arbolado-urbano-y-datos-abiertos-para-la-gestion-municipal/\n\n\nFont Quer, P. (2001). Diccionario de botánica (2.ª ed.). Ediciones Península.\n\n\nGuía Jardín Botánico de Bogotá. (2016). Yarumo. https://guiajardinbb.wordpress.com/2016/11/30/yarumo/\n\n\nIdárraga-Piedrahíta, Á., Callejas-Posada, R., Ortiz-Gentry, R. del C., & Merello, M. (Eds.). (2011). Flora de Antioquia: catálogo de las plantas vasculares (Vol. 2). Universidad de Antioguia, Gobernación de Antioquia, Missouri Botanical Garden.\n\n\nMolares Soto, L., & Varon Palacio, T. (2006). Arboles ornamentales en el Valle de Aburrá: elementos de manejo. Area Metropolitana del Valle del Aburra.\n\n\nOpenStreetMap Wiki. (2024). ES:Latam/Mapeo de árboles. https://wiki.openstreetmap.org/w/index.php?title=ES:Latam/Mapeo_de_%C3%A1rboles&oldid=2714900\n\n\nOrtiz-Gentry, R. del C., & Idárraga-Piedrahíta, Á. (2024). Catálogo de las Plantas Vasculares del Departamento de Antioquia. http://legacy.tropicos.org/Project/Catalogo-de-Antioquia\n\n\nOtaya Burbano, L. A., Sánhez Zapata, R. de J., Morales Soto, L., & Botero Fernández, V. (2006). Los sistemas de información geográfica (sig), una gran herramienta para la silvicultura urbana. Revista Facultad Nacional de Agronomía Medellín, 59(1), 3201-3216. http://www.scielo.org.co/scielo.php?script=sci_abstract&pid=S0304-28472006000100008&lng=en&nrm=iso&tlng=es\n\n\nPOWO. (2024). Cecropia Loefl. http://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:331474-2\n\n\nSecretaría de Medio Ambiente de Medellín. (2015). Manual de silvicultura urbana para Medellín: gestión, planeación y manejo de la infraestructura verde (Segunda edición actualizada). Fondo Editorial Jardín Botánico de Medellín.\n\n\nToro-Murillo, J. L. (2012). Árboles de las montañas de Antioquia (Primera edición). Corantioquia.\n\n\nTorres-Kremers, M. A. (2022). El Yarumo. https://yarumo.net/el-yarumo/\n\n\nWFO. (2024). Cecropia Loefl. http://www.worldfloraonline.org/taxon/wfo-4000007108\n\n\nWFO Plant List. (2024). Cecropia Loefl. https://wfoplantlist.org/taxon/wfo-4000007108-2024-06\n\n\nWikidata. (2023). Cecropia peltata. https://www.wikidata.org/wiki/Q2998776\n\n\nWikipedia. (2023). Cecropia. https://es.wikipedia.org/w/index.php?title=Cecropia&oldid=154066135\n\n\nWikipedia. (2024a). Cecropia angustifolia. https://es.wikipedia.org/w/index.php?title=Cecropia_angustifolia&oldid=157021839\n\n\nWikipedia. (2024b). Cecropia peltata. https://es.wikipedia.org/w/index.php?title=Cecropia_peltata&oldid=159653935",
     "crumbs": [
       "Los yarumos"
+    ]
+  },
+  {
+    "objectID": "tutoriales/id-arbol/index.html",
+    "href": "tutoriales/id-arbol/index.html",
+    "title": "Mapeando los yarumos con iD",
+    "section": "",
+    "text": "Precaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.\n\n\nHemos identificado un yarumo y queremos agregarlo a OpenStreetMap, esto lo podemos hacer mediante el editor iD, integrado dentro de la misma página de OSM. Recuerde que para poder colaborar en OSM es necesario tener una cuenta.\nLo primero que tenemos que hacer es ingresar a openstreetmap.org. Cuando ingrese vera una imagen similar a esta, la ubicación puede variar.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Volver arriba",
+    "crumbs": [
+      "Tutoriales",
+      "Mapeando con iD"
     ]
   },
   {

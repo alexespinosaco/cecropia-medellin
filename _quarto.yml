@@ -10,6 +10,9 @@ csl: apa.csl
 execute:
     freeze: auto
 
+lightbox: true
+fig-responsive: true
+
 website:
   title: "Mapeando los yarumos de Medellín"
   description: "Website del proyecto #CecropiaMedellín2024"

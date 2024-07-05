@@ -7,7 +7,7 @@ nocite: |
   @bennett2010; @openstre2015; @openstreetmapwiki2022; @openstreetmapwiki2023; @openstreetmapwiki2024; @wikipedia2024; @openstreetmapwiki2024a; @openstreetmapwiki2024b; @openstreetmapwiki2024c; @openstreetmapwiki2024d; @wikipedia2024a; @openstreetmapwiki2024e; @openstreetmapwiki2024f; @wikipedia2024b
 ---
 
-## OpenStreetMap (OSM)
+## OpenStreetMap (OSM) {#sec-metodo-osm}
 
 [OpenStreetMap](https://www.openstreetmap.org) (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto [libre](https://es.wikipedia.org/wiki/Contenido_libre) es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Además, sus [datos son abiertos](https://es.wikipedia.org/wiki/Datos_abiertos) y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.
 
@@ -15,7 +15,7 @@ Con más de 20 años de historia, OSM ha acumulado una gran cantidad de informac
 
 Es importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen [algunas reglas](https://wiki.openstreetmap.org/wiki/ES:Cómo_mapeamos) y [buenas prácticas](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas) adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.
 
-## Antes de mapear
+## Antes de mapear {#sec-metodos-antes-mapear}
 
 En OpenStreetMap se pueden mapear una [infinidad de objetos](https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa) del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la [guía colombiana para mapear](https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear) y la [guía latinoamericana para el mapeo de árboles](https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles). Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.
 
@@ -27,7 +27,7 @@ Para comenzar a mapear en OpenStreetMap, es indispensable [tener una cuenta](htt
 
 Dada las [características de los yarumos](/yarumos/index.qmd#sec-yarumos-medellin), es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.
 
-## Área de trabajo
+## Área de trabajo {#sec-metodo-area}
 
 Nuestro [interés inicial](/yarumos/index.qmd#sec-yarumos-porque) en mapear los yarumos de Medellín está relacionado con los recientes estudios aerobiológicos llevados a cabo en la ciudad, los cuales tenían su muestreador ubicado en la [Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia](https://portal.udea.edu.co/wps/portal/udea/web/inicio/investigacion/sede-investigacion-universitaria). Por esta razón, nuestros esfuerzos iniciales se concentrarán en las zonas aledañas a esta sede.
 
@@ -49,7 +49,7 @@ leaflet::leaflet() |>
   )
 ```
 
-## Etiquetas a usar
+## Etiquetas a usar {#sec-metodo-etiquetas}
 
 En OpenStreetMap, las [etiquetas](https://wiki.openstreetmap.org/wiki/ES:Etiquetas) describen características específicas de los elementos del mapa. Estas etiquetas se componen de dos elementos: `key` y `value`, generalmente presentados como `key=value`. Ambos elementos son campos de texto de formato libre y pueden ser de dos tipos: cualitativas y cuantitativas.
 
@@ -60,7 +60,7 @@ Por lo tanto, una etiqueta se vería como: `leaf_type=broadleaved` y `species=Ce
 
 Las etiquetas a usar son las que aparecen en la [guía latinoamericana para el mapeo de árboles](https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles#Etiquetas_y_su_clasificaci%C3%B3n). A continuación, se presentan las etiquetas específicas para los yarumos de Medellín. Para más información, visite la [guía](https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles) o las páginas correspondientes en [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/ES:P%C3%A1gina_principal).
 
-### Atributos del árbol
+### Atributos del árbol {#sec-metodo-atributos}
 
 Etiquetas relacionadas a las características propias del árbol a mapear.
 
@@ -70,7 +70,7 @@ Etiquetas relacionadas a las características propias del árbol a mapear.
 -   `circumference=*`: Circunferencia del tronco, medido a una altura de 1.30 metros desde el suelo, expresado en metros (m).
 -   `diameter=*`: Diámetro del tronco, medido a una altura de 1.30 metros desde el del suelo (Diámetro a la Altura del Pecho: DAP), expresado en milímetros (mm).
 
-### Identificación
+### Identificación {#sec-metodo-identificacion}
 
 Etiquetas relacionadas a la identificación del árbol a mapear.
 
@@ -89,7 +89,7 @@ Etiquetas relacionadas a la identificación del árbol a mapear.
     -   `species:es=Yarumo blanco`: Nombre común de *Cecropia telenitida*.
     -   `species:es=Yarumo negro`: Nombre común de *Cecropia angustifolia*.
 
-### Ubicación
+### Ubicación {#sec-metodo-ubicacion}
 
 Etiquetas relacionadas a la ubicación del árbol a mapear.
 
@@ -103,7 +103,7 @@ Etiquetas relacionadas a la ubicación del árbol a mapear.
     -   `denotation=street`: El árbol se ubica en las aceras o en un paseo peatonal.
     -   `denotation=park`: El árbol se ubica al interior de cementerios, parques, plazas, etc. Forma parte de la infraestructura verde de esas áreas.
 
-### Wikidata y Wikipedia
+### Wikidata y Wikipedia {#sec-metodo-wikidata}
 
 Etiquetas relacionadas a la información existente en [Wikidata](https://www.wikidata.org) y [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada) del árbol a mapear.
 
@@ -118,7 +118,7 @@ Etiquetas relacionadas a la información existente en [Wikidata](https://www.wik
     -   `wikipedia=es:Cecropia peltata`: artículo de [*Cecropia peltata*](https://es.wikipedia.org/wiki/Cecropia_peltata) en Wikipedia.
     -   `wikipedia=es:Cecropia telenitida`: artículo de *Cecropia telenitida* en Wikipedia. Aún no redactado.
 
-### Hashtags
+### Hashtags {#sec-metodo-hashtag}
 
 El hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de Medellín es:
 
@@ -126,7 +126,7 @@ El hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de
 #CecropiaMedellín2024
 ```
 
-## Editor iD
+## Editor iD {#sec-metodo-editores}
 
 [iD](https://wiki.openstreetmap.org/wiki/ES:ID) es un editor que se encuentra en la misma página de [OpenStreetMap](https://www.openstreetmap.org) y permite incorporar los datos al proyecto de manera rápida, sencilla y amigable. Es una de las opciones preferidas por quienes comienzan a mapear. Existen varias [guías](https://learnosm.org/es/beginner/id-editor/) y tutoriales[^2] para aprender a usarlo, e incluso, cuando se ingresa por primera vez al apartado de Editar en OSM, aparece la opción de realizar un tutorial (siempre se puede encontrar en la opción de Ayuda). En este editor se pueden agregar capas extras para facilitar el mapeo, una de ellas puede ser una ortofoto.
 

@@ -5,33 +5,33 @@ toc-depth: 4
 code-overflow: wrap
 ---
 
-## Introducción
+## Introducción {#sec-mapeandoid-introduccion}
 
-Hemos identificado un yarumo y queremos agregarlo a OpenStreetMap (OSM). Para ello, utilizaremos el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, es necesario tener una cuenta.
+Hemos identificado un [yarumo](/yarumos/index.qmd#sec-yarumos-medellin) y queremos agregarlo a OpenStreetMap (OSM). Para ello, utilizaremos el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, [es necesario tener una cuenta](/metodo/index.qmd#sec-metodos-antes-mapear).
 
-## Ingresando a iD
+## Ingresando a iD {#sec-mapeandoid-id}
 
-Lo primero que debemos hacer es ingresar a [openstreetmap.org](https://www.openstreetmap.org/). Al acceder, verás una imagen similar a la mostrada en la figura @fig-00_osm-home, aunque la ubicación puede variar. Haga clic en la opción *Editar** ubicada en la esquina superior izquierda para ingresar al editor iD.
+Lo primero que debemos hacer es ingresar a [openstreetmap.org](https://www.openstreetmap.org/). Al acceder, verás una imagen similar a la mostrada en la figura @fig-00_osm-home, aunque la ubicación puede variar. Haga clic en la opción **Editar** ubicada en la esquina superior izquierda para ingresar al editor iD.
 
-![Pantalla de inicio de OpenStreetMap. La flecha indica la opción de **Editar**.](images/jpg/00_osm-home.jpg){#fig-00_osm-home fig-align="center"}
+![Pantalla de inicio de OpenStreetMap. La flecha indica la opción de **Editar**.](imagenes/jpg/00_osm-home.jpg){#fig-00_osm-home fig-align="center" group="gallery"}
 
 Ahora nos encontramos dentro del editor iD. Si es la primera vez que ingresas, verás una pantalla similar a la mostrada en la @fig-01_id-home. Asumimos que ya has [realizado el tutorial](/metodo/index.qmd#sec-metodo-editores) o tiene ligeros conocimientos sobre como agregar datos en OSM, por lo que continuaremos con la opción **Editar ahora**. Esto activará todo el espacio de trabajo y permitirá interactuar con todas las opciones del editor iD.
 
-![Pantalla inicial del editor iD si ingresas por primera vez. La flecha indica la opción de **Editar ahora**.](images/jpg/01_id-home.jpg){#fig-01_id-home fig-align="center"}
+![Pantalla inicial del editor iD si ingresas por primera vez. La flecha indica la opción de **Editar ahora**.](imagenes/jpg/01_id-home.jpg){#fig-01_id-home fig-align="center" group="gallery"}
 
-## Configurando la ortofoto de Medellín
+## Configurando la ortofoto de Medellín {#sec-mapeandoid-ortofoto}
 
 Antes de ingresar los datos, agregaremos a iD la [ortofoto de la ciudad de Medellín](/metodo/index.qmd#sec-ortofoto-medellin). Para ello, iremos a la opción **Configuración de fondo**, ubicada en el lateral derecho, como se muestra en la @fig-02_fondo-configuracion. También puedes realizar esta acción presionando la tecla {{< kbd B >}} de nuestro teclado.
 
-![La flecha indica la opción **Configuración de fondo**.](images/jpg/02_fondo-configuracion.jpg){#fig-02_fondo-configuracion fig-align="center"}
+![La flecha indica la opción **Configuración de fondo**.](imagenes/jpg/02_fondo-configuracion.jpg){#fig-02_fondo-configuracion fig-align="center" group="gallery"}
 
 Esto desplegará el menú **Fondo**, como se muestra en la @fig-02.5_fondo-personalizado. Aquí, busca y selecciona la opción **Personalizado**.
 
-![Opciones del menú **Fondo**. la flecha indica la opción **Personalizado**.](images/jpg/02.5_fondo-personalizado.jpg){#fig-02.5_fondo-personalizado fig-align="center"}
+![Opciones del menú **Fondo**. la flecha indica la opción **Personalizado**.](imagenes/jpg/02.5_fondo-personalizado.jpg){#fig-02.5_fondo-personalizado fig-align="center" group="gallery"}
 
 Al hacer clic en **Personalizado** se desplegará la ventana **Ajustes de fondo personalizado**, como se muestra en la @fig-3_fondo-personalizado.
 
-![Ventana de **Ajustes de fondo personalizado**. La flecha indica el cuadro de texto donde ingresamos la información de la ortofoto.](images/jpg/03_fondo-personalizado.jpg){#fig-3_fondo-personalizado fig-align="center"}
+![Ventana de **Ajustes de fondo personalizado**. La flecha indica el cuadro de texto donde ingresamos la información de la ortofoto.](imagenes/jpg/03_fondo-personalizado.jpg){#fig-3_fondo-personalizado fig-align="center" group="gallery"}
 
 En el cuadro de texto, ingresa la información para configurar adecuadamente la ortofoto de Medellín, tal y como se muestra en la @fig-04_fondo-ortofoto. DEspués de ingresar la información, haz clic en **Aceptar**. Puedes copiar la información desde aquí:
 
@@ -40,108 +40,112 @@ https://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Mede
 }
 ```
 
-![Agregando la información de la ortofoto de Medellín. La flecha indica el cuadro de texto donde ingresamos la información.](images/jpg/04_fondo-ortofoto.jpg){#fig-04_fondo-ortofoto fig-align="center"}
+![Agregando la información de la ortofoto de Medellín. La flecha indica el cuadro de texto donde ingresamos la información.](imagenes/jpg/04_fondo-ortofoto.jpg){#fig-04_fondo-ortofoto fig-align="center" group="gallery"}
 
 Ahora que tienes configurada la ortofoto de Medellín, la resolución de lo que ves es mucho mejor. Ahora puedes comenzar a buscar en el mapa la ubicación del árbol que quieres mapear.
 
 ::: {.callout-tip title="Cerrando el menú **Fondo**"}
 Dependiendo del tamaño de tu pantalla, el menú **Fondo** puede limitar tu visibilidad. Puedes cerrarlo siguiendo las instrucciones a continuación:
 
-![Cómo cerrar el menú **Fondo**. La flecha indica dónde está la X para cerrarlo.](images/jpg/05_fondo-cerrar.jpg){#05_fondo-cerrar fig-align="center"}
+![Cómo cerrar el menú **Fondo**. La flecha indica dónde está la X para cerrarlo.](imagenes/jpg/05_fondo-cerrar.jpg){#05_fondo-cerrar fig-align="center"}
 :::
 
-## Añadiendo un punto
+## Añadiendo un punto {#sec-mapeandoid-punto}
 
 Ya que encontraste la ubicación del árbol que quieres mapear, lo primero que tenemos que hacer es agregar un **Punto**, ya que esta es elemento apropiado en OSM para agregar árboles. El botón para agregar puntos, se encuentra en la barra central en la parte superior de la pantalla, como se muestra en la @fig-06_agregar-punto.
 
-![Cómo agregar un punto en OpenStreetMap. La flecha indica dónde está el botón **Punto**.](images/jpg/06_agregar-punto.jpg){#fig-06_agregar-punto fig-align="center"}
+![Cómo agregar un punto en OpenStreetMap. La flecha indica dónde está el botón **Punto**.](imagenes/jpg/06_agregar-punto.jpg){#fig-06_agregar-punto fig-align="center" group="gallery"}
 
-Tras hacer clic en la botón **Punto**, el cursor cambia por una una cruz (![](images/svg/icon-plus.svg)). Al hacer clic en la ubicación del árbol, esto agrega un punto (![](images/svg/icon-point.svg)) en el mapa y se despliega el menú **Selecciona tipo de elemento**, como se muestra en la @fig-07_seleccionar-elemento. Este menú permitirá agregar las etiquetas apropiadas para mapear correctamente el árbol.
+Tras hacer clic en la botón **Punto**, el cursor cambia por una una cruz (![](imagenes/svg/icon-plus.svg)). Al hacer clic en la ubicación del árbol, esto agrega un punto (![](imagenes/svg/icon-point.svg)) en el mapa y se despliega el menú **Selecciona tipo de elemento**, como se muestra en la @fig-07_seleccionar-elemento. Este menú permitirá agregar las etiquetas apropiadas para mapear correctamente el árbol.
 
-![Después de dar clic en la opción **Punto**, puedes agregar un punto en el mapa  e inmediatamente se despliega el menú **Selecciona tipo de elemento**. La flecha (**1**) indica un punto agregado en el mapa y la flecha (**2**) indica el campo de búsqueda.](images/jpg/07_seleccionar-elemento.jpg){#fig-07_seleccionar-elemento fig-align="center"}
+![Después de dar clic en la opción **Punto**, puedes agregar un punto en el mapa  e inmediatamente se despliega el menú **Selecciona tipo de elemento**. La flecha (**1**) indica un punto agregado en el mapa y la flecha (**2**) indica el campo de búsqueda.](imagenes/jpg/07_seleccionar-elemento.jpg){#fig-07_seleccionar-elemento fig-align="center" group="gallery"}
 
-## Etiquetando un árbol
+## Etiquetando un árbol {#sec-mapeandoid-arbol}
 
 A partir de aquí, comenzarás a añadir las etiquetas que identifican correctamente nuestro árbol. En este caso, mapearemos un individuo perteneciente a la especie *Cecropia peltata* que se encuentra en la Universidad de Antioquia.
 
-### Seleccionando el tipo de elemento
+::: {.callout-important title="Información sobre las etiquetas"}
+En [Método](/metodo/index.qmd#sec-metodo-etiquetas) podrá encontrar toda la información sobre las etiquetas a usar.
+:::
+
+### Seleccionando el tipo de elemento {#sec-mapeandoid-elemento}
 
 El menú **Selecciona tipo de elemento** facilita el proceso de etiquetado. En el cuadro de búsqueda de este menú, escribé la palabra «árbol» y verás como se despliegan varias opciones, como se muestra en la @fig-08_buscar-arbol. Como sabemos que los yarumos son árboles de hoja ancha perennifolios (simpre tiene hojas funcionales), selecciona la opción **Árbol de hoja ancha (perennifolio)**. 
 
-![Opciones que se despliegan en el menú **Selecciona tipo de elemento** cuando se busca la palabra «árbol». La flecha **1** indica el campo de búsqueda. La flecha **2** indica la opción **Árbol de hoja ancha (perennifolio)**.](images/jpg/08_buscar-arbol.jpg){#fig-08_buscar-arbol fig-align="center"}
+![Opciones que se despliegan en el menú **Selecciona tipo de elemento** cuando se busca la palabra «árbol». La flecha **1** indica el campo de búsqueda. La flecha **2** indica la opción **Árbol de hoja ancha (perennifolio)**.](imagenes/jpg/08_buscar-arbol.jpg){#fig-08_buscar-arbol fig-align="center" group="gallery"}
 
 Después de hacer clic en la opción **Árbol de hoja ancha (perennifolio)**, el menú cambia inmediatamente a **Editar elemento**. En este menú ingresarás el resto de información del árbol que estás mapeando. En éste menú se despliegan varias opciones de forma automática, como se muestra en la @fig-09_editar-elemento. Entre ellas, **Tipo de hoja** y **Ciclo de la hoja** ya aparecen con su correspondiente información *Hoja ancha* y *Perennifolo*. 
 
-![Opciones que se despliegan en el menún **Editar elemento** después de seleccionar la opción **Árbol de hoja ancha (perennifolio)**. La flecha indica las opciones **Tipo de hoja** y **Ciclo de la hoja**.](images/jpg/09_editar-elemento.jpg){#fig-09_editar-elemento fig-align="center"}
+![Opciones que se despliegan en el menún **Editar elemento** después de seleccionar la opción **Árbol de hoja ancha (perennifolio)**. La flecha indica las opciones **Tipo de hoja** y **Ciclo de la hoja**.](imagenes/jpg/09_editar-elemento.jpg){#fig-09_editar-elemento fig-align="center" group="gallery"}
 
-::: {#imp-opcion-etiquetas .callout-important title="Etiquetas"}
+::: {#imp-opcion-etiquetas .callout-important title="Sección Etiquetas"}
 Antes de continuar añadiendo la información del árbol que estemos mapeando, es importa señalar que en el menú **Editar elemento** se encuentra la sección **Etiquetas**. En esta sección es donde se generan las etiquetas en el formato que OpenStreetMap acepta: `key=value`. Más adelante, volveremos a esta sección para agregar unas etiquetas de forma manual.
 
-![Opciones del menú **Editar elemento**. La flecha indica donde se encuentran la sección **Etiquetas**.](images/jpg/10_etiquetas-ver.jpg){#10_etiquetas-ver fig-align="center"}
+![Opciones del menú **Editar elemento**. La flecha indica donde se encuentran la sección **Etiquetas**.](imagenes/jpg/10_etiquetas-ver.jpg){#10_etiquetas-ver fig-align="center"}
 :::
 
-### Agregando la denotación
+### Agregando la denotación {#sec-mapeandoid-denotacion}
 
 En este mismo menú, puedes añadir la información del árbol que estás mapeando. Continúa con la opción **Denotación**; al hacer clic en ella, se despliega un listado con varios valores. Como este yarumo está al lado de un sendero peatonal, selecciona la opción `street`, como se muestra en la @fig-11_agregar-denotacion. Si tienes la **Altura** y la **Circunferencia**, también las añadirías. 
 
-![Valores que se despliegan al hacer clic en la opción **Denotación** del menú **Editar elemento**. La flecha indica la opción **Denotación**.](images/jpg/11_agregar-denotacion.jpg){#fig-11_agregar-denotacion fig-align="center"}
+![Valores que se despliegan al hacer clic en la opción **Denotación** del menú **Editar elemento**. La flecha indica la opción **Denotación**.](imagenes/jpg/11_agregar-denotacion.jpg){#fig-11_agregar-denotacion fig-align="center" group="gallery"}
 
-### Agregando más campos
+### Agregando más campos {#sec-mapeandoid-mas-campos}
 
 El menú **Editar elemento** despliega unas opciones por defecto; otras las tenemos que agregar nosotros mismos. Para ello, vamos a la opción **Agregar campo** y, en el listado que se despliega, seleccionamos la opción que nos interese, como se muestra en la @fig-12_agregar-campo. 
 
-![Opción **Agregando campo** en el menú **Editar elemento**. La flecha indica el listado que se despliega al hacer clic en la opción **Agregar campos**.](images/jpg/12_agregar-campo.jpg){#fig-12_agregar-campo fig-align="center"}
+![Opción **Agregando campo** en el menú **Editar elemento**. La flecha indica el listado que se despliega al hacer clic en la opción **Agregar campos**.](imagenes/jpg/12_agregar-campo.jpg){#fig-12_agregar-campo fig-align="center" group="gallery"}
 
-#### Agregando la especie y el género
+#### Agregando la especie y el género {#sec-mapeandoid-especie-genero}
 
 Selecciona la opción **Especies** para desplegar un nuevo cuadro donde podrás ingresar el nombre científico de la especie. En este caso, el valor a añadir es `Cecropia peltata`, como se muestra en la @fig-13_agregar-especie. En este mismo listado, puedes agregar la opción **Género** y, en este caso, el valor es `Cecropia`.
 
-![La opción **Especies** aparece en el menú **Editar elemento** después de seleccionarla en la opción **Agregar campo**. La flecha indica la opción **Especies** con el valor *Cecropia peltata*.](images/jpg/13_agregar-especie.jpg){#fig-13_agregar-especie fig-align="center"}
+![La opción **Especies** aparece en el menú **Editar elemento** después de seleccionarla en la opción **Agregar campo**. La flecha indica la opción **Especies** con el valor *Cecropia peltata*.](imagenes/jpg/13_agregar-especie.jpg){#fig-13_agregar-especie fig-align="center" group="gallery"}
 
-#### Agregando información de Wikidata y Wikipedia
+#### Agregando información de Wikidata y Wikipedia {#sec-mapeandoid-wikidata-wikipedia}
 
 Selecciona la opciones **Especies Wikidata** y **Wikidata**, para desplegar dos nuevos cuadros donde agregarás la información de la especie que se encuentre en Wikidata y Wikipedia, como se muestra en la @fig-14_agregar-wikidata. En estos cuadros los valores que puedes ingresar son el nombre científico de la especie o los identificadores únicos de Wikidata. En este ejemplo, estos son `Cecropia peltata` y `Q2998776`, respectivamente. Es importante señalar que cuando se añade el valor correspondiente en las opciones **Especies Wikidata** y **Wikidata**, ambos cuadros muestran los valores *Descripción* e *Identificador*. La opción **Wikidata** también despliega la opción **Wikipedia** con los valores del idioma y el nombre del artículo en esta.
 
-![Las opciones **Especies Wikidata**, **Wikidata** y **Wikipedia** en el menú  **Editar elemento**. La flecha **1** indica la opción **Especies Wikidata**. La flecha **2** indica la opción **Wikidata** y **Wikpedia**, todos con los valores de *Cecropia peltata*.](images/jpg/14_agregar-wikidata.jpg){#fig-14_agregar-wikidata fig-align="center"}
+![Las opciones **Especies Wikidata**, **Wikidata** y **Wikipedia** en el menú  **Editar elemento**. La flecha **1** indica la opción **Especies Wikidata**. La flecha **2** indica la opción **Wikidata** y **Wikpedia**, todos con los valores de *Cecropia peltata*.](imagenes/jpg/14_agregar-wikidata.jpg){#fig-14_agregar-wikidata fig-align="center" group="gallery"}
 
-### Agregando más etiquetas
+### Agregando más etiquetas {#sec-mapeandoid-mas-etiquetas}
 
 Aunque la opción **Agregar campo** del menú **Editar elemento** presenta varias opciones asociadas al mapeo y etiquetado de árboles, no aparecen todas las requeridas. Por lo tanto, debemos agregar manualmente las faltantes. Para ello, [dirígete a la sección **Etiquetas**](#imp-opcion-etiquetas) del menú **Editar elemento** y haz clic en el símbolo **+** que corresponde a **Agregar una etiqueta**, como se muestra en la @fig-15_agregar-etiqueta. 
 
-![Cómo agregar una etiqueta en el menú **Editar elemento**. La fecha **1** indica la sección de **Etiquetas**. La flecha **2** indica la opción **Agregar una etiqueta**.](images/jpg/15_agregar-etiqueta.jpg){#fig-15_agregar-etiqueta fig-align="center"}
+![Cómo agregar una etiqueta en el menú **Editar elemento**. La fecha **1** indica la sección de **Etiquetas**. La flecha **2** indica la opción **Agregar una etiqueta**.](imagenes/jpg/15_agregar-etiqueta.jpg){#fig-15_agregar-etiqueta fig-align="center" group="gallery"}
 
 Al hacer clic en **Agregar una etiqueta**, aparecerá un cuadro en blanco en la sección **Etiquetas**, como se muestra en la @fig-16_agregar-etiqueta. Aquí agregarás una a una las etiquetas faltantes. En el cuadro de la izquierda va `key` y en el de la derecha va `value`.
 
-![Cuadro en blanco que aparece después de hacer clic en **Agregar una etiqueta** en la sección **Etiquetas**. La flecha indica el cuadro en blanco.](images/jpg/16_agregar-etiqueta.jpg){#fig-16_agregar-etiqueta fig-align="center"}
+![Cuadro en blanco que aparece después de hacer clic en **Agregar una etiqueta** en la sección **Etiquetas**. La flecha indica el cuadro en blanco.](imagenes/jpg/16_agregar-etiqueta.jpg){#fig-16_agregar-etiqueta fig-align="center" group="gallery"}
 
 Comienza con el nombre común de la especie en español. Agrega `species:es` como `key` y, en este ejemplo, `Yarumo` como `value`, como se muestra en la @fig-18_agregar-ciudad. 
 
-![Agregando `species:es` como `key` y `Yarumo` como `value` en la sección de **Etiquetas**. La flecha indica donde se ha agregado la nueva etiqueta.](images/jpg/17_agregar-specieses.jpg){#fig-17_agregar-specieses fig-align="center"}
+![Agregando `species:es` como `key` y `Yarumo` como `value` en la sección de **Etiquetas**. La flecha indica donde se ha agregado la nueva etiqueta.](imagenes/jpg/17_agregar-specieses.jpg){#fig-17_agregar-specieses fig-align="center" group="gallery"}
 
 A continuación, agrega una nueva etiqueta para especificar la ciudad donde se encuentra el árbol que estás mapeando. En este ejemplo, usa `object:city` como `key` y `Medellín` como `value`.
 
-![Agregando `object:city` como `key` y `Medellín` como `value` en la sección de **Etiquetas**. La flecha indica dónde se ha agregado la nueva etiqueta.](images/jpg/18_agregar-ciudad.jpg){#fig-18_agregar-ciudad fig-align="center"}
+![Agregando `object:city` como `key` y `Medellín` como `value` en la sección de **Etiquetas**. La flecha indica dónde se ha agregado la nueva etiqueta.](imagenes/jpg/18_agregar-ciudad.jpg){#fig-18_agregar-ciudad fig-align="center" group="gallery"}
 
-## Guardando los cambios
+## Guardando los cambios {#sec-mapeandoid-guardar}
 
 Estás casi listos para subir y compartir el árbol que estás mapeando. En este punto, es buena idea revisa todos los cambios que hemos hecho, corroborar que el punto esté dónde debería y que todas las etiquetas sean correctas. Después de esto, puedes guardar el trabajo. Para ello, haz clic en la opción **Guardar** en la esquina superior derecha, como se muestra en la @fig-19_revisar-subir.
 
-![Cómo guardar los cambios hechos en OpenStreetMap. La flecha indica la opción **Guardar**.](images/jpg/19_revisar-subir.jpg){#fig-19_revisar-subir fig-align="center"}
+![Cómo guardar los cambios hechos en OpenStreetMap. La flecha indica la opción **Guardar**.](imagenes/jpg/19_revisar-subir.jpg){#fig-19_revisar-subir fig-align="center" group="gallery"}
 
 Tras hacer clic en la opción **Guardar**, el entorno cambia de color y el menú **Editar elemento** se convierte en el menú **Subir a OpenStreetMap**. En éste menú tienes que añadir cierta información para que los cambios se guarden correctamente y puedan ser observador por otros. 
 
-![Menú que se despliegaLa tras hacer clic en la opción **Guardar**. La flecha indica el ménu **Subir a OpenStreetMap**.](images/jpg/20_subir_osm.jpg){#fig-20_subir_osm fig-align="center"}
+![Menú que se despliegaLa tras hacer clic en la opción **Guardar**. La flecha indica el ménu **Subir a OpenStreetMap**.](imagenes/jpg/20_subir_osm.jpg){#fig-20_subir_osm fig-align="center" group="gallery"}
 
 Entre las opciones que tienes que completar con información referente a los cambios realizados se encuentran: **Comentario del conjunto de datos**, donde se describe concisamente que haz hecho; **Fuentes**, donde mencionas las fuentes que haz utilizado para mapear el árbol; y **Hashtags**, una opción recomendada para hacer un seguimiento al proyecto. En este caso, el hashtag es `#CecropiaMedellín2024`. Esta información la puedes llenar como se muestra en @fig-21_agregar-informacion. 
 
-![Añadiendo la información requerida para guardar los cambios en OpenStreetMap.](images/jpg/21_agregar-informacion.jpg){#fig-21_agregar-informacion fig-align="center"}
+![Añadiendo la información requerida para guardar los cambios en OpenStreetMap.](imagenes/jpg/21_agregar-informacion.jpg){#fig-21_agregar-informacion fig-align="center" group="gallery"}
 
 Después de hacer clic en la opción **Subir** del menú **Subir a OpenStreetMap**, si toda sale correctamente, nuestros cambios se habrán subido a OpenStreetMap y ya serán visibles por todos (dependiendo de la cantidad de cambios, esto puede tomar un poco de tiempo), como se puede ver en la @fig-22_edicion-completa.
 
-![Pantalla que aparece cuando los cambios se han subido correctamente a OpenStreetMap. La flecha **1** indica un mensaje de felicitación. La fecha **2** indica la opción para ver en OSM los cambios realizados.](images/jpg/22_edicion-completa.jpg){#fig-22_edicion-completa fig-align="center"}
+![Pantalla que aparece cuando los cambios se han subido correctamente a OpenStreetMap. La flecha **1** indica un mensaje de felicitación. La fecha **2** indica la opción para ver en OSM los cambios realizados.](imagenes/jpg/22_edicion-completa.jpg){#fig-22_edicion-completa fig-align="center" group="gallery"}
 
 Si en el menú anterior decides hacer clic en la opción **Ver cambios en OSM**, saldrás del editor iD y se te mostrará en pantalla una descripción de los cambios realizados y su ubicación, como se ve en la ig-23_ver-cambios.
 
-![Pantalla donde se muestran los cambios realizados en OpenStreetMap. La flecha **1** indica un resumen de los datos. La fecha **2** indica donde se realizaron los cambios.](images/jpg/23_ver-cambios.jpg){#fig-23_ver-cambios fig-align="center"}
+![Pantalla donde se muestran los cambios realizados en OpenStreetMap. La flecha **1** indica un resumen de los datos. La fecha **2** indica donde se realizaron los cambios.](imagenes/jpg/23_ver-cambios.jpg){#fig-23_ver-cambios fig-align="center" group="gallery"}
 
 **¡Felicitaciones! Acabas de realizar un aporte a OpenStreeMap.**

@@ -3,7 +3,7 @@ title: "Mapeando los yarumos de Medellín"
 subtitle: "Website del proyecto #CecropiaMedellín2024"
 ---
 
-# Presentación
+## Presentación
 
 > Entre cedros y robles\
 De verdes copas\
@@ -16,6 +16,11 @@ Vive sentado.\
 [*Las Hojas de mi selva*](https://babel.banrepcultural.org/digital/collection/p17054coll10/id/1799)\
 Epifanio Mejía (1838-1913)
 
-::: {.callout-caution}
-Estamos mapeando al aire libre. Pronto subiremos la información.
-:::
+Los [yarumos](/yarumos/index.qmd#sec-yarumos-son) son árboles emblemáticos de la zona intertropical de América, abarcando desde México hasta el norte de Argentina, incluyendo las Antillas. Aunque son comunes en climas cálidos, pueden crecer a altitudes superiores a los 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género *Cecropia* (familia Urticaceae) y comprenden más de 63 especies.
+
+Los yarumos presentan grandes ventajas y características atractivas, como el color y la forma de sus tallos y hojas, por lo que se han utilizado como ornamentales, medicinales, maderables y para la recuperación de áreas degradadas. A pesar de estas cualidades y de ser especies relativamente comunes en nuestro entorno, [no han recibido mucha atención](/yarumos/index.qmd#sec-yarumos-porque) en los inventarios de árboles urbanos, lo que ha resultado en un subregistro de estas especies. Aunque Medellín y el Área Metropolitana del Valle de Aburrá cuentan con el [Sistema de Árbol Urbano (SAU)](https://www.medellin.gov.co/sau/), este [presenta algunas limitaciones](/yarumos/index.qmd#sec-yarumos-arboles-urbanos), entre ellas, la exclusión de la participación ciudadana y de árboles que no cumplen ciertos criterios.
+
+En tiempos recientes, los yarumos han cobrado especial interés debido a [estudios aerobiológicos](https://es.wikipedia.org/wiki/Aerobiolog%C3%ADa) realizados en Medellín entre 2019 y 2022, donde el polen de estas especies fue el más abundante. Por lo tanto, identificar, cuantificar y ubicar los yarumos presentes en la ciudad de Medellín es [una tarea necesaria](/yarumos/index.qmd#sec-yarumos-porque), especialmente considerando que los árboles urbanos constituyen uno de los recursos más importantes de nuestras ciudades, aunque también pueden causar afectaciones, como alergias, a los habitantes.
+
+Este proyecto tiene como objetivo mapear los yarumos presentes en la ciudad de Medellín [utilizando una herramienta libre y colaborativa](/metodo/index.qmd) como es [OpenStreetMap](https://www.openstreetmap.org/). En este sitio web encontrarás toda la información sobre el proyecto, [¡anímate y participa!](colaborar/index.qmd)
+

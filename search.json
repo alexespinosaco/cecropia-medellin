@@ -20,8 +20,8 @@
     ]
   },
   {
-    "objectID": "metodo/index.html#sec-metodos-antes-mapear",
-    "href": "metodo/index.html#sec-metodos-antes-mapear",
+    "objectID": "metodo/index.html#sec-metodo-antes-mapear",
+    "href": "metodo/index.html#sec-metodo-antes-mapear",
     "title": "Método",
     "section": "Antes de mapear",
     "text": "Antes de mapear\nEn OpenStreetMap se pueden mapear una infinidad de objetos del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la guía colombiana para mapear y la guía latinoamericana para el mapeo de árboles. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.\nPara comenzar a mapear en OpenStreetMap, es indispensable tener una cuenta1. El mapeo en OSM se puede realizar de dos maneras: mapeo de sillón o mapeo al aire libre. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.\nDada las características de los yarumos, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.",
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "objectID": "yarumos/index.html#qué-son-los-yarumos",
-    "href": "yarumos/index.html#qué-son-los-yarumos",
+    "objectID": "yarumos/index.html#sec-yarumos-son",
+    "href": "yarumos/index.html#sec-yarumos-son",
     "title": "Los yarumos",
     "section": "¿Qué son los yarumos?",
     "text": "¿Qué son los yarumos?\nLos yarumos son árboles emblemáticos de la zona intertropical de América, abarcando desde México, toda Centroamérica, Las Antillas y Suramérica hasta el norte de Argentina. Aunque son comunes en climas cálidos, pueden crecer a altitudes de más de 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género Cecropia (familia Urticaceae) y comprenden más de 63 especies.\nLos yarumos se caracterizan por tener raíces fulcrantes y poco ramificadas, y tallos generalmente huecos, a menudo habitados por hormigas. Sus hojas son peltadas, con lóbulos palmatilobados de forma ligera a profunda, y poseen pecíolos teretes y acostillados, con un pulvínulo grande en la base. Son plantas dioicas, es decir, hay individuos «machos» que solo tienen flores masculinas e individuos «hembras» que solo presentan flores femeninas.",
@@ -110,8 +110,8 @@
     ]
   },
   {
-    "objectID": "yarumos/index.html#por-qué-mapear-los-árboles-urbanos",
-    "href": "yarumos/index.html#por-qué-mapear-los-árboles-urbanos",
+    "objectID": "yarumos/index.html#sec-yarumos-arboles-urbanos",
+    "href": "yarumos/index.html#sec-yarumos-arboles-urbanos",
     "title": "Los yarumos",
     "section": "¿Por qué mapear los árboles urbanos?",
     "text": "¿Por qué mapear los árboles urbanos?\nLos árboles urbanos constituyen uno de los recursos más importantes de nuestras ciudades, ya que proporcionan múltiples beneficios tanto para las urbes como para sus ciudadanos, especialmente en un escenario de crisis climática. Entre estos beneficios se incluyen:\n\nAumento de la biodiversidad urbana: Proporcionan hábitat para animales y otras plantas.\nMejora de la calidad del aire: Actúan como filtros absorbiendo contaminantes atmosféricos.\nDisminución de la temperatura ambiental: Proporcionan sombra y enfrían el aire entre 2 y 8 grados Celsius.\nMejora en la salud física y mental: Ofrecen espacios verdes que promueven el bienestar.\nRegulación del flujo de agua: Desempeñan un papel clave en la prevención de inundaciones y la reducción del riesgo de desastres naturales.\nAumento en el valor comercial de las propiedades: Los espacios verdes mejoran el atractivo de las áreas urbanas.\n\nTeniendo en cuenta todos estos (y muchos otros) beneficios, es de vital importancia cuidar y proteger los árboles urbanos, para lo cual es necesario saber cuáles son y dónde están.\nUn inventario del arbolado urbano no tiene que ser complejo ni registrar una gran cantidad de variables para ser útil, pero sí debe proveer información mínima que permita tomar decisiones acertadas y bien informadas. Esta información mínima incluye: la georreferenciación de cada uno de los individuos, su entorno, la especie (nombre científico), la altura, el diámetro del tronco a 1.3 m de altura (Diámetro a la Altura del Pecho: DAP), estado sanitario y nivel de riesgo.\nAunque Medellín y el Área Metropolitana del Valle de Aburrá cuentan con el Sistema de Árbol Urbano (SAU), un aplicativo oficial que registra más de 400000 individuos de 829 especies de árboles y palmas y se presenta como «el único sistema de información en la región que integra a todos los actores que intervienen el arbolado urbano», existen algunas limitaciones:\n\nExclusión de la participación ciudadana: Solo pueden ingresar información quienes tengan contratos que realicen intervenciones sobre el árbol urbano en espacio público, y programas o proyectos que intervengan el arbolado en área pública o privada.\nEnfoque limitado: Los datos ingresados se refieren únicamente a intervenciones como siembras, mantenimientos, trasplantes, podas y talas, excluyendo a los árboles que no cumplan con estos criterios.\nPlataformas privativas: Aunque los datos del SAU son públicos y abiertos, están alojados en plataformas privativas (ArcGIS de ESRI) y su actualización y disponibilidad no es instantánea.\n\nAnte estas limitaciones, es necesario encontrar y utilizar plataformas públicas, libres, colaborativas y editables por la ciudadanía. OpenStreetMap es la opción perfecta, ya que es un proyecto colaborativo para crear mapas editables y libres que permiten el mapeo de los árboles y el registro de las variables citadas, generando datos abiertos e interoperables, y proporcionando la visualización inmediata de los mismos en un mapa callejero estándar y siempre disponible.\nLos datos generados del arbolado urbano proporcionan información valiosa para varios sectores sociales, tanto públicos como privados. Una ciudad con una infraestructura verde bien planificada y administrada se vuelve más sostenible, mejora la calidad de vida, se adapta mejor a la crisis climática, reduce el riesgo de desastres y conserva mejor los ecosistemas.",
@@ -221,7 +221,47 @@
     "href": "colaborar/index.html",
     "title": "Colaborar",
     "section": "",
-    "text": "Precaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.\n\n\n\n\n\n Volver arriba",
+    "text": "Te invitamos a ser parte del proyecto Mapeando los yarumos de Medellín. Este proyecto busca identificar y mapear los yarumos presentes en la ciudad utilizando OpenStreetMap, una herramienta libre y colaborativa que permite a cualquier persona contribuir con datos geográficos de manera abierta.",
+    "crumbs": [
+      "Colaborar"
+    ]
+  },
+  {
+    "objectID": "colaborar/index.html#por-qué-colaborar",
+    "href": "colaborar/index.html#por-qué-colaborar",
+    "title": "Colaborar",
+    "section": "¿Por qué colaborar?",
+    "text": "¿Por qué colaborar?\n\nContribuye al conocimiento local: Ayuda a crear un inventario detallado de los yarumos en Medellín, contribuyendo al conocimiento y conservación de estas especies.\nApoya estudios aerobiológicos: Tu participación permitirá un mejor seguimiento de la presencia de polen de yarumo, información valiosa para estudios de salud pública y medio ambiente.\nFomenta la participación ciudadana: Al participar, fortaleces la comunidad y fomentas la colaboración en proyectos de interés público.",
+    "crumbs": [
+      "Colaborar"
+    ]
+  },
+  {
+    "objectID": "colaborar/index.html#cómo-colaborar",
+    "href": "colaborar/index.html#cómo-colaborar",
+    "title": "Colaborar",
+    "section": "¿Cómo colaborar?",
+    "text": "¿Cómo colaborar?\n\nCrea una cuenta en OpenStreetMap: Si aún no tienes una cuenta, regístrate en OpenStreetMap.\nAccede al editor iD: Una vez registrado, ingresa al editor iD desde el sitio web de OpenStreetMap.\nConfigura la ortofoto de Medellín: Sigue nuestro tutorial para configurar la ortofoto de Medellín y así trabajar con imágenes actualizadas y de alta resolución.\nAñade un punto y etiqueta los yarumos: Ubica los yarumos en el mapa y agrega las etiquetas correspondientes siguiendo las guías de nuestro proyecto.\nGuarda y comparte tus cambios: Revisa, guarda y sube tus cambios para que sean visibles para toda la comunidad.",
+    "crumbs": [
+      "Colaborar"
+    ]
+  },
+  {
+    "objectID": "colaborar/index.html#condiciones-para-colaborar",
+    "href": "colaborar/index.html#condiciones-para-colaborar",
+    "title": "Colaborar",
+    "section": "Condiciones para colaborar",
+    "text": "Condiciones para colaborar\n\nAccesibilidad: [El proyecto es libre y abierto a todos(/yarumos/index.qmd#sec-yarumos-arboles-urbanos). No necesitas ser un experto en cartografía, solo tener interés y seguir el método y los tutoriales.\nTransparencia: Todas las contribuciones se realizan en una plataforma abierta, donde cada cambio es registrado y puede ser visto por cualquier usuario.\nColaboración: Trabajarás en conjunto con una comunidad de mapeadores que comparten el objetivo de mejorar el conocimiento sobre los yarumos en Medellín.",
+    "crumbs": [
+      "Colaborar"
+    ]
+  },
+  {
+    "objectID": "colaborar/index.html#únete-y-participa",
+    "href": "colaborar/index.html#únete-y-participa",
+    "title": "Colaborar",
+    "section": "¡Únete y participa!",
+    "text": "¡Únete y participa!\nTu participación es fundamental para el éxito de este proyecto. No importa si puedes contribuir con uno o varios árboles, cada aporte cuenta y ayuda a crear un mapa más completo y preciso de los yarumos en nuestra ciudad. Explora nuestro sitio web para acceder a más información y empezar a colaborar hoy mismo. ¡Gracias por tu interés y entusiasmo!",
     "crumbs": [
       "Colaborar"
     ]
@@ -241,7 +281,17 @@
     "href": "index.html",
     "title": "Mapeando los yarumos de Medellín",
     "section": "",
-    "text": "Presentación\n\nEntre cedros y robles\nDe verdes copas\nEl yarumo levanta\nLas blancas hojas;\nPatriarca anciano\nQue en trono de esmeraldas\nVive sentado.\n\nLas Hojas de mi selva\nEpifanio Mejía (1838-1913)\n\n\n\n\n\n\n\nPrecaución\n\n\n\nEstamos mapeando al aire libre. Pronto subiremos la información.\n\n\n\n\n\n\n Volver arriba",
+    "text": "Entre cedros y robles\nDe verdes copas\nEl yarumo levanta\nLas blancas hojas;\nPatriarca anciano\nQue en trono de esmeraldas\nVive sentado.\n\nLas Hojas de mi selva\nEpifanio Mejía (1838-1913)\n\nLos yarumos son árboles emblemáticos de la zona intertropical de América, abarcando desde México hasta el norte de Argentina, incluyendo las Antillas. Aunque son comunes en climas cálidos, pueden crecer a altitudes superiores a los 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género Cecropia (familia Urticaceae) y comprenden más de 63 especies.\nLos yarumos presentan grandes ventajas y características atractivas, como el color y la forma de sus tallos y hojas, por lo que se han utilizado como ornamentales, medicinales, maderables y para la recuperación de áreas degradadas. A pesar de estas cualidades y de ser especies relativamente comunes en nuestro entorno, no han recibido mucha atención en los inventarios de árboles urbanos, lo que ha resultado en un subregistro de estas especies. Aunque Medellín y el Área Metropolitana del Valle de Aburrá cuentan con el Sistema de Árbol Urbano (SAU), este presenta algunas limitaciones, entre ellas, la exclusión de la participación ciudadana y de árboles que no cumplen ciertos criterios.\nEn tiempos recientes, los yarumos han cobrado especial interés debido a estudios aerobiológicos realizados en Medellín entre 2019 y 2022, donde el polen de estas especies fue el más abundante. Por lo tanto, identificar, cuantificar y ubicar los yarumos presentes en la ciudad de Medellín es una tarea necesaria, especialmente considerando que los árboles urbanos constituyen uno de los recursos más importantes de nuestras ciudades, aunque también pueden causar afectaciones, como alergias, a los habitantes.\nEste proyecto tiene como objetivo mapear los yarumos presentes en la ciudad de Medellín utilizando una herramienta libre y colaborativa como es OpenStreetMap. En este sitio web encontrarás toda la información sobre el proyecto, ¡anímate y participa!",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "index.html#presentación",
+    "href": "index.html#presentación",
+    "title": "Mapeando los yarumos de Medellín",
+    "section": "",
+    "text": "Entre cedros y robles\nDe verdes copas\nEl yarumo levanta\nLas blancas hojas;\nPatriarca anciano\nQue en trono de esmeraldas\nVive sentado.\n\nLas Hojas de mi selva\nEpifanio Mejía (1838-1913)\n\nLos yarumos son árboles emblemáticos de la zona intertropical de América, abarcando desde México hasta el norte de Argentina, incluyendo las Antillas. Aunque son comunes en climas cálidos, pueden crecer a altitudes superiores a los 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género Cecropia (familia Urticaceae) y comprenden más de 63 especies.\nLos yarumos presentan grandes ventajas y características atractivas, como el color y la forma de sus tallos y hojas, por lo que se han utilizado como ornamentales, medicinales, maderables y para la recuperación de áreas degradadas. A pesar de estas cualidades y de ser especies relativamente comunes en nuestro entorno, no han recibido mucha atención en los inventarios de árboles urbanos, lo que ha resultado en un subregistro de estas especies. Aunque Medellín y el Área Metropolitana del Valle de Aburrá cuentan con el Sistema de Árbol Urbano (SAU), este presenta algunas limitaciones, entre ellas, la exclusión de la participación ciudadana y de árboles que no cumplen ciertos criterios.\nEn tiempos recientes, los yarumos han cobrado especial interés debido a estudios aerobiológicos realizados en Medellín entre 2019 y 2022, donde el polen de estas especies fue el más abundante. Por lo tanto, identificar, cuantificar y ubicar los yarumos presentes en la ciudad de Medellín es una tarea necesaria, especialmente considerando que los árboles urbanos constituyen uno de los recursos más importantes de nuestras ciudades, aunque también pueden causar afectaciones, como alergias, a los habitantes.\nEste proyecto tiene como objetivo mapear los yarumos presentes en la ciudad de Medellín utilizando una herramienta libre y colaborativa como es OpenStreetMap. En este sitio web encontrarás toda la información sobre el proyecto, ¡anímate y participa!",
     "crumbs": [
       "Presentación"
     ]

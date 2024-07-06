@@ -2,6 +2,28 @@
 title: "Colaborar"
 ---
 
-::: {.callout-caution}
-Estamos mapeando al aire libre. Pronto subiremos la información.
-:::
+Te invitamos a ser parte del proyecto [Mapeando los yarumos de Medellín](/index.qmd). Este proyecto busca identificar y mapear los [yarumos](/yarumos/index.qmd#sec-yarumos-son) presentes en la ciudad utilizando [OpenStreetMap](/metodo/index.qmd#sec-metodo-osm), una herramienta libre y colaborativa que permite a cualquier persona contribuir con datos geográficos de manera abierta.
+
+## ¿Por qué colaborar?
+
+1.  **Contribuye al conocimiento local:** Ayuda a crear un inventario detallado de los yarumos en Medellín, contribuyendo al conocimiento y conservación de estas especies.
+2.  **Apoya estudios aerobiológicos:** Tu participación permitirá un mejor seguimiento de la presencia de polen de yarumo, información valiosa para estudios de salud pública y medio ambiente.
+3.  **Fomenta la participación ciudadana:** Al participar, fortaleces la comunidad y fomentas la colaboración en proyectos de interés público.
+
+## ¿Cómo colaborar?
+
+1.  **Crea una cuenta en OpenStreetMap:** Si aún no tienes una cuenta, [regístrate](/metodo/index.qmd#sec-metodo-antes-mapear) en [OpenStreetMap](https://www.openstreetmap.org/).
+2.  **Accede al editor [iD](/metodo/index.qmd#sec-metodo-editores):** Una vez registrado, [ingresa al editor iD](/tutoriales/id-arbol/index.qmd#sec-mapeandoid-id) desde el sitio web de OpenStreetMap.
+3.  **Configura la ortofoto de Medellín:** Sigue [nuestro tutorial para configurar la ortofoto](/tutoriales/id-arbol/index.qmd#sec-mapeandoid-ortofoto) de Medellín y así trabajar con imágenes actualizadas y de alta resolución.
+4.  **Añade un punto y etiqueta los yarumos:** [Ubica los yarumos en el mapa](/tutoriales/id-arbol/index.qmd#sec-mapeandoid-punto) y [agrega las etiquetas correspondientes](/tutoriales/id-arbol/index.qmd#sec-mapeandoid-arbol) siguiendo las [guías de nuestro proyecto](/metodo/index.qmd#sec-metodo-etiquetas).
+5.  **Guarda y comparte tus cambios:** [Revisa, guarda y sube tus cambios](/tutoriales/id-arbol/index.qmd#sec-mapeandoid-guardar) para que sean visibles para toda la comunidad.
+
+## Condiciones para colaborar
+
+-   **Accesibilidad:** [El proyecto es libre y abierto a todos(/yarumos/index.qmd#sec-yarumos-arboles-urbanos). No necesitas ser un experto en cartografía, solo tener interés y seguir el método y los tutoriales.
+-   **Transparencia:** Todas las contribuciones se realizan en [una plataforma abierta](/metodo/index.qmd#sec-metodo-osm), donde cada cambio es registrado y puede ser visto por cualquier usuario.
+-   **Colaboración:** [Trabajarás en conjunto](/contacto/index.qmd) con una comunidad de mapeadores que comparten el objetivo de mejorar el conocimiento sobre los yarumos en Medellín.
+
+## ¡Únete y participa!
+
+Tu participación es fundamental para el éxito de este proyecto. No importa si puedes contribuir con uno o varios árboles, cada aporte cuenta y ayuda a crear un mapa más completo y preciso de los yarumos en nuestra ciudad. Explora [nuestro sitio web](/index.qmd) para acceder a más información y empezar a colaborar hoy mismo. ¡Gracias por tu interés y entusiasmo!

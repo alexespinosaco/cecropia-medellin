@@ -7,7 +7,7 @@ nocite: |
 
 > Suelo descubierto que haya, suelo donde un Yarumo crece. [@torres-kremers2022]
 
-## ¿Qué son los yarumos?
+## ¿Qué son los yarumos? {#sec-yarumos-son}
 
 Los yarumos son árboles emblemáticos de la zona intertropical de América, abarcando desde México, toda Centroamérica, Las Antillas y Suramérica hasta el norte de Argentina. Aunque son comunes en climas cálidos, pueden crecer a altitudes de más de 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género *Cecropia* (familia Urticaceae) y comprenden más de 63 especies.
 
@@ -19,16 +19,16 @@ En todo el departamento de Antioquia se ha reportado la ocurrencia de 15 especie
 
 Para diferenciar entre el yarumo (*C. peltata*) y el yarumo negro (*C. angustifolia*) debemos fijarnos en el tallo y en las hojas. El tallo de *C. peltata* suele ser de color gris claro, la cara superior (haz) de las hojas suele ser verde y áspera al tacto (presenta tricomas), mientras que la cara inferior (envés) suele ser blanco-tomentosa con la nervadura sobresaliente. Por otra parte, el tallo de *C. angustifolia* suele ser negruzco, mientras que las hojas suelen ser verdes, con el haz glabro (sin tricomas) y el envés verde claro con presencia de tricomas. En la zona urbana de Medellín, *C. peltata* suele ser más frecuente.
 
-## ¿Por qué mapear los árboles urbanos?
+## ¿Por qué mapear los árboles urbanos? {#sec-yarumos-arboles-urbanos}
 
 Los árboles urbanos constituyen uno de los recursos más importantes de nuestras ciudades, ya que proporcionan múltiples beneficios tanto para las urbes como para sus ciudadanos, especialmente en un escenario de crisis climática. Entre estos beneficios se incluyen:
 
--   Aumento de la biodiversidad urbana: Proporcionan hábitat para animales y otras plantas.
--   Mejora de la calidad del aire: Actúan como filtros absorbiendo contaminantes atmosféricos.
--   Disminución de la temperatura ambiental: Proporcionan sombra y enfrían el aire entre 2 y 8 grados Celsius.
--   Mejora en la salud física y mental: Ofrecen espacios verdes que promueven el bienestar.
--   Regulación del flujo de agua: Desempeñan un papel clave en la prevención de inundaciones y la reducción del riesgo de desastres naturales.
--   Aumento en el valor comercial de las propiedades: Los espacios verdes mejoran el atractivo de las áreas urbanas.
+-   **Aumento de la biodiversidad urbana:** Proporcionan hábitat para animales y otras plantas.
+-   **Mejora de la calidad del aire:** Actúan como filtros absorbiendo contaminantes atmosféricos.
+-   **Disminución de la temperatura ambiental:** Proporcionan sombra y enfrían el aire entre 2 y 8 grados Celsius.
+-   **Mejora en la salud física y mental:** Ofrecen espacios verdes que promueven el bienestar.
+-   **Regulación del flujo de agua:** Desempeñan un papel clave en la prevención de inundaciones y la reducción del riesgo de desastres naturales.
+-   **Aumento en el valor comercial de las propiedades:** Los espacios verdes mejoran el atractivo de las áreas urbanas.
 
 Teniendo en cuenta todos estos (y muchos otros) beneficios, es de vital importancia cuidar y proteger los árboles urbanos, para lo cual es necesario saber cuáles son y dónde están.
 
@@ -36,9 +36,9 @@ Un inventario del arbolado urbano no tiene que ser complejo ni registrar una gra
 
 Aunque Medellín y el Área Metropolitana del Valle de Aburrá cuentan con el [Sistema de Árbol Urbano (SAU)](https://www.medellin.gov.co/sau/), un aplicativo oficial que registra más de 400000 individuos de 829 especies de árboles y palmas y se presenta como «el único sistema de información en la región que integra a todos los actores que intervienen el arbolado urbano», existen algunas limitaciones:
 
--   Exclusión de la participación ciudadana: Solo pueden ingresar información quienes tengan contratos que realicen intervenciones sobre el árbol urbano en espacio público, y programas o proyectos que intervengan el arbolado en área pública o privada.
--   Enfoque limitado: Los datos ingresados se refieren únicamente a intervenciones como siembras, mantenimientos, trasplantes, podas y talas, excluyendo a los árboles que no cumplan con estos criterios.
--   Plataformas privativas: Aunque los datos del SAU [son públicos y abiertos](https://www.medellin.gov.co/geomedellin/datosAbiertos/398), están alojados en plataformas privativas (ArcGIS de ESRI) y su actualización y disponibilidad no es instantánea.
+-   **Exclusión de la participación ciudadana:** Solo pueden ingresar información quienes tengan contratos que realicen intervenciones sobre el árbol urbano en espacio público, y programas o proyectos que intervengan el arbolado en área pública o privada.
+-   **Enfoque limitado:** Los datos ingresados se refieren únicamente a intervenciones como siembras, mantenimientos, trasplantes, podas y talas, excluyendo a los árboles que no cumplan con estos criterios.
+-   **Plataformas privativas:** Aunque los datos del SAU [son públicos y abiertos](https://www.medellin.gov.co/geomedellin/datosAbiertos/398), están alojados en plataformas privativas (ArcGIS de ESRI) y su actualización y disponibilidad no es instantánea.
 
 Ante estas limitaciones, es necesario encontrar y utilizar plataformas públicas, libres, colaborativas y editables por la ciudadanía. [OpenStreetMap](https://www.openstreetmap.org/#map=6/4.632/-74.299) es la opción perfecta, ya que es un proyecto colaborativo para crear mapas editables y libres que permiten el mapeo de los árboles y el registro de las variables citadas, generando [datos abiertos](https://es.wikipedia.org/wiki/Datos_abiertos) e interoperables, y proporcionando la visualización inmediata de los mismos en un mapa callejero estándar y siempre disponible.
 

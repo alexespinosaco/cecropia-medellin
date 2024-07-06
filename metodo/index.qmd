@@ -15,7 +15,7 @@ Con más de 20 años de historia, OSM ha acumulado una gran cantidad de informac
 
 Es importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen [algunas reglas](https://wiki.openstreetmap.org/wiki/ES:Cómo_mapeamos) y [buenas prácticas](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas) adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.
 
-## Antes de mapear {#sec-metodos-antes-mapear}
+## Antes de mapear {#sec-metodo-antes-mapear}
 
 En OpenStreetMap se pueden mapear una [infinidad de objetos](https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa) del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la [guía colombiana para mapear](https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear) y la [guía latinoamericana para el mapeo de árboles](https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles). Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.
 

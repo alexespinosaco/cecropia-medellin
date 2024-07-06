@@ -228,21 +228,22 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
-  <li><a href="#ingresando-a-id" id="toc-ingresando-a-id" class="nav-link" data-scroll-target="#ingresando-a-id">Ingresando a iD</a></li>
-  <li><a href="#configurando-la-ortofoto-de-medellín" id="toc-configurando-la-ortofoto-de-medellín" class="nav-link" data-scroll-target="#configurando-la-ortofoto-de-medellín">Configurando la ortofoto de Medellín</a></li>
-  <li><a href="#añadiendo-un-punto" id="toc-añadiendo-un-punto" class="nav-link" data-scroll-target="#añadiendo-un-punto">Añadiendo un punto</a></li>
-  <li><a href="#etiquetando-un-árbol" id="toc-etiquetando-un-árbol" class="nav-link" data-scroll-target="#etiquetando-un-árbol">Etiquetando un árbol</a>
+  <li><a href="#sec-mapeandoid-introduccion" id="toc-sec-mapeandoid-introduccion" class="nav-link active" data-scroll-target="#sec-mapeandoid-introduccion">Introducción</a></li>
+  <li><a href="#sec-mapeandoid-id" id="toc-sec-mapeandoid-id" class="nav-link" data-scroll-target="#sec-mapeandoid-id">Ingresando a iD</a></li>
+  <li><a href="#sec-mapeandoid-ortofoto" id="toc-sec-mapeandoid-ortofoto" class="nav-link" data-scroll-target="#sec-mapeandoid-ortofoto">Configurando la ortofoto de Medellín</a></li>
+  <li><a href="#sec-mapeandoid-punto" id="toc-sec-mapeandoid-punto" class="nav-link" data-scroll-target="#sec-mapeandoid-punto">Añadiendo un punto</a></li>
+  <li><a href="#sec-mapeandoid-arbol" id="toc-sec-mapeandoid-arbol" class="nav-link" data-scroll-target="#sec-mapeandoid-arbol">Etiquetando un árbol</a>
   <ul>
-  <li><a href="#menú-selecciona-tipo-de-elemento" id="toc-menú-selecciona-tipo-de-elemento" class="nav-link" data-scroll-target="#menú-selecciona-tipo-de-elemento">Menú Selecciona tipo de elemento</a></li>
-  <li><a href="#agregando-la-denotación" id="toc-agregando-la-denotación" class="nav-link" data-scroll-target="#agregando-la-denotación">Agregando la denotación</a></li>
-  <li><a href="#agregando-más-campos" id="toc-agregando-más-campos" class="nav-link" data-scroll-target="#agregando-más-campos">Agregando más campos</a>
+  <li><a href="#sec-mapeandoid-elemento" id="toc-sec-mapeandoid-elemento" class="nav-link" data-scroll-target="#sec-mapeandoid-elemento">Seleccionando el tipo de elemento</a></li>
+  <li><a href="#sec-mapeandoid-denotacion" id="toc-sec-mapeandoid-denotacion" class="nav-link" data-scroll-target="#sec-mapeandoid-denotacion">Agregando la denotación</a></li>
+  <li><a href="#sec-mapeandoid-mas-campos" id="toc-sec-mapeandoid-mas-campos" class="nav-link" data-scroll-target="#sec-mapeandoid-mas-campos">Agregando más campos</a>
   <ul class="collapse">
-  <li><a href="#agregando-la-especie-y-el-género" id="toc-agregando-la-especie-y-el-género" class="nav-link" data-scroll-target="#agregando-la-especie-y-el-género">Agregando la especie y el género</a></li>
-  <li><a href="#agregando-información-de-wikidata-y-wikipedia" id="toc-agregando-información-de-wikidata-y-wikipedia" class="nav-link" data-scroll-target="#agregando-información-de-wikidata-y-wikipedia">Agregando información de Wikidata y Wikipedia</a></li>
+  <li><a href="#sec-mapeandoid-especie-genero" id="toc-sec-mapeandoid-especie-genero" class="nav-link" data-scroll-target="#sec-mapeandoid-especie-genero">Agregando la especie y el género</a></li>
+  <li><a href="#sec-mapeandoid-wikidata-wikipedia" id="toc-sec-mapeandoid-wikidata-wikipedia" class="nav-link" data-scroll-target="#sec-mapeandoid-wikidata-wikipedia">Agregando información de Wikidata y Wikipedia</a></li>
   </ul></li>
-  <li><a href="#agregando-más-etiquetas" id="toc-agregando-más-etiquetas" class="nav-link" data-scroll-target="#agregando-más-etiquetas">Agregando más etiquetas</a></li>
+  <li><a href="#sec-mapeandoid-mas-etiquetas" id="toc-sec-mapeandoid-mas-etiquetas" class="nav-link" data-scroll-target="#sec-mapeandoid-mas-etiquetas">Agregando más etiquetas</a></li>
   </ul></li>
+  <li><a href="#sec-mapeandoid-guardar" id="toc-sec-mapeandoid-guardar" class="nav-link" data-scroll-target="#sec-mapeandoid-guardar">Guardando los cambios</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/alexespinosaco/cecropia-medellin/edit/main/tutoriales/id-arbol/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/alexespinosaco/cecropia-medellin/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
@@ -274,97 +275,84 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 </header>
 
 
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Precaución
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Estamos mapeando al aire libre. Pronto subiremos la información.</p>
-</div>
-</div>
-<section id="introducción" class="level2">
-<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
-<p>Hemos identificado un yarumo y queremos agregarlo a OpenStreetMap (OSM), esto lo podemos hacer mediante el editor iD, el cual está integrado dentro de la misma página de OSM. Recuerde que para poder colaborar en OSM es necesario tener una cuenta.</p>
+<section id="sec-mapeandoid-introduccion" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mapeandoid-introduccion">Introducción</h2>
+<p>Hemos identificado un <a href="../../yarumos/index.html#sec-yarumos-medellin">yarumo</a> y queremos agregarlo a OpenStreetMap (OSM). Para ello, utilizaremos el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, <a href="../../metodo/index.html#sec-metodos-antes-mapear">es necesario tener una cuenta</a>.</p>
 </section>
-<section id="ingresando-a-id" class="level2">
-<h2 class="anchored" data-anchor-id="ingresando-a-id">Ingresando a iD</h2>
-<p>Lo primero que tenemos que hacer es ingresar a openstreetmap.org. Cuando ingrese vera una imagen similar a la mostrada en la <a href="#fig-00_osm-home" class="quarto-xref">Figura&nbsp;1</a>, la ubicación puede variar. Ahora, haga clic en la opción <strong>Editar</strong> ubicado en la esquina superior izquierda, con esto ingresaremos al editor iD.</p>
-<div id="fig-00_osm-home" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-id" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mapeandoid-id">Ingresando a iD</h2>
+<p>Lo primero que debemos hacer es ingresar a <a href="https://www.openstreetmap.org/">openstreetmap.org</a>. Al acceder, verás una imagen similar a la mostrada en la figura <a href="#fig-00_osm-home" class="quarto-xref">Figura&nbsp;1</a>, aunque la ubicación puede variar. Haga clic en la opción <strong>Editar</strong> ubicada en la esquina superior izquierda para ingresar al editor iD.</p>
+<div id="fig-00_osm-home" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-00_osm-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/00_osm-home.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Pantalla de inicio de OpenStreetMap. La flecha indica la opción de Editar."><img src="images/jpg/00_osm-home.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/00_osm-home.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;1: Pantalla de inicio de OpenStreetMap. La flecha indica la opción de Editar."><img src="imagenes/jpg/00_osm-home.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-00_osm-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;1: Pantalla de inicio de OpenStreetMap. La flecha indica la opción de <strong>Editar</strong>.
 </figcaption>
 </figure>
 </div>
-<p>Ahora nos encontramos dentro del editor iD. Si es la primera vez que ingresa, vera una pantalla similar a la mostrada en la <a href="#fig-01_id-home" class="quarto-xref">Figura&nbsp;2</a>. Asumiremos que ya realizo el tutorial o tiene unos ligeros conocimientos sobre como agregar datos en OSM y continuaremos con la opción <strong>Editar ahora</strong>. Con esto se nos ilumina todo el espacio de trabajo y podemos interactuar con todas las opciones del editor iD.</p>
-<div id="fig-01_id-home" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Ahora nos encontramos dentro del editor iD. Si es la primera vez que ingresas, verás una pantalla similar a la mostrada en la <a href="#fig-01_id-home" class="quarto-xref">Figura&nbsp;2</a>. Asumimos que ya has <a href="../../metodo/index.html#sec-metodo-editores">realizado el tutorial</a> o tiene ligeros conocimientos sobre como agregar datos en OSM, por lo que continuaremos con la opción <strong>Editar ahora</strong>. Esto activará todo el espacio de trabajo y permitirá interactuar con todas las opciones del editor iD.</p>
+<div id="fig-01_id-home" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-01_id-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/01_id-home.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figura&nbsp;2: Pantalla inicial del editor iD si ingresa por primera vez. La flecha indica la opción de Editar ahora."><img src="images/jpg/01_id-home.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/01_id-home.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;2: Pantalla inicial del editor iD si ingresas por primera vez. La flecha indica la opción de Editar ahora."><img src="imagenes/jpg/01_id-home.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-01_id-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;2: Pantalla inicial del editor iD si ingresa por primera vez. La flecha indica la opción de <strong>Editar ahora</strong>.
+Figura&nbsp;2: Pantalla inicial del editor iD si ingresas por primera vez. La flecha indica la opción de <strong>Editar ahora</strong>.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="configurando-la-ortofoto-de-medellín" class="level2">
-<h2 class="anchored" data-anchor-id="configurando-la-ortofoto-de-medellín">Configurando la ortofoto de Medellín</h2>
-<p>Antes de ingresar los datos, agregaremos a iD la ortofoto de la ciudad de Medellín. Para ello, iremos a la opción <strong>Configuración de fondo</strong>, ubicada en el lateral derecho, como se muestra en la <a href="#fig-02_fondo-configuracion" class="quarto-xref">Figura&nbsp;3</a>. Esta acción también la podemos realizar presionando la tecla <kbd aria-hidden="true">B</kbd><span class="visually-hidden">B</span> de nuestro teclado.</p>
-<div id="fig-02_fondo-configuracion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-ortofoto" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mapeandoid-ortofoto">Configurando la ortofoto de Medellín</h2>
+<p>Antes de ingresar los datos, agregaremos a iD la <a href="../../metodo/index.html#sec-ortofoto-medellin">ortofoto de la ciudad de Medellín</a>. Para ello, iremos a la opción <strong>Configuración de fondo</strong>, ubicada en el lateral derecho, como se muestra en la <a href="#fig-02_fondo-configuracion" class="quarto-xref">Figura&nbsp;3</a>. También puedes realizar esta acción presionando la tecla <kbd aria-hidden="true">B</kbd><span class="visually-hidden">B</span> de nuestro teclado.</p>
+<div id="fig-02_fondo-configuracion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-02_fondo-configuracion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/02_fondo-configuracion.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figura&nbsp;3: La flecha señala la opción Configuración de fondo."><img src="images/jpg/02_fondo-configuracion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/02_fondo-configuracion.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;3: La flecha indica la opción Configuración de fondo."><img src="imagenes/jpg/02_fondo-configuracion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-02_fondo-configuracion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;3: La flecha señala la opción <strong>Configuración de fondo</strong>.
+Figura&nbsp;3: La flecha indica la opción <strong>Configuración de fondo</strong>.
 </figcaption>
 </figure>
 </div>
-<p>Con esto se nos despliega el menú <strong>Fondo</strong>, como se muestra en la <a href="#fig-02.5_fondo-personalizado" class="quarto-xref">Figura&nbsp;4</a>, acá buscaremos la opción <strong>Personalizado</strong>.</p>
-<div id="fig-02.5_fondo-personalizado" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Esto desplegará el menú <strong>Fondo</strong>, como se muestra en la <a href="#fig-02.5_fondo-personalizado" class="quarto-xref">Figura&nbsp;4</a>. Aquí, busca y selecciona la opción <strong>Personalizado</strong>.</p>
+<div id="fig-02.5_fondo-personalizado" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-02.5_fondo-personalizado-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/02.5_fondo-personalizado.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figura&nbsp;4: Opciones del menú Fondo. la flecha señala la opción Personalizado."><img src="images/jpg/02.5_fondo-personalizado.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/02.5_fondo-personalizado.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;4: Opciones del menú Fondo. la flecha indica la opción Personalizado."><img src="imagenes/jpg/02.5_fondo-personalizado.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-02.5_fondo-personalizado-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;4: Opciones del menú <strong>Fondo</strong>. la flecha señala la opción <strong>Personalizado</strong>.
+Figura&nbsp;4: Opciones del menú <strong>Fondo</strong>. la flecha indica la opción <strong>Personalizado</strong>.
 </figcaption>
 </figure>
 </div>
-<p>Al hacer clic en la opción <strong>Personalizado</strong> se nos despliega la ventana <strong>Ajustes de fondo personalizado</strong>, como se muestra en la <a href="#fig-3_fondo-personalizado" class="quarto-xref">Figura&nbsp;5</a>.</p>
-<div id="fig-3_fondo-personalizado" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Al hacer clic en <strong>Personalizado</strong> se desplegará la ventana <strong>Ajustes de fondo personalizado</strong>, como se muestra en la <a href="#fig-3_fondo-personalizado" class="quarto-xref">Figura&nbsp;5</a>.</p>
+<div id="fig-3_fondo-personalizado" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-3_fondo-personalizado-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/03_fondo-personalizado.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figura&nbsp;5: Ventana de Ajustes de fondo personalizado. La flecha indica el cuadro de texto donde ingresamos la información de la ortofoto."><img src="images/jpg/03_fondo-personalizado.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/03_fondo-personalizado.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;5: Ventana de Ajustes de fondo personalizado. La flecha indica el cuadro de texto donde ingresamos la información de la ortofoto."><img src="imagenes/jpg/03_fondo-personalizado.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-3_fondo-personalizado-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;5: Ventana de <strong>Ajustes de fondo personalizado</strong>. La flecha indica el cuadro de texto donde ingresamos la información de la ortofoto.
 </figcaption>
 </figure>
 </div>
-<p>En el cuadro para ingresar texto, ingresamos la información para configurar adecuadamente la ortofoto de Medellín, tal y como se muestra en la <a href="#fig-04_fondo-ortofoto" class="quarto-xref">Figura&nbsp;6</a>. Tras ingresar la información, damos clic en <strong>Aceptar</strong>. La información, la puedes copiar de acá:</p>
+<p>En el cuadro de texto, ingresa la información para configurar adecuadamente la ortofoto de Medellín, tal y como se muestra en la <a href="#fig-04_fondo-ortofoto" class="quarto-xref">Figura&nbsp;6</a>. DEspués de ingresar la información, haz clic en <strong>Aceptar</strong>. Puedes copiar la información desde aquí:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Medellin_2021_MAGNA_Medellin/ImageServer/WMSServer?FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=Ortofoto_Medellin_2021_MAGNA_Medellin:Ortofoto_Medellin_2021_EPSG6257&amp;STYLES=&amp;CRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="fig-04_fondo-ortofoto" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<div id="fig-04_fondo-ortofoto" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-04_fondo-ortofoto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/04_fondo-ortofoto.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figura&nbsp;6: Agregando la información de la ortofoto de Medellín. La flecha indica el cuadro de texto donde ingresamos la información."><img src="images/jpg/04_fondo-ortofoto.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/04_fondo-ortofoto.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;6: Agregando la información de la ortofoto de Medellín. La flecha indica el cuadro de texto donde ingresamos la información."><img src="imagenes/jpg/04_fondo-ortofoto.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-04_fondo-ortofoto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;6: Agregando la información de la ortofoto de Medellín. La flecha indica el cuadro de texto donde ingresamos la información.
 </figcaption>
 </figure>
 </div>
-<p>Ahora que tenemos configurada la ortofoto de Medellín, la resolución de lo que vemos es mucho mejor. Podemos continuar buscando en el mapa dónde está el árbol que queremos ingresar.</p>
+<p>Ahora que tienes configurada la ortofoto de Medellín, la resolución de lo que ves es mucho mejor. Ahora puedes comenzar a buscar en el mapa la ubicación del árbol que quieres mapear.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Cerrando el menú **Fondo**">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -375,12 +363,12 @@ Cerrando el menú <strong>Fondo</strong>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dependiendo del tamaño de tu pantalla, el menú <strong>Fondo</strong> puede limitar mucho de lo que ves. Este se puede cerrar tal como se muestra a continuación:</p>
+<p>Dependiendo del tamaño de tu pantalla, el menú <strong>Fondo</strong> puede limitar tu visibilidad. Puedes cerrarlo siguiendo las instrucciones a continuación:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/jpg/05_fondo-cerrar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Cómo cerrar el menú Fondo. La flecha indica dónde está la X para cerrarlo."><img src="images/jpg/05_fondo-cerrar.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Cómo cerrar el menú Fondo. La flecha indica dónde está la X para cerrarlo."></a></p>
+<p><a href="imagenes/jpg/05_fondo-cerrar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Cómo cerrar el menú Fondo. La flecha indica dónde está la X para cerrarlo."><img src="imagenes/jpg/05_fondo-cerrar.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Cómo cerrar el menú Fondo. La flecha indica dónde está la X para cerrarlo."></a></p>
 </figure>
 </div>
 <figcaption>Cómo cerrar el menú <strong>Fondo</strong>. La flecha indica dónde está la X para cerrarlo.</figcaption>
@@ -389,75 +377,87 @@ Cerrando el menú <strong>Fondo</strong>
 </div>
 </div>
 </section>
-<section id="añadiendo-un-punto" class="level2">
-<h2 class="anchored" data-anchor-id="añadiendo-un-punto">Añadiendo un punto</h2>
-<p>Ya que encontramos la ubicación del árbol que queremos mapear, lo primero que tenemos que hacer es agregar un <strong>Punto</strong> ya que esta es elemento apropiado en OSM para agregar árboles.</p>
-<p>La opción para agregar puntos, la encontramos en la barra central de parte superior de la pantalla, tal y cómo se muestra en la <a href="#fig-06_agregar-punto" class="quarto-xref">Figura&nbsp;7</a>.</p>
-<div id="fig-06_agregar-punto" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-punto" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mapeandoid-punto">Añadiendo un punto</h2>
+<p>Ya que encontraste la ubicación del árbol que quieres mapear, lo primero que tenemos que hacer es agregar un <strong>Punto</strong>, ya que esta es elemento apropiado en OSM para agregar árboles. El botón para agregar puntos, se encuentra en la barra central en la parte superior de la pantalla, como se muestra en la <a href="#fig-06_agregar-punto" class="quarto-xref">Figura&nbsp;7</a>.</p>
+<div id="fig-06_agregar-punto" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-06_agregar-punto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/06_agregar-punto.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figura&nbsp;7: Cómo agregar un punto en OpenStreetMap. La flecha indica dónde está la opción punto."><img src="images/jpg/06_agregar-punto.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/06_agregar-punto.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;7: Cómo agregar un punto en OpenStreetMap. La flecha indica dónde está el botón Punto."><img src="imagenes/jpg/06_agregar-punto.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-06_agregar-punto-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7: Cómo agregar un punto en OpenStreetMap. La flecha indica dónde está la opción <strong>punto</strong>.
+Figura&nbsp;7: Cómo agregar un punto en OpenStreetMap. La flecha indica dónde está el botón <strong>Punto</strong>.
 </figcaption>
 </figure>
 </div>
-<p>Tras hacer clic en la opción <strong>Punto</strong>, el cursor cambia por una una cruz (<strong>✛</strong>), al hacer clic en la ubicación del árbol, esto agrega un punto en el mapa y se despliega el menú <strong>Selecciona tipo de elemento</strong>, tal y como se muestra en la <a href="#fig-07_seleccionar-elemento" class="quarto-xref">Figura&nbsp;8</a>, este menú nos permitirá agregar las etiquetas apropiadas para mapear correctamente el árbol.</p>
-<div id="fig-07_seleccionar-elemento" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Tras hacer clic en la botón <strong>Punto</strong>, el cursor cambia por una una cruz (<img src="imagenes/svg/icon-plus.svg" class="img-fluid">). Al hacer clic en la ubicación del árbol, esto agrega un punto (<img src="imagenes/svg/icon-point.svg" class="img-fluid">) en el mapa y se despliega el menú <strong>Selecciona tipo de elemento</strong>, como se muestra en la <a href="#fig-07_seleccionar-elemento" class="quarto-xref">Figura&nbsp;8</a>. Este menú permitirá agregar las etiquetas apropiadas para mapear correctamente el árbol.</p>
+<div id="fig-07_seleccionar-elemento" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-07_seleccionar-elemento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/07_seleccionar-elemento.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Figura&nbsp;8: Después de dar clic en la opción Punto, podemos agregar un punto en el mapa e inmediatamente se despliega el menú Selecciona tipo de elemento. La flecha (1) indica un punto agregado en el mapa y la flecha (2) indica el campo de busqueda."><img src="images/jpg/07_seleccionar-elemento.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/07_seleccionar-elemento.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;8: Después de dar clic en la opción Punto, puedes agregar un punto en el mapa e inmediatamente se despliega el menú Selecciona tipo de elemento. La flecha (1) indica un punto agregado en el mapa y la flecha (2) indica el campo de búsqueda."><img src="imagenes/jpg/07_seleccionar-elemento.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-07_seleccionar-elemento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;8: Después de dar clic en la opción <strong>Punto</strong>, podemos agregar un punto en el mapa e inmediatamente se despliega el menú <strong>Selecciona tipo de elemento</strong>. La flecha (<strong>1</strong>) indica un punto agregado en el mapa y la flecha (<strong>2</strong>) indica el campo de busqueda.
+Figura&nbsp;8: Después de dar clic en la opción <strong>Punto</strong>, puedes agregar un punto en el mapa e inmediatamente se despliega el menú <strong>Selecciona tipo de elemento</strong>. La flecha (<strong>1</strong>) indica un punto agregado en el mapa y la flecha (<strong>2</strong>) indica el campo de búsqueda.
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="etiquetando-un-árbol" class="level2">
-<h2 class="anchored" data-anchor-id="etiquetando-un-árbol">Etiquetando un árbol</h2>
-<p>A partir de acá, comenzaremos a añadir las etiquetas que identifican correctamente nuestro árbol, en este caso, mapearemos un individuo perteneciente a la especie <em>Cecropia peltata</em> que se encuentra en la Universidad de Antioquia.</p>
-<section id="menú-selecciona-tipo-de-elemento" class="level3">
-<h3 class="anchored" data-anchor-id="menú-selecciona-tipo-de-elemento">Menú Selecciona tipo de elemento</h3>
-<p>El menú <strong>Selecciona tipo de elemento</strong> nos facilita mucho el etiquetado. Estando en el cuadro de búsqueda de éste, escribiremos la palabra árbol y notaremos como se despliegan varias opciones, tal y como se muestra en la <a href="#fig-08_buscar-arbol" class="quarto-xref">Figura&nbsp;9</a>. Como sabemos que los yarumos son árboles de hoja ancha perennifolios (simpre tiene hojas funcionales), seleccionaremos la opción <strong>Árbol de hoja ancha (perennifolio)</strong>.</p>
-<div id="fig-08_buscar-arbol" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-08_buscar-arbol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/08_buscar-arbol.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figura&nbsp;9: Opciones que se despliegan en el menú Selecciona tipo de elemento cuando se busca la palabra «árbol». La flecha 1 indica el campo de busqueda y y la flecha 2 indica la opción Árbol de hoja ancha (perennifolio)."><img src="images/jpg/08_buscar-arbol.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-08_buscar-arbol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;9: Opciones que se despliegan en el menú <strong>Selecciona tipo de elemento</strong> cuando se busca la palabra «árbol». La flecha <strong>1</strong> indica el campo de busqueda y y la flecha <strong>2</strong> indica la opción <strong>Árbol de hoja ancha (perennifolio)</strong>.
-</figcaption>
-</figure>
-</div>
-<p>Tras hacer clic en la opción <strong>Árbol de hoja ancha (perennifolio)</strong>, el menú cambia inmediatamente a <strong>Editar elemento</strong>, en este menú ingresaremos el resto de información del árbol que estemos mapeando. En éste menú se despliegan varias opciones de forma automática (<a href="#fig-09_editar-elemento" class="quarto-xref">Figura&nbsp;10</a>). Entre ellas, <strong>Tipo de hoja</strong> y <strong>Ciclo de la hoja</strong> ya aparecen con su correspondiente información <em>Hoja ancha</em> y <em>Perennifolo</em>.</p>
-<div id="fig-09_editar-elemento" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-09_editar-elemento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/09_editar-elemento.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figura&nbsp;10: Opciones que se despliegan en el menún Editar elemento tras seleccionar la opción Árbol de hoja ancha (perennifolio). La flecha indica las opciones Tipo de hoja y Ciclo de la hoja."><img src="images/jpg/09_editar-elemento.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-09_editar-elemento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;10: Opciones que se despliegan en el menún <strong>Editar elemento</strong> tras seleccionar la opción <strong>Árbol de hoja ancha (perennifolio)</strong>. La flecha indica las opciones <strong>Tipo de hoja</strong> y <strong>Ciclo de la hoja</strong>.
-</figcaption>
-</figure>
-</div>
-<div id="imp-opcion-etiquetas" class="callout callout-style-default callout-important callout-titled" title="Etiquetas">
+<section id="sec-mapeandoid-arbol" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mapeandoid-arbol">Etiquetando un árbol</h2>
+<p>A partir de aquí, comenzarás a añadir las etiquetas que identifican correctamente nuestro árbol. En este caso, mapearemos un individuo perteneciente a la especie <em>Cecropia peltata</em> que se encuentra en la Universidad de Antioquia.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Información sobre las etiquetas">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important&nbsp;1: Etiquetas
+Información sobre las etiquetas
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Antes de continuar añadiendo la información del árbol que estemos mapeando, es importa señalar que en el menú <strong>Editar elemento</strong> se encuentra las sección pertenecientes a las <strong>Etiquetas</strong>, en ella es donde se van generando las etiquetas en el formato que OpenStreetMap las acepta: <code>key=value</code>. Más adelante, volveremos a esta sección para agregar unas etiquetas de forma manual.</p>
+<p>En <a href="../../metodo/index.html#sec-metodo-etiquetas">Método</a> podrá encontrar toda la información sobre las etiquetas a usar.</p>
+</div>
+</div>
+<section id="sec-mapeandoid-elemento" class="level3">
+<h3 class="anchored" data-anchor-id="sec-mapeandoid-elemento">Seleccionando el tipo de elemento</h3>
+<p>El menú <strong>Selecciona tipo de elemento</strong> facilita el proceso de etiquetado. En el cuadro de búsqueda de este menú, escribé la palabra «árbol» y verás como se despliegan varias opciones, como se muestra en la <a href="#fig-08_buscar-arbol" class="quarto-xref">Figura&nbsp;9</a>. Como sabemos que los yarumos son árboles de hoja ancha perennifolios (simpre tiene hojas funcionales), selecciona la opción <strong>Árbol de hoja ancha (perennifolio)</strong>.</p>
+<div id="fig-08_buscar-arbol" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-08_buscar-arbol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="imagenes/jpg/08_buscar-arbol.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;9: Opciones que se despliegan en el menú Selecciona tipo de elemento cuando se busca la palabra «árbol». La flecha 1 indica el campo de búsqueda. La flecha 2 indica la opción Árbol de hoja ancha (perennifolio)."><img src="imagenes/jpg/08_buscar-arbol.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-08_buscar-arbol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;9: Opciones que se despliegan en el menú <strong>Selecciona tipo de elemento</strong> cuando se busca la palabra «árbol». La flecha <strong>1</strong> indica el campo de búsqueda. La flecha <strong>2</strong> indica la opción <strong>Árbol de hoja ancha (perennifolio)</strong>.
+</figcaption>
+</figure>
+</div>
+<p>Después de hacer clic en la opción <strong>Árbol de hoja ancha (perennifolio)</strong>, el menú cambia inmediatamente a <strong>Editar elemento</strong>. En este menú ingresarás el resto de información del árbol que estás mapeando. En éste menú se despliegan varias opciones de forma automática, como se muestra en la <a href="#fig-09_editar-elemento" class="quarto-xref">Figura&nbsp;10</a>. Entre ellas, <strong>Tipo de hoja</strong> y <strong>Ciclo de la hoja</strong> ya aparecen con su correspondiente información <em>Hoja ancha</em> y <em>Perennifolo</em>.</p>
+<div id="fig-09_editar-elemento" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-09_editar-elemento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="imagenes/jpg/09_editar-elemento.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;10: Opciones que se despliegan en el menún Editar elemento después de seleccionar la opción Árbol de hoja ancha (perennifolio). La flecha indica las opciones Tipo de hoja y Ciclo de la hoja."><img src="imagenes/jpg/09_editar-elemento.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-09_editar-elemento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;10: Opciones que se despliegan en el menún <strong>Editar elemento</strong> después de seleccionar la opción <strong>Árbol de hoja ancha (perennifolio)</strong>. La flecha indica las opciones <strong>Tipo de hoja</strong> y <strong>Ciclo de la hoja</strong>.
+</figcaption>
+</figure>
+</div>
+<div id="imp-opcion-etiquetas" class="callout callout-style-default callout-important callout-titled" title="Sección Etiquetas">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important&nbsp;1: Sección Etiquetas
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Antes de continuar añadiendo la información del árbol que estemos mapeando, es importa señalar que en el menú <strong>Editar elemento</strong> se encuentra la sección <strong>Etiquetas</strong>. En esta sección es donde se generan las etiquetas en el formato que OpenStreetMap acepta: <code>key=value</code>. Más adelante, volveremos a esta sección para agregar unas etiquetas de forma manual.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/jpg/10_etiquetas-ver.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Opciones del menú Editar elemento. La flecha indica donde se encuentran la sección Etiquetas."><img src="images/jpg/10_etiquetas-ver.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Opciones del menú Editar elemento. La flecha indica donde se encuentran la sección Etiquetas."></a></p>
+<p><a href="imagenes/jpg/10_etiquetas-ver.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Opciones del menú Editar elemento. La flecha indica donde se encuentran la sección Etiquetas."><img src="imagenes/jpg/10_etiquetas-ver.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Opciones del menú Editar elemento. La flecha indica donde se encuentran la sección Etiquetas."></a></p>
 </figure>
 </div>
 <figcaption>Opciones del menú <strong>Editar elemento</strong>. La flecha indica donde se encuentran la sección <strong>Etiquetas</strong>.</figcaption>
@@ -466,13 +466,13 @@ Important&nbsp;1: Etiquetas
 </div>
 </div>
 </section>
-<section id="agregando-la-denotación" class="level3">
-<h3 class="anchored" data-anchor-id="agregando-la-denotación">Agregando la denotación</h3>
-<p>En este mismo menú, podemos añadir la información del árbol que estemos mapeando. Continuaremos con la opción <strong>Denotación</strong>, al hacer clic en ella, se nos despliega un listado con varios valores, como este yarumo estaba al lado de un sendero peatonal, seleccionamos la opción <code>street</code>, tal y cómo se muestra en la <a href="#fig-11_agregar-denotacion" class="quarto-xref">Figura&nbsp;11</a>. Si tuvieramos la <strong>Altura</strong> y la <strong>Circunferencia</strong> también las añadimos.</p>
-<div id="fig-11_agregar-denotacion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-denotacion" class="level3">
+<h3 class="anchored" data-anchor-id="sec-mapeandoid-denotacion">Agregando la denotación</h3>
+<p>En este mismo menú, puedes añadir la información del árbol que estás mapeando. Continúa con la opción <strong>Denotación</strong>; al hacer clic en ella, se despliega un listado con varios valores. Como este yarumo está al lado de un sendero peatonal, selecciona la opción <code>street</code>, como se muestra en la <a href="#fig-11_agregar-denotacion" class="quarto-xref">Figura&nbsp;11</a>. Si tienes la <strong>Altura</strong> y la <strong>Circunferencia</strong>, también las añadirías.</p>
+<div id="fig-11_agregar-denotacion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-11_agregar-denotacion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/11_agregar-denotacion.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="Figura&nbsp;11: Valores que se despliegan al hacer clic en la opción Denotación del menú Editar elemento. La flecha indica la opción Denotación."><img src="images/jpg/11_agregar-denotacion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/11_agregar-denotacion.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;11: Valores que se despliegan al hacer clic en la opción Denotación del menú Editar elemento. La flecha indica la opción Denotación."><img src="imagenes/jpg/11_agregar-denotacion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-11_agregar-denotacion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;11: Valores que se despliegan al hacer clic en la opción <strong>Denotación</strong> del menú <strong>Editar elemento</strong>. La flecha indica la opción <strong>Denotación</strong>.
@@ -480,26 +480,26 @@ Figura&nbsp;11: Valores que se despliegan al hacer clic en la opción <strong>De
 </figure>
 </div>
 </section>
-<section id="agregando-más-campos" class="level3">
-<h3 class="anchored" data-anchor-id="agregando-más-campos">Agregando más campos</h3>
-<p>El menú <strong>Editar elemento</strong> despliega unas opciones por defecto, otras las tenemos que agregar nosotros mismos. Para esto, vamos a la opción <strong>Agregar campo</strong> y en el listado que se despliega, seleccionamos la opción que nos interese, tal como se muestra en la <a href="#fig-12_agregar-campo" class="quarto-xref">Figura&nbsp;12</a>.</p>
-<div id="fig-12_agregar-campo" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-mas-campos" class="level3">
+<h3 class="anchored" data-anchor-id="sec-mapeandoid-mas-campos">Agregando más campos</h3>
+<p>El menú <strong>Editar elemento</strong> despliega unas opciones por defecto; otras las tenemos que agregar nosotros mismos. Para ello, vamos a la opción <strong>Agregar campo</strong> y, en el listado que se despliega, seleccionamos la opción que nos interese, como se muestra en la <a href="#fig-12_agregar-campo" class="quarto-xref">Figura&nbsp;12</a>.</p>
+<div id="fig-12_agregar-campo" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-12_agregar-campo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/12_agregar-campo.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Figura&nbsp;12: Opción Agregando campo en el menú Editar elemento. La flecha indica el listado que se despliega al hacer clic en la opción Agregando campos."><img src="images/jpg/12_agregar-campo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/12_agregar-campo.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;12: Opción Agregando campo en el menú Editar elemento. La flecha indica el listado que se despliega al hacer clic en la opción Agregar campos."><img src="imagenes/jpg/12_agregar-campo.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-12_agregar-campo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;12: Opción <strong>Agregando campo</strong> en el menú <strong>Editar elemento</strong>. La flecha indica el listado que se despliega al hacer clic en la opción <strong>Agregando campos</strong>.
+Figura&nbsp;12: Opción <strong>Agregando campo</strong> en el menú <strong>Editar elemento</strong>. La flecha indica el listado que se despliega al hacer clic en la opción <strong>Agregar campos</strong>.
 </figcaption>
 </figure>
 </div>
-<section id="agregando-la-especie-y-el-género" class="level4">
-<h4 class="anchored" data-anchor-id="agregando-la-especie-y-el-género">Agregando la especie y el género</h4>
-<p>Si seleccionamos la opción <strong>Especies</strong>, se despliega un nuevo cuadro donde podremos ingresar el nombre científico de la especie, en este caso, el valor a añadir es <code>Cecropia peltata</code>, tal como se muestra en la <a href="#fig-13_agregar-especie" class="quarto-xref">Figura&nbsp;13</a>. En este mismo listado, podemos agregar la opción <strong>Género</strong> y en este caso, el valor es <code>Cecropia</code>.</p>
-<div id="fig-13_agregar-especie" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-especie-genero" class="level4">
+<h4 class="anchored" data-anchor-id="sec-mapeandoid-especie-genero">Agregando la especie y el género</h4>
+<p>Selecciona la opción <strong>Especies</strong> para desplegar un nuevo cuadro donde podrás ingresar el nombre científico de la especie. En este caso, el valor a añadir es <code>Cecropia peltata</code>, como se muestra en la <a href="#fig-13_agregar-especie" class="quarto-xref">Figura&nbsp;13</a>. En este mismo listado, puedes agregar la opción <strong>Género</strong> y, en este caso, el valor es <code>Cecropia</code>.</p>
+<div id="fig-13_agregar-especie" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-13_agregar-especie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/13_agregar-especie.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Figura&nbsp;13: La opción Especies aparece en el menú Editar elemento después de seleccionarla en la opción Agregar campo. La flecha indica la opción Especies con el valor Cecropia peltata."><img src="images/jpg/13_agregar-especie.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/13_agregar-especie.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;13: La opción Especies aparece en el menú Editar elemento después de seleccionarla en la opción Agregar campo. La flecha indica la opción Especies con el valor Cecropia peltata."><img src="imagenes/jpg/13_agregar-especie.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-13_agregar-especie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;13: La opción <strong>Especies</strong> aparece en el menú <strong>Editar elemento</strong> después de seleccionarla en la opción <strong>Agregar campo</strong>. La flecha indica la opción <strong>Especies</strong> con el valor <em>Cecropia peltata</em>.
@@ -507,116 +507,129 @@ Figura&nbsp;13: La opción <strong>Especies</strong> aparece en el menú <strong
 </figure>
 </div>
 </section>
-<section id="agregando-información-de-wikidata-y-wikipedia" class="level4">
-<h4 class="anchored" data-anchor-id="agregando-información-de-wikidata-y-wikipedia">Agregando información de Wikidata y Wikipedia</h4>
-<p>Si seleccionamos la opciones <strong>Especies Wikidata</strong> y <strong>Wikidata</strong>, se despliega dos nuevos cuadros donde agregaremos la información de la especie que se encuentre en Wikidata y Wikipedia, como se muestra en la <a href="#fig-14_agregar-wikidata" class="quarto-xref">Figura&nbsp;14</a>. En estos cuadros los valores que podemos ingresar son el nombre científico de la especie o los identificadores únicos de Wikidata, en nuestro ejemplo, estos son <code>Cecropia peltata</code> y <code>Q2998776</code>, respectivamente. Es importante señalar que cuando se añade el valor correspondiente en las opciones <strong>Especies Wikidata</strong> y <strong>Wikidata</strong> en ambos aparecen los valores <em>Descripción</em> y el <em>Identificador</em>. La opción <strong>Wikidata</strong> también despliega la opción <strong>Wikipedia</strong> con los valores del idioma y el nombre del artículo ene esta.</p>
-<div id="fig-14_agregar-wikidata" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-wikidata-wikipedia" class="level4">
+<h4 class="anchored" data-anchor-id="sec-mapeandoid-wikidata-wikipedia">Agregando información de Wikidata y Wikipedia</h4>
+<p>Selecciona la opciones <strong>Especies Wikidata</strong> y <strong>Wikidata</strong>, para desplegar dos nuevos cuadros donde agregarás la información de la especie que se encuentre en Wikidata y Wikipedia, como se muestra en la <a href="#fig-14_agregar-wikidata" class="quarto-xref">Figura&nbsp;14</a>. En estos cuadros los valores que puedes ingresar son el nombre científico de la especie o los identificadores únicos de Wikidata. En este ejemplo, estos son <code>Cecropia peltata</code> y <code>Q2998776</code>, respectivamente. Es importante señalar que cuando se añade el valor correspondiente en las opciones <strong>Especies Wikidata</strong> y <strong>Wikidata</strong>, ambos cuadros muestran los valores <em>Descripción</em> e <em>Identificador</em>. La opción <strong>Wikidata</strong> también despliega la opción <strong>Wikipedia</strong> con los valores del idioma y el nombre del artículo en esta.</p>
+<div id="fig-14_agregar-wikidata" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-14_agregar-wikidata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/14_agregar-wikidata.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="Figura&nbsp;14: Las opciones Especies Wikidata, Wikidata y Wikipedia en el menú Editar elemento. La flecha 1 indica la opción Especies Wikidata y la flecha 2 indica la opción Wikidata y Wikpedia, todos con los valores de Cecropia peltata."><img src="images/jpg/14_agregar-wikidata.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/14_agregar-wikidata.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;14: Las opciones Especies Wikidata, Wikidata y Wikipedia en el menú Editar elemento. La flecha 1 indica la opción Especies Wikidata. La flecha 2 indica la opción Wikidata y Wikpedia, todos con los valores de Cecropia peltata."><img src="imagenes/jpg/14_agregar-wikidata.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-14_agregar-wikidata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;14: Las opciones <strong>Especies Wikidata</strong>, <strong>Wikidata</strong> y <strong>Wikipedia</strong> en el menú <strong>Editar elemento</strong>. La flecha <strong>1</strong> indica la opción <strong>Especies Wikidata</strong> y la flecha <strong>2</strong> indica la opción <strong>Wikidata</strong> y <strong>Wikpedia</strong>, todos con los valores de <em>Cecropia peltata</em>.
+Figura&nbsp;14: Las opciones <strong>Especies Wikidata</strong>, <strong>Wikidata</strong> y <strong>Wikipedia</strong> en el menú <strong>Editar elemento</strong>. La flecha <strong>1</strong> indica la opción <strong>Especies Wikidata</strong>. La flecha <strong>2</strong> indica la opción <strong>Wikidata</strong> y <strong>Wikpedia</strong>, todos con los valores de <em>Cecropia peltata</em>.
 </figcaption>
 </figure>
 </div>
 </section>
 </section>
-<section id="agregando-más-etiquetas" class="level3">
-<h3 class="anchored" data-anchor-id="agregando-más-etiquetas">Agregando más etiquetas</h3>
-<div id="fig-15_agregar-etiqueta" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<section id="sec-mapeandoid-mas-etiquetas" class="level3">
+<h3 class="anchored" data-anchor-id="sec-mapeandoid-mas-etiquetas">Agregando más etiquetas</h3>
+<p>Aunque la opción <strong>Agregar campo</strong> del menú <strong>Editar elemento</strong> presenta varias opciones asociadas al mapeo y etiquetado de árboles, no aparecen todas las requeridas. Por lo tanto, debemos agregar manualmente las faltantes. Para ello, <a href="#imp-opcion-etiquetas">dirígete a la sección <strong>Etiquetas</strong></a> del menú <strong>Editar elemento</strong> y haz clic en el símbolo <strong>+</strong> que corresponde a <strong>Agregar una etiqueta</strong>, como se muestra en la <a href="#fig-15_agregar-etiqueta" class="quarto-xref">Figura&nbsp;15</a>.</p>
+<div id="fig-15_agregar-etiqueta" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-15_agregar-etiqueta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/15_agregar-etiqueta.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figura&nbsp;15: Agregando nuevas etiquetas."><img src="images/jpg/15_agregar-etiqueta.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/15_agregar-etiqueta.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;15: Cómo agregar una etiqueta en el menú Editar elemento. La fecha 1 indica la sección de Etiquetas. La flecha 2 indica la opción Agregar una etiqueta."><img src="imagenes/jpg/15_agregar-etiqueta.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-15_agregar-etiqueta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;15: Agregando nuevas etiquetas.
+Figura&nbsp;15: Cómo agregar una etiqueta en el menú <strong>Editar elemento</strong>. La fecha <strong>1</strong> indica la sección de <strong>Etiquetas</strong>. La flecha <strong>2</strong> indica la opción <strong>Agregar una etiqueta</strong>.
 </figcaption>
 </figure>
 </div>
-<div id="fig-16_agregar-etiqueta" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Al hacer clic en <strong>Agregar una etiqueta</strong>, aparecerá un cuadro en blanco en la sección <strong>Etiquetas</strong>, como se muestra en la <a href="#fig-16_agregar-etiqueta" class="quarto-xref">Figura&nbsp;16</a>. Aquí agregarás una a una las etiquetas faltantes. En el cuadro de la izquierda va <code>key</code> y en el de la derecha va <code>value</code>.</p>
+<div id="fig-16_agregar-etiqueta" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-16_agregar-etiqueta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/16_agregar-etiqueta.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Figura&nbsp;16: Agregando etiqueta"><img src="images/jpg/16_agregar-etiqueta.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/16_agregar-etiqueta.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;16: Cuadro en blanco que aparece después de hacer clic en Agregar una etiqueta en la sección Etiquetas. La flecha indica el cuadro en blanco."><img src="imagenes/jpg/16_agregar-etiqueta.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-16_agregar-etiqueta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;16: Agregando etiqueta
+Figura&nbsp;16: Cuadro en blanco que aparece después de hacer clic en <strong>Agregar una etiqueta</strong> en la sección <strong>Etiquetas</strong>. La flecha indica el cuadro en blanco.
 </figcaption>
 </figure>
 </div>
-<div id="fig-17_agregar-specieses" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Comienza con el nombre común de la especie en español. Agrega <code>species:es</code> como <code>key</code> y, en este ejemplo, <code>Yarumo</code> como <code>value</code>, como se muestra en la <a href="#fig-18_agregar-ciudad" class="quarto-xref">Figura&nbsp;18</a>.</p>
+<div id="fig-17_agregar-specieses" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-17_agregar-specieses-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/17_agregar-specieses.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figura&nbsp;17: Agregando species:es"><img src="images/jpg/17_agregar-specieses.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/17_agregar-specieses.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;17: Agregando species:es como key y Yarumo como value en la sección de Etiquetas. La flecha indica donde se ha agregado la nueva etiqueta."><img src="imagenes/jpg/17_agregar-specieses.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-17_agregar-specieses-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;17: Agregando species:es
+Figura&nbsp;17: Agregando <code>species:es</code> como <code>key</code> y <code>Yarumo</code> como <code>value</code> en la sección de <strong>Etiquetas</strong>. La flecha indica donde se ha agregado la nueva etiqueta.
 </figcaption>
 </figure>
 </div>
-<div id="fig-18_agregar-ciudad" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>A continuación, agrega una nueva etiqueta para especificar la ciudad donde se encuentra el árbol que estás mapeando. En este ejemplo, usa <code>object:city</code> como <code>key</code> y <code>Medellín</code> como <code>value</code>.</p>
+<div id="fig-18_agregar-ciudad" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-18_agregar-ciudad-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/18_agregar-ciudad.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Figura&nbsp;18: Agregando ciudad."><img src="images/jpg/18_agregar-ciudad.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/18_agregar-ciudad.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;18: Agregando object:city como key y Medellín como value en la sección de Etiquetas. La flecha indica dónde se ha agregado la nueva etiqueta."><img src="imagenes/jpg/18_agregar-ciudad.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-18_agregar-ciudad-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;18: Agregando ciudad.
+Figura&nbsp;18: Agregando <code>object:city</code> como <code>key</code> y <code>Medellín</code> como <code>value</code> en la sección de <strong>Etiquetas</strong>. La flecha indica dónde se ha agregado la nueva etiqueta.
 </figcaption>
 </figure>
 </div>
-<div id="fig-19_revisar-subir" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+</section>
+</section>
+<section id="sec-mapeandoid-guardar" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mapeandoid-guardar">Guardando los cambios</h2>
+<p>Estás casi listos para subir y compartir el árbol que estás mapeando. En este punto, es buena idea revisa todos los cambios que hemos hecho, corroborar que el punto esté dónde debería y que todas las etiquetas sean correctas. Después de esto, puedes guardar el trabajo. Para ello, haz clic en la opción <strong>Guardar</strong> en la esquina superior derecha, como se muestra en la <a href="#fig-19_revisar-subir" class="quarto-xref">Figura&nbsp;19</a>.</p>
+<div id="fig-19_revisar-subir" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-19_revisar-subir-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/19_revisar-subir.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Figura&nbsp;19: Revisando antes de subir."><img src="images/jpg/19_revisar-subir.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/19_revisar-subir.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;19: Cómo guardar los cambios hechos en OpenStreetMap. La flecha indica la opción Guardar."><img src="imagenes/jpg/19_revisar-subir.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-19_revisar-subir-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;19: Revisando antes de subir.
+Figura&nbsp;19: Cómo guardar los cambios hechos en OpenStreetMap. La flecha indica la opción <strong>Guardar</strong>.
 </figcaption>
 </figure>
 </div>
-<div id="fig-20_subir_osm" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Tras hacer clic en la opción <strong>Guardar</strong>, el entorno cambia de color y el menú <strong>Editar elemento</strong> se convierte en el menú <strong>Subir a OpenStreetMap</strong>. En éste menú tienes que añadir cierta información para que los cambios se guarden correctamente y puedan ser observador por otros.</p>
+<div id="fig-20_subir_osm" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-20_subir_osm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/20_subir_osm.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Figura&nbsp;20: Subir."><img src="images/jpg/20_subir_osm.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/20_subir_osm.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;20: Menú que se despliegaLa tras hacer clic en la opción Guardar. La flecha indica el ménu Subir a OpenStreetMap."><img src="imagenes/jpg/20_subir_osm.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-20_subir_osm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;20: <strong>Subir</strong>.
+Figura&nbsp;20: Menú que se despliegaLa tras hacer clic en la opción <strong>Guardar</strong>. La flecha indica el ménu <strong>Subir a OpenStreetMap</strong>.
 </figcaption>
 </figure>
 </div>
-<div id="fig-21_agregar-informacion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Entre las opciones que tienes que completar con información referente a los cambios realizados se encuentran: <strong>Comentario del conjunto de datos</strong>, donde se describe concisamente que haz hecho; <strong>Fuentes</strong>, donde mencionas las fuentes que haz utilizado para mapear el árbol; y <strong>Hashtags</strong>, una opción recomendada para hacer un seguimiento al proyecto. En este caso, el hashtag es <code>#CecropiaMedellín2024</code>. Esta información la puedes llenar como se muestra en <a href="#fig-21_agregar-informacion" class="quarto-xref">Figura&nbsp;21</a>.</p>
+<div id="fig-21_agregar-informacion" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-21_agregar-informacion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/21_agregar-informacion.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Figura&nbsp;21: Agregando información."><img src="images/jpg/21_agregar-informacion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/21_agregar-informacion.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;21: Añadiendo la información requerida para guardar los cambios en OpenStreetMap."><img src="imagenes/jpg/21_agregar-informacion.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-21_agregar-informacion-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;21: Agregando información.
+Figura&nbsp;21: Añadiendo la información requerida para guardar los cambios en OpenStreetMap.
 </figcaption>
 </figure>
 </div>
-<div id="fig-22_edicion-completa" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Después de hacer clic en la opción <strong>Subir</strong> del menú <strong>Subir a OpenStreetMap</strong>, si toda sale correctamente, nuestros cambios se habrán subido a OpenStreetMap y ya serán visibles por todos (dependiendo de la cantidad de cambios, esto puede tomar un poco de tiempo), como se puede ver en la <a href="#fig-22_edicion-completa" class="quarto-xref">Figura&nbsp;22</a>.</p>
+<div id="fig-22_edicion-completa" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-22_edicion-completa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/22_edicion-completa.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="Figura&nbsp;22: Edición completada."><img src="images/jpg/22_edicion-completa.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/22_edicion-completa.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;22: Pantalla que aparece cuando los cambios se han subido correctamente a OpenStreetMap. La flecha 1 indica un mensaje de felicitación. La fecha 2 indica la opción para ver en OSM los cambios realizados."><img src="imagenes/jpg/22_edicion-completa.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-22_edicion-completa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;22: Edición completada.
+Figura&nbsp;22: Pantalla que aparece cuando los cambios se han subido correctamente a OpenStreetMap. La flecha <strong>1</strong> indica un mensaje de felicitación. La fecha <strong>2</strong> indica la opción para ver en OSM los cambios realizados.
 </figcaption>
 </figure>
 </div>
-<div id="fig-23_ver-cambios" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<p>Si en el menú anterior decides hacer clic en la opción <strong>Ver cambios en OSM</strong>, saldrás del editor iD y se te mostrará en pantalla una descripción de los cambios realizados y su ubicación, como se ve en la ig-23_ver-cambios.</p>
+<div id="fig-23_ver-cambios" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" data-group="gallery">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-23_ver-cambios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/jpg/23_ver-cambios.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="Figura&nbsp;23: Viendo los cambios."><img src="images/jpg/23_ver-cambios.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+<a href="imagenes/jpg/23_ver-cambios.jpg" class="lightbox" data-gallery="gallery" title="Figura&nbsp;23: Pantalla donde se muestran los cambios realizados en OpenStreetMap. La flecha 1 indica un resumen de los datos. La fecha 2 indica donde se realizaron los cambios."><img src="imagenes/jpg/23_ver-cambios.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-23_ver-cambios-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;23: Viendo los cambios.
+Figura&nbsp;23: Pantalla donde se muestran los cambios realizados en OpenStreetMap. La flecha <strong>1</strong> indica un resumen de los datos. La fecha <strong>2</strong> indica donde se realizaron los cambios.
 </figcaption>
 </figure>
 </div>
+<p><strong>¡Felicitaciones! Acabas de realizar un aporte a OpenStreeMap.</strong></p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
@@ -1066,7 +1079,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

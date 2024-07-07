@@ -44,7 +44,7 @@ Para comenzar a mapear en OpenStreetMap, es indispensable [tener una cuenta](htt
 
 Dada las [características de los yarumos](/yarumos/index.qmd#sec-yarumos-medellin), es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.
 
-![[Logo de la comunidad OpenStreetMap Colombia.](https://wiki.openstreetmap.org/wiki/Colombia)](imagenes/logo_oms-colombia.svg){#fig-medoto-logo-colombia fig-align="center"}
+![[Logo de la comunidad OpenStreetMap Colombia.](https://wiki.openstreetmap.org/wiki/Colombia)](imagenes/logo_oms-colombia.svg){#fig-medoto-logo-colombia fig-align="center" width="194"}
 
 ## Área de trabajo {#sec-metodo-area}
 
@@ -155,7 +155,7 @@ El hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de
 
 Es importante mencionar que iD no es el único [editor](https://wiki.openstreetmap.org/wiki/ES:Editores) disponible; hay una variedad de ellos, y su elección depende de la experiencia del mapeador, el propósito que tenga y los recursos disponibles. Además de iD, los más utilizados son [Go Map!!](https://wiki.openstreetmap.org/wiki/Go_Map!!) (iOS, iPadOS y macOS), [JOSM](https://wiki.openstreetmap.org/wiki/ES:JOSM) (Linux, macOS y Windows), [StreetComplete](https://wiki.openstreetmap.org/wiki/ES:StreetComplete) (Android), y [Vespucci](https://wiki.openstreetmap.org/wiki/ES:Vespucci) (Android).
 
-![Logo de iD.](imagenes/logo_id.svg){#fig-medoto-logo-id fig-align="center"}
+![Logo de iD.](imagenes/logo_id.svg){#fig-medoto-logo-id fig-align="center" width="256"}
 
 ## Ortofoto de Medellín {#sec-ortofoto-medellin}
 

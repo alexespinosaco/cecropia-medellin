@@ -1,6 +1,13 @@
 ---
 title: "Los yarumos"
-date: 2024-07-05
+date: 2024-07-07
+
+author:
+  - name: Álex Espinosa-Correa
+    url: https://alexespinosaco.github.io
+
+citation: true
+
 bibliography: references.bib
 nocite: |
   @alcaldíademedellín2011; @alcaldíademedellín2019; @alzate-guarin2012; @catálogo2016v2; @dassori2021; @florade2011v2; @fontquer2001; @guíajardínbotánicodebogotá2016; @molaressoto2006; @openstreetmapwiki2024; @ortiz-gentry2024; @otayaburbano2006; @powo2024; @secretaríademedioambientedemedellín2015; @toro-murillo2012; @torres-kremers2022; @wfo2024; @wfoplantlist2024; @wikidata; @wikipedia2023; @wikipedia2024; @wikipedia2024a; @jrdp-unimediosmedellín/dmh2024

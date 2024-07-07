@@ -1,6 +1,13 @@
 ---
-title: "Mapeando los yarumos con iD"
-date: 2024-07-05
+title: "Mapeando yarumos con iD"
+date: 2024-07-07
+
+author:
+  - name: Álex Espinosa-Correa
+    url: https://alexespinosaco.github.io
+
+citation: true
+
 toc-depth: 4
 code-overflow: wrap
 ---

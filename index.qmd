@@ -1,7 +1,13 @@
 ---
 title: "Mapeando los yarumos de Medellín"
 subtitle: "Website del proyecto #CecropiaMedellín2024"
-date: 2024-07-05
+date: 2024-07-07
+
+author:
+  - name: Álex Espinosa-Correa
+    url: https://alexespinosaco.github.io
+
+citation: true
 ---
 
 ## Presentación
@@ -26,3 +32,7 @@ En tiempos recientes, los yarumos han cobrado especial interés debido a [estudi
 Este proyecto tiene como objetivo mapear los yarumos presentes en la ciudad de Medellín [utilizando una herramienta libre y colaborativa](/metodo/index.qmd) como es [OpenStreetMap](https://www.openstreetmap.org/). En este sitio web encontrarás toda la información sobre el proyecto, [¡anímate y participa!](colaborar/index.qmd)
 
 ![Un yarumo (*Cecropia peltata*) entre los bloques de la Universidad de Antioquia. <a href="https://commons.wikimedia.org/wiki/File:Cecropia_peltata_01.jpg">Alexespinosaco</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons.](/yarumos/imagenes/cecropia-peltata_01.jpg){#fig-cecropia-01 fig-align="center"}
+
+<!-- ::: {.callout-caution} -->
+<!-- Estamos mapeando al aire libre. Pronto subiremos la información. -->
+<!-- ::: -->

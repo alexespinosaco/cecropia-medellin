@@ -1,6 +1,12 @@
 ---
-title: "Colaborar"
-date: 2024-07-05
+title: "Colaborar a mapear los yarumos de Medellín"
+date: 2024-07-07
+
+author:
+  - name: Álex Espinosa-Correa
+    url: https://alexespinosaco.github.io
+
+citation: true
 ---
 
 Te invitamos a ser parte del proyecto [Mapeando los yarumos de Medellín](/index.qmd). Este proyecto busca identificar y mapear los [yarumos](/yarumos/index.qmd#sec-yarumos-son) presentes en la ciudad utilizando [OpenStreetMap](/metodo/index.qmd#sec-metodo-osm), una herramienta libre y colaborativa que permite a cualquier persona contribuir con datos geográficos de manera abierta.
@@ -27,4 +33,6 @@ Te invitamos a ser parte del proyecto [Mapeando los yarumos de Medellín](/index
 
 ## ¡Únete y participa!
 
-Tu participación es fundamental para el éxito de este proyecto. No importa si puedes contribuir con uno o varios árboles, cada aporte cuenta y ayuda a crear un mapa más completo y preciso de los yarumos en nuestra ciudad. Explora [nuestro sitio web](/index.qmd) para acceder a más información y empezar a colaborar hoy mismo. ¡Gracias por tu interés y entusiasmo!
+Tu participación es fundamental para el éxito de este proyecto. No importa si puedes contribuir con uno o varios árboles, cada aporte cuenta y ayuda a crear un mapa más completo y preciso de los yarumos en nuestra ciudad. Explora [nuestro sitio web](/index.qmd) para acceder a más información y empezar a colaborar hoy mismo.
+
+**¡Gracias por tu interés y entusiasmo!**

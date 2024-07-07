@@ -1,8 +1,16 @@
 ---
-title: "Método"
-date: 2024-07-05
+title: "Método para mapear los yarumos de Medellín"
+date: 2024-07-07
+
+author:
+  - name: Álex Espinosa-Correa
+    url: https://alexespinosaco.github.io
+
+citation: true
+
 toc-depth: 4
 code-overflow: wrap
+
 bibliography: references.bib
 nocite: |
   @bennett2010; @openstre2015; @openstreetmapwiki2022; @openstreetmapwiki2023; @openstreetmapwiki2024; @wikipedia2024; @openstreetmapwiki2024a; @openstreetmapwiki2024b; @openstreetmapwiki2024c; @openstreetmapwiki2024d; @wikipedia2024a; @openstreetmapwiki2024e; @openstreetmapwiki2024f; @wikipedia2024b

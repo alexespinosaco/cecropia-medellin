@@ -10,8 +10,6 @@ author:
 citation: true
 ---
 
-## Presentación
-
 > Entre cedros y robles\
 > De verdes copas\
 > El yarumo levanta\
@@ -22,6 +20,8 @@ citation: true
 > \
 > [*Las Hojas de mi selva*](https://babel.banrepcultural.org/digital/collection/p17054coll10/id/1799)\
 > Epifanio Mejía (1838-1913)
+
+## Presentación
 
 Los [yarumos](/yarumos/index.qmd#sec-yarumos-son) son árboles emblemáticos de la zona intertropical de América, abarcando desde México hasta el norte de Argentina, incluyendo las Antillas. Aunque son comunes en climas cálidos, pueden crecer a altitudes superiores a los 2800 metros sobre el nivel del mar. Botánicamente, los yarumos pertenecen al género *Cecropia* (familia Urticaceae) y comprenden más de 63 especies.
 
@@ -34,5 +34,7 @@ Este proyecto tiene como objetivo mapear los yarumos presentes en la ciudad de M
 ![Un yarumo (*Cecropia peltata*) entre los bloques de la Universidad de Antioquia. <a href="https://commons.wikimedia.org/wiki/File:Cecropia_peltata_01.jpg">Alexespinosaco</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons.](/yarumos/imagenes/cecropia-peltata_01.jpg){#fig-cecropia-01 fig-align="center"}
 
 <!-- ::: {.callout-caution} -->
+
 <!-- Estamos mapeando al aire libre. Pronto subiremos la información. -->
+
 <!-- ::: -->

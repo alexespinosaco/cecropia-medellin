@@ -16,6 +16,12 @@ nocite: |
   @bennett2010; @openstre2015; @openstreetmapwiki2022; @openstreetmapwiki2023; @openstreetmapwiki2024; @wikipedia2024; @openstreetmapwiki2024a; @openstreetmapwiki2024b; @openstreetmapwiki2024c; @openstreetmapwiki2024d; @wikipedia2024a; @openstreetmapwiki2024e; @openstreetmapwiki2024f; @wikipedia2024b
 ---
 
+> ¿Qué otra cosa es un árbol\
+> más que libertad?\
+> \
+> [*Raíz*](http://cerati.com/bocanada/letras/raiz.php)\
+> Gustavo Cerati (1959-2014)
+
 ## OpenStreetMap (OSM) {#sec-metodo-osm}
 
 [OpenStreetMap](https://www.openstreetmap.org) (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto [libre](https://es.wikipedia.org/wiki/Contenido_libre) es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada). Además, sus [datos son abiertos](https://es.wikipedia.org/wiki/Datos_abiertos) y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.

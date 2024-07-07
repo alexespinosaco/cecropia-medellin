@@ -14,15 +14,15 @@ code-overflow: wrap
 
 ## Introducción {#sec-mapeandoid-introduccion}
 
-Hemos identificado un [yarumo](/yarumos/index.qmd#sec-yarumos-medellin) y queremos agregarlo a OpenStreetMap (OSM). Para ello, utilizaremos el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, [es necesario tener una cuenta](/metodo/index.qmd#sec-metodos-antes-mapear).
+Has identificado un [yarumo](/yarumos/index.qmd#sec-yarumos-medellin) y quieres agregarlo a OpenStreetMap (OSM). Para ello, puedes utilizar el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, [es necesario tener una cuenta](/metodo/index.qmd#sec-metodos-antes-mapear).
 
 ## Ingresando a iD {#sec-mapeandoid-id}
 
-Lo primero que debemos hacer es ingresar a [openstreetmap.org](https://www.openstreetmap.org/). Al acceder, verás una imagen similar a la mostrada en la figura @fig-00_osm-home, aunque la ubicación puede variar. Haga clic en la opción **Editar** ubicada en la esquina superior izquierda para ingresar al editor iD.
+Lo primero que debes hacer es ingresar a [openstreetmap.org](https://www.openstreetmap.org/). Al acceder, verás una imagen similar a la mostrada en la figura @fig-00_osm-home, aunque la ubicación puede variar. Haga clic en la opción **Editar** ubicada en la esquina superior izquierda para ingresar al editor iD.
 
 ![Pantalla de inicio de OpenStreetMap. La flecha indica la opción de **Editar**.](imagenes/jpg/00_osm-home.jpg){#fig-00_osm-home fig-align="center" group="gallery"}
 
-Ahora nos encontramos dentro del editor iD. Si es la primera vez que ingresas, verás una pantalla similar a la mostrada en la @fig-01_id-home. Asumimos que ya has [realizado el tutorial](/metodo/index.qmd#sec-metodo-editores) o tiene ligeros conocimientos sobre como agregar datos en OSM, por lo que continuaremos con la opción **Editar ahora**. Esto activará todo el espacio de trabajo y permitirá interactuar con todas las opciones del editor iD.
+Ahora te encuentras dentro del editor iD. Si es la primera vez que ingresas, verás una pantalla similar a la mostrada en la @fig-01_id-home. Asumimos que ya has [realizado el tutorial](/metodo/index.qmd#sec-metodo-editores) o tiene ligeros conocimientos sobre como agregar datos en OSM, por lo que continuaremos con la opción **Editar ahora**. Esto activará todo el espacio de trabajo y permitirá interactuar con todas las opciones del editor iD.
 
 ![Pantalla inicial del editor iD si ingresas por primera vez. La flecha indica la opción de **Editar ahora**.](imagenes/jpg/01_id-home.jpg){#fig-01_id-home fig-align="center" group="gallery"}
 

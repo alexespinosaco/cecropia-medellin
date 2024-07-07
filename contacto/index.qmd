@@ -6,7 +6,7 @@ author:
   - name: Álex Espinosa-Correa
     url: https://alexespinosaco.github.io
 
-toc: false
+repo-actions: false
 ---
 
 Queremos escuchar tus ideas, preguntas y comentarios sobre el proyecto [Mapeando los yarumos de Medellín](/index.qmd). Puedes ponerte en contacto con nosotros a través de:

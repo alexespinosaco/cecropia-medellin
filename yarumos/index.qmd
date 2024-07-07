@@ -10,10 +10,13 @@ citation: true
 
 bibliography: references.bib
 nocite: |
-  @alcaldíademedellín2011; @alcaldíademedellín2019; @alzate-guarin2012; @catálogo2016v2; @dassori2021; @florade2011v2; @fontquer2001; @guíajardínbotánicodebogotá2016; @molaressoto2006; @openstreetmapwiki2024; @ortiz-gentry2024; @otayaburbano2006; @powo2024; @secretaríademedioambientedemedellín2015; @toro-murillo2012; @torres-kremers2022; @wfo2024; @wfoplantlist2024; @wikidata; @wikipedia2023; @wikipedia2024; @wikipedia2024a; @jrdp-unimediosmedellín/dmh2024
+  @alcaldíademedellín2011; @alcaldíademedellín2019; @alzate-guarin2012; @catálogo2016v2; @dassori2021; @florade2011v2; @fontquer2001; @guíajardínbotánicodebogotá2016; @molaressoto2006; @openstreetmapwiki2024; @ortiz-gentry2024; @otayaburbano2006; @powo2024; @secretaríademedioambientedemedellín2015; @toro-murillo2012; @wfo2024; @wfoplantlist2024; @wikidata; @wikipedia2023; @wikipedia2024; @wikipedia2024a; @jrdp-unimediosmedellín/dmh2024
 ---
 
-> Suelo descubierto que haya, suelo donde un Yarumo crece. [@torres-kremers2022]
+> Suelo descubierto que haya, suelo donde un Yarumo crece.\
+> \
+> [*El yarumo*](https://yarumo.net/el-yarumo/)\
+> María Angela Torres Kremers (2022)
 
 ## ¿Qué son los yarumos? {#sec-yarumos-son}
 

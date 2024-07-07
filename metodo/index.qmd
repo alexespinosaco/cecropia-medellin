@@ -1,5 +1,6 @@
 ---
 title: "Método"
+date: 2024-07-05
 toc-depth: 4
 code-overflow: wrap
 bibliography: references.bib
@@ -15,6 +16,8 @@ Con más de 20 años de historia, OSM ha acumulado una gran cantidad de informac
 
 Es importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen [algunas reglas](https://wiki.openstreetmap.org/wiki/ES:Cómo_mapeamos) y [buenas prácticas](https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas) adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.
 
+![Logo de OpenStreetMap.](imagenes/logo_osm.svg){#fig-medoto-logo-osm fig-align="center"}
+
 ## Antes de mapear {#sec-metodo-antes-mapear}
 
 En OpenStreetMap se pueden mapear una [infinidad de objetos](https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa) del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la [guía colombiana para mapear](https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear) y la [guía latinoamericana para el mapeo de árboles](https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles). Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.
@@ -26,6 +29,8 @@ Para comenzar a mapear en OpenStreetMap, es indispensable [tener una cuenta](htt
     {{< video https://www.youtube.com/embed/2_4ep7GMs3U?si >}}
 
 Dada las [características de los yarumos](/yarumos/index.qmd#sec-yarumos-medellin), es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.
+
+![[Logo de la comunidad OpenStreetMap Colombia.](https://wiki.openstreetmap.org/wiki/Colombia)](imagenes/logo_oms-colombia.svg){#fig-medoto-logo-colombia fig-align="center"}
 
 ## Área de trabajo {#sec-metodo-area}
 
@@ -136,7 +141,9 @@ El hashtag que estamos usando para hacerle seguimiento a mapeo de los yarumos de
 
 Es importante mencionar que iD no es el único [editor](https://wiki.openstreetmap.org/wiki/ES:Editores) disponible; hay una variedad de ellos, y su elección depende de la experiencia del mapeador, el propósito que tenga y los recursos disponibles. Además de iD, los más utilizados son [Go Map!!](https://wiki.openstreetmap.org/wiki/Go_Map!!) (iOS, iPadOS y macOS), [JOSM](https://wiki.openstreetmap.org/wiki/ES:JOSM) (Linux, macOS y Windows), [StreetComplete](https://wiki.openstreetmap.org/wiki/ES:StreetComplete) (Android), y [Vespucci](https://wiki.openstreetmap.org/wiki/ES:Vespucci) (Android).
 
-### Ortofoto de Medellín {#sec-ortofoto-medellin}
+![Logo de iD.](imagenes/logo_id.svg){#fig-medoto-logo-id fig-align="center"}
+
+## Ortofoto de Medellín {#sec-ortofoto-medellin}
 
 La ciudad de Medellín cuenta con una [ortofoto](https://www.medellin.gov.co/giscatalogacion/srv/api/records/96aafbdd-3540-4d43-81a5-aad822ae9285) con una resolución espacial de 8 cm. Esta ortofoto permite mapear los objetos de forma más precisa si se compara con las imágenes satelitales disponibles. Se puede agregar a iD utilizando la siguiente información[^3]:
 

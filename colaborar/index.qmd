@@ -1,5 +1,6 @@
 ---
 title: "Colaborar"
+date: 2024-07-05
 ---
 
 Te invitamos a ser parte del proyecto [Mapeando los yarumos de Medellín](/index.qmd). Este proyecto busca identificar y mapear los [yarumos](/yarumos/index.qmd#sec-yarumos-son) presentes en la ciudad utilizando [OpenStreetMap](/metodo/index.qmd#sec-metodo-osm), una herramienta libre y colaborativa que permite a cualquier persona contribuir con datos geográficos de manera abierta.

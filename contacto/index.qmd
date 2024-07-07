@@ -1,7 +1,22 @@
 ---
 title: "Contacto"
+date: 2024-07-07
+
+author:
+  - name: Álex Espinosa-Correa
+    url: https://alexespinosaco.github.io
+
+toc: false
 ---
 
-::: {.callout-caution}
-Estamos mapeando al aire libre. Pronto subiremos la información.
-:::
+Queremos escuchar tus ideas, preguntas y comentarios sobre el proyecto [Mapeando los yarumos de Medellín](/index.qmd). Puedes ponerte en contacto con nosotros a través de:
+
+<!-- -   {{< fa envelope >}} **Correo:** [alex.espinosa\@udea.edu.co](mailto:alex.espinosa@udea.edu.co) -->
+
+-   {{< fa brands mastodon >}} **Mastodon:** [\@alexespinosaco\@mstdn.social](https://mstdn.social/@alexespinosaco)
+
+-   {{< fa brands telegram >}} **Telegram:** [\@alexespinosaco](https://t.me/alexespinosaco)
+
+Si tienes alguna duda sobre cómo colaborar con OpenStreetMap o necesitas asistencia para subir datos al mapa, no dudes en escribirnos. Estamos aquí para ayudarte y asegurarnos de que tu experiencia colaborando con el proyecto sea la mejor posible.
+
+**¡Esperamos tu participación y aportes para hacer de este proyecto un éxito!**

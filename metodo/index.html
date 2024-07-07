@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Álex Espinosa-Correa">
+<meta name="dcterms.date" content="2024-07-07">
 
-<title>Método – Mapeando los yarumos de Medellín</title>
+<title>Método para mapear los yarumos de Medellín – Mapeando los yarumos de Medellín</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,6 +100,9 @@ div.csl-indent {
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -147,12 +152,12 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Método – Mapeando los yarumos de Medellín">
+<meta property="og:title" content="Método para mapear los yarumos de Medellín – Mapeando los yarumos de Medellín">
 <meta property="og:description" content="Website del proyecto #CecropiaMedellín2024">
 <meta property="og:image" content="https://alexespinosaco.github.io/cecropia-medellin/metodo/imagenes/imagen_cecropia-medellin.png">
 <meta property="og:site_name" content="Mapeando los yarumos de Medellín">
 <meta property="og:locale" content="es_ES">
-<meta name="twitter:title" content="Método – Mapeando los yarumos de Medellín">
+<meta name="twitter:title" content="Método para mapear los yarumos de Medellín – Mapeando los yarumos de Medellín">
 <meta name="twitter:description" content="Website del proyecto #CecropiaMedellín2024">
 <meta name="twitter:image" content="https://alexespinosaco.github.io/cecropia-medellin/metodo/imagenes/imagen_cecropia-medellin.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -263,10 +268,8 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
   <li><a href="#sec-metodo-wikidata" id="toc-sec-metodo-wikidata" class="nav-link" data-scroll-target="#sec-metodo-wikidata">Wikidata y Wikipedia</a></li>
   <li><a href="#sec-metodo-hashtag" id="toc-sec-metodo-hashtag" class="nav-link" data-scroll-target="#sec-metodo-hashtag">Hashtags</a></li>
   </ul></li>
-  <li><a href="#sec-metodo-editores" id="toc-sec-metodo-editores" class="nav-link" data-scroll-target="#sec-metodo-editores">Editor iD</a>
-  <ul>
+  <li><a href="#sec-metodo-editores" id="toc-sec-metodo-editores" class="nav-link" data-scroll-target="#sec-metodo-editores">Editor iD</a></li>
   <li><a href="#sec-ortofoto-medellin" id="toc-sec-ortofoto-medellin" class="nav-link" data-scroll-target="#sec-ortofoto-medellin">Ortofoto de Medellín</a></li>
-  </ul></li>
   <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/alexespinosaco/cecropia-medellin/edit/main/metodo/index.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/alexespinosaco/cecropia-medellin/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
@@ -276,14 +279,26 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Método</h1>
+<h1 class="title">Método para mapear los yarumos de Medellín</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://alexespinosaco.github.io">Álex Espinosa-Correa</a> </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2024-07-07</p>
+    </div>
+  </div>
   
     
   </div>
@@ -293,17 +308,44 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 </header>
 
 
+<blockquote class="blockquote">
+<p>¿Qué otra cosa es un árbol<br>
+más que libertad?<br>
+<br>
+<a href="http://cerati.com/bocanada/letras/raiz.php"><em>Raíz</em></a><br>
+Gustavo Cerati (1959-2014)</p>
+</blockquote>
 <section id="sec-metodo-osm" class="level2">
 <h2 class="anchored" data-anchor-id="sec-metodo-osm">OpenStreetMap (OSM)</h2>
 <p><a href="https://www.openstreetmap.org">OpenStreetMap</a> (OSM) es un proyecto colaborativo dedicado a la creación de mapas editables y libres. Respaldado por una extensa comunidad de mapeadores, los datos del proyecto son constantemente aportados y mantenidos por sus usuarios. Una de las principales ventajas de que sea un proyecto <a href="https://es.wikipedia.org/wiki/Contenido_libre">libre</a> es que cualquier persona puede utilizarlo y colaborar en él, de manera similar a <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Wikipedia</a>. Además, sus <a href="https://es.wikipedia.org/wiki/Datos_abiertos">datos son abiertos</a> y pueden ser utilizados libremente para cualquier propósito, siempre y cuando se otorguen los correspondientes créditos.</p>
 <p>Con más de 20 años de historia, OSM ha acumulado una gran cantidad de información y cuenta con una base sólida de colaboradores, lo que puede resultar abrumador para los principiantes. Para facilitar su uso, existen numerosos recursos de apoyo, como la <a href="https://www.openstreetmap.org/help">sección de ayuda</a> en el propio sitio web, la <a href="https://wiki.openstreetmap.org/wiki/Main_Page">Wiki de OSM</a>, y diversas guías. Entre las guías para principiantes, destacan la de <a href="https://wiki.openstreetmap.org/wiki/ES:Gu%C3%ADa_de_principiantes">OpenStreetMap Wiki</a> y la de <a href="https://learnosm.org/es/beginner/">LearnOSM</a>.</p>
 <p>Es importante mencionar que, aunque OSM es un proyecto libre y cualquiera puede colaborar, existen <a href="https://wiki.openstreetmap.org/wiki/ES:Cómo_mapeamos">algunas reglas</a> y <a href="https://wiki.openstreetmap.org/wiki/ES:Buenas_prácticas">buenas prácticas</a> adoptadas por la comunidad. Las contribuciones a OpenStreetMap deben ser verídicas, legales, verificables y relevantes. Estas normas garantizan la calidad y la fiabilidad de la información contenida en los mapas.</p>
+<div id="fig-medoto-logo-osm" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-medoto-logo-osm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="imagenes/logo_osm.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figura&nbsp;1: Logo de OpenStreetMap."><img src="imagenes/logo_osm.svg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-medoto-logo-osm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1: Logo de OpenStreetMap.
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="sec-metodo-antes-mapear" class="level2">
 <h2 class="anchored" data-anchor-id="sec-metodo-antes-mapear">Antes de mapear</h2>
 <p>En OpenStreetMap se pueden mapear una <a href="https://wiki.openstreetmap.org/wiki/ES:Objetos_del_mapa">infinidad de objetos</a> del mundo real, y cada comunidad de mapeadores ha adoptado buenas prácticas y guías para hacerlo de la mejor manera posible. Como nuestro objetivo es mapear los yarumos de la ciudad de Medellín, Colombia, utilizaremos la <a href="https://wiki.openstreetmap.org/wiki/ES:Colombia/Guía_para_mapear">guía colombiana para mapear</a> y la <a href="https://wiki.openstreetmap.org/wiki/ES:Latam/Mapeo_de_%C3%A1rboles">guía latinoamericana para el mapeo de árboles</a>. Esto nos permitirá facilitar nuestro trabajo, evitar reinventar la rueda y prevenir conflictos.</p>
 <p>Para comenzar a mapear en OpenStreetMap, es indispensable <a href="https://www.openstreetmap.org/user/new">tener una cuenta</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. El mapeo en OSM se puede realizar de dos maneras: <a href="https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_de_sill%C3%B3n">mapeo de sillón</a> o <a href="https://wiki.openstreetmap.org/wiki/ES:Escoge_tu_t%C3%A9cnica_de_mapeo#Mapeo_al_aire_libre">mapeo al aire libre</a>. El mapeo de sillón se basa en información recopilada por otros (fotos a nivel de calle, trazas GPX, imágenes aéreas) y en el conocimiento del área. Por otro lado, el mapeo al aire libre consiste en salir y recopilar la información por medios propios.</p>
 <p>Dada las <a href="../yarumos/index.html#sec-yarumos-medellin">características de los yarumos</a>, es posible mapearlos utilizando ambas técnicas. Sin embargo, lo ideal es observar los individuos directamente e identificarlos correctamente, ya que esto garantiza una mayor certeza respecto a la identificación de las especies.</p>
+<div id="fig-medoto-logo-colombia" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-medoto-logo-colombia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="imagenes/logo_oms-colombia.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figura&nbsp;2: Logo de la comunidad OpenStreetMap Colombia."><img src="imagenes/logo_oms-colombia.svg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-medoto-logo-colombia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: <a href="https://wiki.openstreetmap.org/wiki/Colombia">Logo de la comunidad OpenStreetMap Colombia.</a>
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="sec-metodo-area" class="level2">
 <h2 class="anchored" data-anchor-id="sec-metodo-area">Área de trabajo</h2>
@@ -311,8 +353,8 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 <p>Dada la importancia de estos árboles y el hecho de que su polen aerovagante puede recorrer largas distancias, nos interesa saber dónde se encuentran todos los individuos de <em>Cecropia</em> en la ciudad de Medellín y en los municipios cercanos. Por ello, estamos interesados en colaborar con cualquier persona que desee unirse a este proyecto y los invitamos a mapear todos los yarumos allí donde se encuentren.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-9c3342ff39fb5edb4694" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-9c3342ff39fb5edb4694">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.26043,-75.56765,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.26043,6.26043],"lng":[-75.56765,-75.56765]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-7b5e454dfe611dd47923" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-7b5e454dfe611dd47923">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.26043,-75.56765,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.26043,6.26043],"lng":[-75.56765,-75.56765]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -403,12 +445,22 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="sec-metodo-editores">Editor iD</h2>
 <p><a href="https://wiki.openstreetmap.org/wiki/ES:ID">iD</a> es un editor que se encuentra en la misma página de <a href="https://www.openstreetmap.org">OpenStreetMap</a> y permite incorporar los datos al proyecto de manera rápida, sencilla y amigable. Es una de las opciones preferidas por quienes comienzan a mapear. Existen varias <a href="https://learnosm.org/es/beginner/id-editor/">guías</a> y tutoriales<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> para aprender a usarlo, e incluso, cuando se ingresa por primera vez al apartado de Editar en OSM, aparece la opción de realizar un tutorial (siempre se puede encontrar en la opción de Ayuda). En este editor se pueden agregar capas extras para facilitar el mapeo, una de ellas puede ser una ortofoto.</p>
 <p>Es importante mencionar que iD no es el único <a href="https://wiki.openstreetmap.org/wiki/ES:Editores">editor</a> disponible; hay una variedad de ellos, y su elección depende de la experiencia del mapeador, el propósito que tenga y los recursos disponibles. Además de iD, los más utilizados son <a href="https://wiki.openstreetmap.org/wiki/Go_Map!!">Go Map!!</a> (iOS, iPadOS y macOS), <a href="https://wiki.openstreetmap.org/wiki/ES:JOSM">JOSM</a> (Linux, macOS y Windows), <a href="https://wiki.openstreetmap.org/wiki/ES:StreetComplete">StreetComplete</a> (Android), y <a href="https://wiki.openstreetmap.org/wiki/ES:Vespucci">Vespucci</a> (Android).</p>
-<section id="sec-ortofoto-medellin" class="level3">
-<h3 class="anchored" data-anchor-id="sec-ortofoto-medellin">Ortofoto de Medellín</h3>
+<div id="fig-medoto-logo-id" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-medoto-logo-id-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="imagenes/logo_id.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figura&nbsp;3: Logo de iD."><img src="imagenes/logo_id.svg" class="img-fluid quarto-figure quarto-figure-center figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-medoto-logo-id-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Logo de iD.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-ortofoto-medellin" class="level2">
+<h2 class="anchored" data-anchor-id="sec-ortofoto-medellin">Ortofoto de Medellín</h2>
 <p>La ciudad de Medellín cuenta con una <a href="https://www.medellin.gov.co/giscatalogacion/srv/api/records/96aafbdd-3540-4d43-81a5-aad822ae9285">ortofoto</a> con una resolución espacial de 8 cm. Esta ortofoto permite mapear los objetos de forma más precisa si se compara con las imágenes satelitales disponibles. Se puede agregar a iD utilizando la siguiente información<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>https://www.medellin.gov.co/servidormapas/services/ServiciosImagen/Ortofoto_Medellin_2021_MAGNA_Medellin/ImageServer/WMSServer?FORMAT=image/png&amp;TRANSPARENT=TRUE&amp;VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetMap&amp;LAYERS=Ortofoto_Medellin_2021_MAGNA_Medellin:Ortofoto_Medellin_2021_EPSG6257&amp;STYLES=&amp;CRS={proj}&amp;WIDTH={width}&amp;HEIGHT={height}&amp;BBOX={bbox}</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
 </section>
 <section id="referencias" class="level2">
 <h2 class="anchored" data-anchor-id="referencias">Referencias</h2>
@@ -474,7 +526,17 @@ Wikipedia. (2024c). <em>OpenStreetMap</em>. <a href="https://es.wikipedia.org/w/
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/i7K9kKLdeHw?si" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></li>
 </ol>
-</section></div></main> <!-- /main -->
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{espinosa-correa2024,
+  author = {Espinosa-Correa, Álex},
+  title = {Método para mapear los yarumos de Medellín},
+  date = {2024-07-07},
+  url = {https://alexespinosaco.github.io/cecropia-medellin/metodo/},
+  langid = {es}
+}
+</code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-espinosa-correa2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Espinosa-Correa, Á. (2024, July 7). <em>Método para mapear los yarumos
+de Medellín</em>. <a href="https://alexespinosaco.github.io/cecropia-medellin/metodo/">https://alexespinosaco.github.io/cecropia-medellin/metodo/</a>
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -921,6 +983,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

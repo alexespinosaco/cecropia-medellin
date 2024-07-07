@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-07-05">
+<meta name="author" content="Álex Espinosa-Correa">
+<meta name="dcterms.date" content="2024-07-07">
 
-<title>Mapeando los yarumos con iD – Mapeando los yarumos de Medellín</title>
+<title>Mapeando yarumos con iD – Mapeando los yarumos de Medellín</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,12 +124,12 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Mapeando los yarumos con iD – Mapeando los yarumos de Medellín">
+<meta property="og:title" content="Mapeando yarumos con iD – Mapeando los yarumos de Medellín">
 <meta property="og:description" content="Website del proyecto #CecropiaMedellín2024">
 <meta property="og:image" content="https://alexespinosaco.github.io/cecropia-medellin/tutoriales/id-arbol/imagenes/imagen_cecropia-medellin.png">
 <meta property="og:site_name" content="Mapeando los yarumos de Medellín">
 <meta property="og:locale" content="es_ES">
-<meta name="twitter:title" content="Mapeando los yarumos con iD – Mapeando los yarumos de Medellín">
+<meta name="twitter:title" content="Mapeando yarumos con iD – Mapeando los yarumos de Medellín">
 <meta name="twitter:description" content="Website del proyecto #CecropiaMedellín2024">
 <meta name="twitter:image" content="https://alexespinosaco.github.io/cecropia-medellin/tutoriales/id-arbol/imagenes/imagen_cecropia-medellin.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -252,18 +253,24 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../tutoriales/id-arbol/index.html">Tutoriales</a></li><li class="breadcrumb-item"><a href="../../tutoriales/id-arbol/index.html">Mapeando con iD</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Mapeando los yarumos con iD</h1>
+<h1 class="title">Mapeando yarumos con iD</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://alexespinosaco.github.io">Álex Espinosa-Correa</a> </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Fecha de publicación</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-07-05</p>
+      <p class="date">2024-07-07</p>
     </div>
   </div>
   
@@ -277,11 +284,11 @@ gtag('config', 'G-NQLZ30BD62', { 'anonymize_ip': true});
 
 <section id="sec-mapeandoid-introduccion" class="level2">
 <h2 class="anchored" data-anchor-id="sec-mapeandoid-introduccion">Introducción</h2>
-<p>Hemos identificado un <a href="../../yarumos/index.html#sec-yarumos-medellin">yarumo</a> y queremos agregarlo a OpenStreetMap (OSM). Para ello, utilizaremos el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, <a href="../../metodo/index.html#sec-metodos-antes-mapear">es necesario tener una cuenta</a>.</p>
+<p>Has identificado un <a href="../../yarumos/index.html#sec-yarumos-medellin">yarumo</a> y quieres agregarlo a OpenStreetMap (OSM). Para ello, puedes utilizar el editor iD, el cual está integrado en la página de OSM. Es importante recordar que, para poder colaborar en OSM, <a href="../../metodo/index.html#sec-metodos-antes-mapear">es necesario tener una cuenta</a>.</p>
 </section>
 <section id="sec-mapeandoid-id" class="level2">
 <h2 class="anchored" data-anchor-id="sec-mapeandoid-id">Ingresando a iD</h2>
-<p>Lo primero que debemos hacer es ingresar a <a href="https://www.openstreetmap.org/">openstreetmap.org</a>. Al acceder, verás una imagen similar a la mostrada en la figura <a href="#fig-00_osm-home" class="quarto-xref">Figura&nbsp;1</a>, aunque la ubicación puede variar. Haga clic en la opción <strong>Editar</strong> ubicada en la esquina superior izquierda para ingresar al editor iD.</p>
+<p>Lo primero que debes hacer es ingresar a <a href="https://www.openstreetmap.org/">openstreetmap.org</a>. Al acceder, verás una imagen similar a la mostrada en la figura <a href="#fig-00_osm-home" class="quarto-xref">Figura&nbsp;1</a>, aunque la ubicación puede variar. Haga clic en la opción <strong>Editar</strong> ubicada en la esquina superior izquierda para ingresar al editor iD.</p>
 <div id="fig-00_osm-home" class="quarto-float quarto-figure quarto-figure-center anchored" data-group="gallery" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-00_osm-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -292,7 +299,7 @@ Figura&nbsp;1: Pantalla de inicio de OpenStreetMap. La flecha indica la opción 
 </figcaption>
 </figure>
 </div>
-<p>Ahora nos encontramos dentro del editor iD. Si es la primera vez que ingresas, verás una pantalla similar a la mostrada en la <a href="#fig-01_id-home" class="quarto-xref">Figura&nbsp;2</a>. Asumimos que ya has <a href="../../metodo/index.html#sec-metodo-editores">realizado el tutorial</a> o tiene ligeros conocimientos sobre como agregar datos en OSM, por lo que continuaremos con la opción <strong>Editar ahora</strong>. Esto activará todo el espacio de trabajo y permitirá interactuar con todas las opciones del editor iD.</p>
+<p>Ahora te encuentras dentro del editor iD. Si es la primera vez que ingresas, verás una pantalla similar a la mostrada en la <a href="#fig-01_id-home" class="quarto-xref">Figura&nbsp;2</a>. Asumimos que ya has <a href="../../metodo/index.html#sec-metodo-editores">realizado el tutorial</a> o tiene ligeros conocimientos sobre como agregar datos en OSM, por lo que continuaremos con la opción <strong>Editar ahora</strong>. Esto activará todo el espacio de trabajo y permitirá interactuar con todas las opciones del editor iD.</p>
 <div id="fig-01_id-home" class="quarto-float quarto-figure quarto-figure-center anchored" data-group="gallery" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-01_id-home-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -632,7 +639,16 @@ Figura&nbsp;23: Pantalla donde se muestran los cambios realizados en OpenStreetM
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Cómo citar</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{espinosa-correa2024,
+  author = {Espinosa-Correa, Álex},
+  title = {Mapeando yarumos con iD},
+  date = {2024-07-07},
+  url = {https://alexespinosaco.github.io/cecropia-medellin/tutoriales/id-arbol/},
+  langid = {es}
+}
+</code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cita este trabajo como:</div><div id="ref-espinosa-correa2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Espinosa-Correa, Á. (2024, July 7). <em>Mapeando yarumos con iD</em>. <a href="https://alexespinosaco.github.io/cecropia-medellin/tutoriales/id-arbol/">https://alexespinosaco.github.io/cecropia-medellin/tutoriales/id-arbol/</a>
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1079,7 +1095,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

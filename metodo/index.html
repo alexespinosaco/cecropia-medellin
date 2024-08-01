@@ -353,8 +353,8 @@ Figura&nbsp;2: <a href="https://wiki.openstreetmap.org/wiki/Colombia">Logo de la
 <p>Dada la importancia de estos árboles y el hecho de que su polen aerovagante puede recorrer largas distancias, nos interesa saber dónde se encuentran todos los individuos de <em>Cecropia</em> en la ciudad de Medellín y en los municipios cercanos. Por ello, estamos interesados en colaborar con cualquier persona que desee unirse a este proyecto y los invitamos a mapear todos los yarumos allí donde se encuentren.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-aac7b6cebb0cfb360cb1" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-aac7b6cebb0cfb360cb1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.26043,-75.56765,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.26043,6.26043],"lng":[-75.56765,-75.56765]}},"evals":[],"jsHooks":[]}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-9ffcc5b8c9ea46ba9a9d" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-9ffcc5b8c9ea46ba9a9d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[6.26043,-75.56765,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"Sede de Investigación Universitaria (SIU) de la Universidad de Antioquia",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[6.26043,6.26043],"lng":[-75.56765,-75.56765]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -419,21 +419,34 @@ Figura&nbsp;2: <a href="https://wiki.openstreetmap.org/wiki/Colombia">Logo de la
 <h3 class="anchored" data-anchor-id="sec-metodo-wikidata">Wikidata y Wikipedia</h3>
 <p>Etiquetas relacionadas a la información existente en <a href="https://www.wikidata.org">Wikidata</a> y <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Wikipedia</a> del árbol a mapear.</p>
 <ul>
-<li><code>wikidata=*</code>: ID del ítem en Wikidata.
+<li><code>species:wikidata=*</code>: ID del ítem en Wikidata.
 <ul>
-<li><code>wikidata=Q414264</code>: ID de <a href="https://www.wikidata.org/wiki/Q414264"><em>Cecropia</em></a> en Wikidata. Aplica cuando no es posible identificar la especie.</li>
-<li><code>wikidata=Q15610261</code>: ID de <a href="https://www.wikidata.org/wiki/Q15610261"><em>Cecropia angustifolia</em></a> en Wikidata.</li>
-<li><code>wikidata=Q2998776</code>: ID de <a href="https://www.wikidata.org/wiki/Q2998776"><em>Cecropia peltata</em></a> en Wikidata.</li>
-<li><code>wikidata=Q15609914</code>: ID de <a href="https://www.wikidata.org/wiki/Q15609914"><em>Cecropia telenitida</em></a> en Wikidata.</li>
+<li><code>genus:wikidata=Q414264</code>: ID de <a href="https://www.wikidata.org/wiki/Q414264"><em>Cecropia</em></a> en Wikidata. Aplica cuando no es posible identificar la especie.</li>
+<li><code>species:wikidata=Q15610261</code>: ID de <a href="https://www.wikidata.org/wiki/Q15610261"><em>Cecropia angustifolia</em></a> en Wikidata.</li>
+<li><code>species:wikidata=Q2998776</code>: ID de <a href="https://www.wikidata.org/wiki/Q2998776"><em>Cecropia peltata</em></a> en Wikidata.</li>
+<li><code>species:wikidata=Q15609914</code>: ID de <a href="https://www.wikidata.org/wiki/Q15609914"><em>Cecropia telenitida</em></a> en Wikidata.</li>
 </ul></li>
-<li><code>wikipedia=*</code>: Nombre del artículo de la especie en Wikipedia.
+<li><code>species:wikipedia=*</code>: Nombre del artículo de la especie en Wikipedia.
 <ul>
-<li><code>wikipedia=es:Cecropia</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia"><em>Cecropia</em></a> en Wikipedia. Aplica cuando no es posible identificar la especie.</li>
-<li><code>wikipedia=es:Cecropia angustifolia</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia_angustifolia"><em>Cecropia angustifolia</em></a> en Wikipedia.</li>
-<li><code>wikipedia=es:Cecropia peltata</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia_peltata"><em>Cecropia peltata</em></a> en Wikipedia.</li>
-<li><code>wikipedia=es:Cecropia telenitida</code>: artículo de <em>Cecropia telenitida</em> en Wikipedia. Aún no redactado.</li>
+<li><code>genus:wikipedia=es:Cecropia</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia"><em>Cecropia</em></a> en Wikipedia. Aplica cuando no es posible identificar la especie.</li>
+<li><code>species:wikipedia=es:Cecropia angustifolia</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia_angustifolia"><em>Cecropia angustifolia</em></a> en Wikipedia.</li>
+<li><code>species:wikipedia=es:Cecropia peltata</code>: artículo de <a href="https://es.wikipedia.org/wiki/Cecropia_peltata"><em>Cecropia peltata</em></a> en Wikipedia.</li>
+<li><code>species:wikipedia=es:Cecropia telenitida</code>: artículo de <em>Cecropia telenitida</em> en Wikipedia. Aún no redactado.</li>
 </ul></li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled" title="Tener cuidado">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tener cuidado
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Cuando se mapean árboles, las <code>key</code> <a href="https://wiki.openstreetmap.org/wiki/Key:wikidata#Secondary_Wikidata_links"><code>wikidata=*</code></a> y <a href="https://wiki.openstreetmap.org/wiki/Key:wikipedia#Secondary_Wikipedia_links"><code>wikipedia=*</code></a> han de llevar un prefijo para indicar que se hace referencia a <code>species</code>, <code>genus</code> o <code>taxon</code>. Siendo las etiquetas <code>species:wikidata=*</code>, <code>genus:wikidata=*</code>, <code>taxon:wikidata=*</code>, <code>species:wikipedia=*</code>, <code>genus:wikipedia=*</code>, <code>taxon:wikipedia=*</code>.</p>
+</div>
+</div>
 </section>
 <section id="sec-metodo-hashtag" class="level3">
 <h3 class="anchored" data-anchor-id="sec-metodo-hashtag">Hashtags</h3>
@@ -983,7 +996,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

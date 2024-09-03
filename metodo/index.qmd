@@ -126,16 +126,20 @@ Etiquetas relacionadas a la ubicación del árbol a mapear.
 
 Etiquetas relacionadas a la información existente en [Wikidata](https://www.wikidata.org) y [Wikipedia](https://es.wikipedia.org/wiki/Wikipedia:Portada) del árbol a mapear.
 
--   `wikidata=*`: ID del ítem en Wikidata.
-    -   `wikidata=Q414264`: ID de [*Cecropia*](https://www.wikidata.org/wiki/Q414264) en Wikidata. Aplica cuando no es posible identificar la especie.
-    -   `wikidata=Q15610261`: ID de [*Cecropia angustifolia*](https://www.wikidata.org/wiki/Q15610261) en Wikidata.
-    -   `wikidata=Q2998776`: ID de [*Cecropia peltata*](https://www.wikidata.org/wiki/Q2998776) en Wikidata.
-    -   `wikidata=Q15609914`: ID de [*Cecropia telenitida*](https://www.wikidata.org/wiki/Q15609914) en Wikidata.
--   `wikipedia=*`: Nombre del artículo de la especie en Wikipedia.
-    -   `wikipedia=es:Cecropia`: artículo de [*Cecropia*](https://es.wikipedia.org/wiki/Cecropia) en Wikipedia. Aplica cuando no es posible identificar la especie.
-    -   `wikipedia=es:Cecropia angustifolia`: artículo de [*Cecropia angustifolia*](https://es.wikipedia.org/wiki/Cecropia_angustifolia) en Wikipedia.
-    -   `wikipedia=es:Cecropia peltata`: artículo de [*Cecropia peltata*](https://es.wikipedia.org/wiki/Cecropia_peltata) en Wikipedia.
-    -   `wikipedia=es:Cecropia telenitida`: artículo de *Cecropia telenitida* en Wikipedia. Aún no redactado.
+-   `species:wikidata=*`: ID del ítem en Wikidata.
+    -   `genus:wikidata=Q414264`: ID de [*Cecropia*](https://www.wikidata.org/wiki/Q414264) en Wikidata. Aplica cuando no es posible identificar la especie.
+    -   `species:wikidata=Q15610261`: ID de [*Cecropia angustifolia*](https://www.wikidata.org/wiki/Q15610261) en Wikidata.
+    -   `species:wikidata=Q2998776`: ID de [*Cecropia peltata*](https://www.wikidata.org/wiki/Q2998776) en Wikidata.
+    -   `species:wikidata=Q15609914`: ID de [*Cecropia telenitida*](https://www.wikidata.org/wiki/Q15609914) en Wikidata.
+-   `species:wikipedia=*`: Nombre del artículo de la especie en Wikipedia.
+    -   `genus:wikipedia=es:Cecropia`: artículo de [*Cecropia*](https://es.wikipedia.org/wiki/Cecropia) en Wikipedia. Aplica cuando no es posible identificar la especie.
+    -   `species:wikipedia=es:Cecropia angustifolia`: artículo de [*Cecropia angustifolia*](https://es.wikipedia.org/wiki/Cecropia_angustifolia) en Wikipedia.
+    -   `species:wikipedia=es:Cecropia peltata`: artículo de [*Cecropia peltata*](https://es.wikipedia.org/wiki/Cecropia_peltata) en Wikipedia.
+    -   `species:wikipedia=es:Cecropia telenitida`: artículo de *Cecropia telenitida* en Wikipedia. Aún no redactado.
+
+::: {.callout-warning title="Tener cuidado"}
+Cuando se mapean árboles, las `key` [`wikidata=*`](https://wiki.openstreetmap.org/wiki/Key:wikidata#Secondary_Wikidata_links) y [`wikipedia=*`](https://wiki.openstreetmap.org/wiki/Key:wikipedia#Secondary_Wikipedia_links) han de llevar un prefijo para indicar que se hace referencia a `species`, `genus` o `taxon`. Siendo las etiquetas `species:wikidata=*`, `genus:wikidata=*`, `taxon:wikidata=*`, `species:wikipedia=*`, `genus:wikipedia=*`, `taxon:wikipedia=*`.
+:::
 
 ### Hashtags {#sec-metodo-hashtag}
 
